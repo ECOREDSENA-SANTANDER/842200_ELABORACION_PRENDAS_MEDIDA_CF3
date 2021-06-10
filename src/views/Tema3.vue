@@ -533,42 +533,196 @@
 
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Errores más comunes")
-        .col-md-6.mb-4.mb-md-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        p.mb-4 Uno de los más comunes en modistería es la combinación de medidas. Cuando se trabaja con medidas deducidas, se debe realizar con las medidas obtenidas de cada fórmula de manera progresiva; para eso hay que tener en cuenta que el resultado cambia si, en vez de aplicar únicamente las medidas obtenidas por deducción, se debe adicionar una medida anatómica.
+          br
+          | De acuerdo con lo anterior, es importante establecer los cuadros de tallas:
+        .row.justify-content-center
+          .col-11
+            ul.lista-ul--color
+              li
+                i.fas.fa-check
+                | <strong>Anatómicos y deducidos</strong>: según la obtención de medidas.
+              li
+                i.fas.fa-check
+                | <strong>Proporcionales</strong>: existe una secuencia numérica en el crecimiento de la talla.
+              li
+                i.fas.fa-check
+                | <strong>No proporcionales</strong>: no hay una secuencia numérica en el crecimiento de la talla.
+              li
+                i.fas.fa-check
+                | <strong>Completos</strong>: incluyen todas las medidas requeridas para la construcción de patrones de prendas.
+              li
+                i.fas.fa-check
+                | <strong>Según prenda</strong>: que incluyen en algunos casos desahogos y costuras.
 
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
 
-      div(titulo="Normatividad")
-        figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-          figcaption Leyenda de la imagen
+      .row(titulo="Normatividad")
+        p.mb-4 Por lo general no son de uso obligatorio, sino de uso voluntario; y dentro de la normatividad nacional se puede encontrar:
+        .row.justify-content-center
+          .col-11
+            ul.lista-ul--color
+              li
+                i.fas.fa-check
+                | <strong>NTC ISO 8559</strong>. Fabricación de vestuario y estudios antropométricos. Dimensiones corporales – Icontec.
+              li
+                i.fas.fa-check
+                | <strong>Norma UNE-EN 13402-3</strong>. Armoniza y simplifica el etiquetado de tallas de prendas de vestir para el beneficio del consumidor y de la industria en general.
 
-      div(titulo="Análisis de cuadros de tallas")
-        figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-          figcaption Leyenda de la imagen
+      .row(titulo="Análisis de cuadros de tallas")
+        p.mb-4 Para el análisis de cuadros de tallas se deben determinar los límites, la frecuencia y el incremento, tal como se relaciona a continuación:
+        .row.justify-content-center
+          .col-11
+            ul.lista-ul--color
+              li
+                i.fas.fa-check
+                | <strong>Límites</strong>: Fabricación de vestuario y estudios antropométricos. Dimensiones corporales – Icontec.
+              li
+                i.fas.fa-check
+                | <strong>Frecuencia</strong>: Armoniza y simplifica el etiquetado de tallas de prendas de vestir para el beneficio del consumidor y de la industria en general.
+              li
+                i.fas.fa-check
+                | <strong>Incremento</strong>: magnitud de crecimiento de la medida talla por talla.
+        p El análisis de los anteriores aspectos dará como resultado: valores, proporciones, rupturas de talla (para una, dos o hasta tres tallas base).
 
+    p.mb-5 Seguidamente se presentan los cuadros de tallas, infantiles, masculino y femenino.
     SlyderB.mb-5(:datos="datosSlyder")
 
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
-    Muestras
+    #t_3_3.titulo-segundo.mb-4
+      h2 3.3  Proporciones en la deducción de medidas
+
+    p.mb-4 El aumento secuencial estandarizado para el incremento o disminución de tallas se encuentra identificando la diferencia en unidades de medida de talla a talla en cada línea de medida del cuerpo. En este sentido, la fórmula estandarizada para hallar la proporción es: diferencia del contorno mayor dividido en 4, de allí resultan las fracciones de la proporción, como se relaciona en el siguiente ejemplo:
+
+    .row.justify-content-center.mb-5
+      .col-11
+        ul.lista-ul--color
+          li
+            i.fas.fa-check
+            | 1 proporción será 1 cm
+          li
+            i.fas.fa-check
+            | ½ proporción será 0,5 cm
+          li
+            i.fas.fa-check
+            | ¼ proporción será 0,25 cm y 1.5 proporción será 1,5 cm
+
+    .row
+      .col-6
+        .titulo-quinto.color-acento-contenido
+          h4 Figura 24 Proporciones en la deducción
+    .row
+      .col
+        img(src='@/assets/curso/tema3-figure24.png')
+      .col
+        p Para realizar la deducción de medidas es importante realizar su comparación y para ello se debe tener en cuenta:
+        .row.justify-content-center
+          .col-11
+            ul.lista-ul--color
+              li
+                i.fas.fa-check
+                | Incremento entre talla y talla: tomar medida por medida y revisar el incremento que hay entre talla y talla.
+              li
+                i.fas.fa-check
+                | Ruptura de talla: identificar ruptura del cuadro de tallas, por medida y talla.
+        .titulo-quinto.color-acento-contenido
+          h4 Figura 25 Comparación de medidas
+        img(src='@/assets/curso/tema3-figure25.png')
+
+    p En la figura anterior, la ruptura está entre la talla 14 y 16, porque se incrementa 6 cm, rompiendo con los 4 cm de las demás medidas.
+
+    #t_3_4.titulo-segundo.mb-4
+      h2 3.4  Identificar el DROP
+
+    p DROP es la palabra técnica que indica la diferencia en centímetros entre dos medidas del cuerpo que permite determinar su morfología, tal como se puede observar aquí:
+
+    .row.mb-4
+      .col
+        .row.justify-content-center
+          .col-11
+            ul.lista-ul--color
+              li
+                i.fas.fa-check
+                p.mb-0 <strong>DROP femenino</strong>: diferencia entre cadera y contorno de busto para la mujer. Es decir, <strong>Contorno de Cadera - Contorno de Busto = DROP</strong>
+        p.mb-0 El DROP tiene características importantes que se deben considerar al momento de realizar su identificación:
+        .row.justify-content-center
+          .col-11
+            ul.lista-ul--color
+              li.mb-0
+                i.fas.fa-check
+                | Con el DROP se establecen las diferentes contexturas de una misma talla.
+              li.mb-0
+                i.fas.fa-check
+                | En las mujeres, el DROP es la diferencia entre las medidas de Contorno de Cadera y Contorno de Busto.
+              li.mb-0
+                i.fas.fa-check
+                | En las tallas femeninas predomina un DROP positivo.
+              li.mb-0
+                i.fas.fa-check
+                | Generalmente una talla se considera normal cuando el DROP es positivo entre +2 cm y +4 cm.
+              li.mb-0
+                i.fas.fa-check
+                | El DROP estándar usado en Colombia es + 4 cm.
+              li.mb-0
+                i.fas.fa-check
+                | En las tallas extremas y altas el DROP se vuelve negativo.
+        p.mb-4 A continuación, se relacionan algunos ejemplos:
+        .row.justify-content-center
+          .col-11
+            ul.lista-ul--color
+              li.mb-0
+                i.fas.fa-check
+                p.mb-0 <strong>DROP + 2</strong>, indica la medida de cadera 2 cm mayor que el contorno de busto.
+              li.mb-0
+                i.fas.fa-check
+                p.mb-0 <strong>El DROP 0</strong>, indica que la medida de cadera es igual a la medida de contorno de busto.
+              li.mb-0
+                i.fas.fa-check
+                p.mb-0 <strong>El DROP - 4</strong>, indica que la medida de cadera tiene 4 cm menos que el contorno de busto.
+
+      .col
+        .px-5.py-3.mb-4(style='background-color: #F7F1D7')
+          .titulo-quinto.color-acento-contenido
+            h4 Figura 26 DROP femenino
+          img(src='@/assets/curso/tema3-figure26.svg')
+
+    .row.mb-5
+      .col
+        .titulo-quinto.color-acento-contenido
+          h4 Figura 27 DROP masculino
+        img(src='@/assets/curso/tema3-figure27.svg')
+      .col
+        .row.justify-content-center.mb-4
+          .col-11
+            ul.lista-ul--color
+              li.mb-0
+                i.fas.fa-check
+                p.mb-0 <strong>DROP masculino</strong>: para este caso la diferencia está entre la cintura y el pecho. Generalmente en tallas masculinas predomina el DROP negativo (más pecho que cintura), aunque al realizar una tabla de tallas (a mayor talla menos DROP) en tallas extremas puede a ser positivo, es decir, un cuerpo con más cintura que pecho.
+        p.mb-4 A continuación, se relacionan algunos ejemplos:
+        .row.justify-content-center
+          .col-11
+            ul.lista-ul--color
+              li.mb-0
+                i.fas.fa-check
+                p.mb-0 <strong>Un DROP - 4</strong> indica, una cintura con 4 pulgadas menos que la medida de pecho.
+              li.mb-0
+                i.fas.fa-check
+                p.mb-0 <strong>Un DROP 0</strong>, indica una cintura igual al pecho.
+              li.mb-0
+                i.fas.fa-check
+                p.mb-0 <strong>Un DROP + 2</strong>, indica una cintura con 2 pulgadas que el pecho.
+
+    p.mb-5 Acorde con el género, cada tipo de silueta tiene un DROP característico determinado, a su vez, por la tipología del cuerpo dentro de una clasificación general, puesto que hay particularidades y cada persona necesita un análisis en cuanto a su silueta para poder abordar el vestuario, patronaje y confección.
+
+    .titulo-quinto.color-acento-contenido
+      h4 Figura 28 Tipos de siluetas generales masculinas y femeninas
+
+    img(src='@/assets/curso/tema3-figure28.svg')
+
 
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema3',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
   data: () => ({
     // variables de vue
     datosSlyder: [
@@ -588,7 +742,7 @@ export default {
         imagen: require('@/assets/curso/tema3-imagen1.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
-    ]
+    ],
   }),
 }
 </script>
