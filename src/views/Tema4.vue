@@ -53,6 +53,9 @@
             p.mb-0.px-2.py-2
               strong Drapeado – Moulage:
               | se trabajan directamente las formas y moldes sobre una estructura 3D.
+          .pie-imagenes
+            p.mb-0.px-2.py-2 Nota. Tomada de Fex (2020).
+
       .col-5
         .titulo-quinto.color-acento-contenido
           h4 Figura 34 Diseño geométrico
@@ -62,8 +65,10 @@
             p.mb-0.px-2.py-2
               strong Geometría y moda:
               | para el desarrollo de prendas de vestir se implementan conceptos numéricos y geométricos y, además, siluetas, formas, medidas, estructuras, volúmenes, tamaños, armonías, etc.
+          .pie-imagenes
+            p.mb-0.px-2.py-2 Nota. Tomada de Paredro (2015)
 
-    ul.lista-ul.mb-0
+    ul.lista-ul--color.mb-0
       li
         i.lista-ul__vineta
         | <strong>Procedimientos de patronaje</strong>
@@ -75,7 +80,7 @@
     p Teniendo en cuenta el procedimiento anterior, ahora se deben seguir los estos pasos:
     .row.justify-content-end
       .col-7
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/7_Anexo_7_PDF-Pasos_Definir_Patronaje.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

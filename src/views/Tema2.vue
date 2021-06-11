@@ -15,7 +15,7 @@
 
     p.mb-4 La <strong>longitud</strong> es la distancia que hay entre un punto y otro, y para realizar esta medida, existen dos sistemas:
 
-    .row
+    .row.mb-4
       .col-5
         ol.lista-ol--cuadro
           li
@@ -30,7 +30,7 @@
         .titulo-quinto.color-acento-contenido
           h4 Figura 3 Comparación de sistemas de medidas
         img(src='@/assets/curso/tema2-figure3.svg', alt='Comparación de sistemas de medidas')
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col-8
         .cajon.color-acento-contenido.p-4.mb-4
           p Los dos tipos de sistemas son utilizados en diferentes áreas y cadenas productivas, teniendo en cuenta que algunos estándares están trabajados en medidas diferentes a las que usa oficialmente el país.
@@ -41,7 +41,7 @@
           span c
         p <strong>Sistema métrico fraccionario</strong>: Como todo número fraccionario, se representa A/B, donde A es el numerador y B el denominador. El numerador indica el número de partes que se toman de la unidad y el denominador en cuántas partes iguales se divide esa unidad.
 
-    .row
+    .row.mb-5
       .col
         .titulo-quinto.color-acento-contenido
           h4 Figura 4 Numerador - Denominador
@@ -161,7 +161,7 @@
             .titulo-quinto.color-acento-contenido
               h4 Figura 10 Medidas en confección
             figure
-              img(src='@/assets/curso/tema2-figure10.svg', alt='Medidas en confección', style='max-height: 300px')
+              img(src='@/assets/curso/tema2-figure10.svg', alt='Medidas en confección', style='max-height: 320px')
 
       .py-4.py-md-5(titulo="En patronaje" :icono="require('@/assets/curso/tema2-tabs2.svg')")
         .row
@@ -225,13 +225,13 @@
               br
               | Cómo se utilizan los centímetros:
             ul.lista-ul--color
-              li
+              li.mb-0
                 i.lista-ul__vineta
                 | 1 metro = 10 decímetros.
-              li
+              li.mb-0
                 i.lista-ul__vineta
                 | 1 decímetro = 10 centímetros.
-              li
+              li.mb-0
                 i.lista-ul__vineta
                 | 1 centímetro = 10 milímetros.
 
@@ -343,7 +343,7 @@
 
     .row.justify-content-end
       .col-9
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=nrZzZ6GeEjY" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto

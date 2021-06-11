@@ -12,7 +12,7 @@
 
     .row.justify-content-end.mb-5
       .col-7
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/Manual_patronaje_basico_interpretacion_disenos.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -58,28 +58,22 @@
         img(src='@/assets/curso/tema5-titulo2.svg')
 
     .tarjeta--container.row.mb-5
-      //- .tarjeta debe ir acompañado de una de una de estas clases =>
-      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-      //- estas clases tambien tienen un modificador --borde
-      .col-md.tarjeta.color-primario.p-5
-        .row.justify-content-center.mb-4
+      .col-md.tarjeta.color-primario-fuerte.p-5
+        .row.justify-content-center.mb-5
           .col-6
             figure
               img(src='@/assets/curso/tema5-form1.svg', alt='Formas geométricas')
 
-        .h2.text-center Formas geométricas:
+        p.fw-bold.text-center Formas geométricas:
         p Se debe tener en cuenta cuáles son las claves geométricas, horizontal, vertical, perpendicular (escuadrar), rectángulo, cuadrado, paralelo, ángulo recto, diagonal, diagonal o sesgo, vértice, radio, rotar, semicurva, curva, convexo, cóncavo. Siempre se inicia la construcción desde un rectángulo y se tiene en cuenta el contorno principal y el talle o largo del básico.
 
-      //- .tarjeta debe ir acompañado de una de una de estas clases =>
-      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-      //- estas clases tambien tienen un modificador --borde
-      .col-md.tarjeta.color-acento-botones.p-5
-        .row.justify-content-center.mb-4
+      .col-md.tarjeta.color-primario-suave.p-5
+        .row.justify-content-center.mb-5
           .col-6
             figure
               img(src='@/assets/curso/tema5-form2.svg', alt='Escalas')
 
-        .h2.text-center Escalas:
+        p.fw-bold.text-center Escalas:
         p Estas permiten representar piezas de tamaño físico igual, mayor o menor que la realidad. Las escalas más utilizadas, son:
           br
           | 1:1 – Escala normal 10 x 10 cm.
@@ -88,17 +82,13 @@
           br
           | 1:4 – Cuarto de escala 2,5 cm, - 2,5 cm.
 
-
-      //- .tarjeta debe ir acompañado de una de una de estas clases =>
-      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-      //- estas clases tambien tienen un modificador --borde
-      .col-md.tarjeta.color-acento-contenido.text-white.p-5
-        .row.justify-content-center.mb-4
+      .col-md.tarjeta.color-primario-fuerte.p-5
+        .row.justify-content-center.mb-5
           .col-6
             figure
               img(src='@/assets/curso/tema5-form3.svg', alt='Trazo de patrones a escala')
 
-        .h2.text-center Trazo de patrones a escala:
+        p.fw-bold.text-center Trazo de patrones a escala:
         p Permiten realizar la construcción de básicos corporales y trazo de patrones en tamaños más pequeños.
 
     p Además, se deben tener en cuenta los materiales que se sugieren para la implementación del Manual:
@@ -108,47 +98,47 @@
         ul.lista-ul--color
           li.mb-0
             i.fas.fa-check
-            p
+            p.mb-0
               strong Regla mágica
               | : Regla de 60 cm x 5 cm con cuadrícula de 5 mm a lo largo y ancho, y marcación de ángulo de 45°.
           li.mb-0
             i.fas.fa-check
-            p
+            p.mb-0
               strong Curvígrafo
               | :  Regla utilizada como complemento para el proceso del desarrollo en varios módulos de la habilidad.
           li.mb-0
             i.fas.fa-check
-            p
+            p.mb-0
               strong Cinta métrica
               | : Sistema de medida utilizada en centímetros.
           li.mb-0
             i.fas.fa-check
-            p
+            p.mb-0
               strong Esfero tinta negra
               | : Marcación en tela y papel.
           li.mb-0
             i.fas.fa-check
-            p
+            p.mb-0
               strong Lápiz – portaminas
               | : Se sugiere trabajar con Hb, 2H, 0,5 mm, 0,7 mm, 0,2 mm.
           li.mb-0
             i.fas.fa-check
-            p
+            p.mb-0
               strong Cinta invisible
               | : Sugerido para trabajar en papel.
           li.mb-0
             i.fas.fa-check
-            p
+            p.mb-0
               strong Tijeras para cortar papel
               | : Se sugiere utilizar tijeras de Titanium.
           li.mb-0
             i.fas.fa-check
-            p
+            p.mb-0
               strong Manifold o trazo
               | : Se sugiere que el papel sea blanco para mayor facilidad en la interpretación.
           li.mb-0
             i.fas.fa-check
-            p
+            p.mb-0
               strong Juego de reglas convencional de patronaje
               | : Como apoyo, se sugiere trabajar con el juego de reglas convencional, sisómetro, curva de cadera, curva de tiro, escuadra.
       .col-5
@@ -157,7 +147,7 @@
 
     .row.justify-content-end.mb-5
       .col-7
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/5_Anexo_5_Presentación_del_Manual_del_Sena.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -244,7 +234,7 @@
 
       .col-4
         .cajon.color-acento-contenido.p-4.mb-4.w-auto
-          p 1" = 2,54 cm
+          p.text-center 1" = 2,54 cm
             br
             | Pulgadas x 2,54= cm
             br
@@ -261,7 +251,7 @@
               br
               | Para tomar el encabezado como talla superior e inferior, se estaría trabajando una talla superior diferente a la inferior. Es decir, la talla 34 quedaría:
             .text-center
-              .cajon.color-acento-contenido.p-4
+              .cajon.color-acento-contenido.p-4.d-inline-flex
                 p
                   strong Talla superior: 34.
                   br
@@ -272,7 +262,7 @@
           .col-8
             .h3 Horma masculina:
             p En términos de patronaje, en el ajuste y horma masculino se trabajan diferentes tipos de siluetas, en este caso el manual trabaja con: clásica y Slim fit. Esto hace referencia al tipo de horma o ajuste que se busca. En el cuadro de tallas, se podría tener un hombre talla 40 superior, con diferentes siluetas.
-        .row.mb-4.py-4.row-list
+        .row.mb-5.py-4.row-list
           .col-3
             img(src="@/assets/curso/tema5-figure12.svg")
           .col-8
@@ -284,7 +274,7 @@
 
     .tabla-b.color-acento-contenido.mb-5
       .tabla-b__header
-        .h3.mb-0 Desarrollo de básicos masculinos
+        .h3.mb-0.text-white Desarrollo de básicos masculinos
       table
         tr
           th Tipo de plano
@@ -351,7 +341,7 @@
 
     .tabla-b.color-acento-contenido.mb-5
       .tabla-b__header
-        .h3.mb-0 Desarrollo de básicos femeninos
+        .h3.mb-0.text-white Desarrollo de básicos femeninos
       table
         tr
           th Tipo de plano

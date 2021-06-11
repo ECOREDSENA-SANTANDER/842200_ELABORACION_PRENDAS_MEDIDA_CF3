@@ -134,8 +134,8 @@
       .col-7
         p.mb-5 De acuerdo con lo anterior, es importante saber cómo obtener medidas deducidas. Aquí un ejemplo: para deducir la medida de 7ª cervical, se toma la medida total de una persona y se le resta 20 cm. ¿Por qué 20 cm? Porque en la estandarización de medidas, se establece que 20 cm corresponde a la medida aprox. de la cabeza. A continuación se presenta la fórmula:
         div.text-center
-          .cajon.color-acento-contenido.p-4.mb-4.w-auto
-            p
+          .cajon.color-acento-contenido.p-4.mb-4.w-auto.d-inline-flex
+            p.mb-0
               strong 7ª cervical o largo útil = largo total – 20 cm.
       .col-5
         .titulo-quinto.color-acento-contenido
@@ -156,110 +156,110 @@
             th Otras fórmulas de deducción
         tbody
           tr
-            td
+            td.align-top
               ul.lista-ul--color
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Tórax máximo = BUSTO
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Tórax máximo = Talla + 36 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Pecho = tórax máximo – 2 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Bajo busto = busto – 6 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Sep. de busto = 2/5 busto
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Cintura = busto – 10 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Cadera = busto + 4 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Cuello =1/2 busto + 12 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Rodilla = 1/4 busto + 24 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Tobillo = 1/8 busto + 15.5 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Brazo = busto – 18 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Muñeca = 1/4 busto + 5 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Ancho Espalda = busto – 8 cm
 
-            td
+            td.align-top
               ul.lista-ul--color
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Estatura 7ª C = busto + 96 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Estatura total = estatura 7ª C +20 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Altura de busto = 3/8 estatura 7ª C – 27 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Altura bajo busto = 3/8 estatura 7ª C – 18 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Largo brazo = 4/10 estatura 7ª C
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Cintura/suelo = 7/10 estatura 7ª C
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Altura de cadera = 2/3 de tiro
-            td
+            td.align-top
               ul.lista-ul--color
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Talla= años
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Pecho = años + 24 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Cintura = 1/2 de años + 26 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Cadera = años + 28 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Cuello = 2/3 de pecho + 4 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Estatura 7ª C= años x 5 + 65 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Talle Espalda = 3/10 de estatura 7ª C
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Estatura total: estatura 7ª C + 15 cm a 18 cm. Corresponden al canon del niño o medida de cabeza
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Largo de brazo= 4/10 de Estatura 7ª C
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Codo = 1/2 de brazo. Esta medida sin tener en cuenta lo que corresponde a la muñeca (menos 5 cm para todas las tallas)
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Cintura al suelo = 7/10 de estatura 7ª C
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Largo de falda larga = 2/3 de la medida cintura al suelo – 3 cm
-                li
+                li.mb-0
                   i.lista-ul__vineta
                   | Largo de falda corta = 1/2 de la medida cintura al suelo -3 cm
 
@@ -277,33 +277,33 @@
             th Otras fórmulas de deducción
         tbody
           tr
-            td Estatura total
-            td N/A
-            td 170 cm
+            td.text-center Estatura total
+            td.text-center N/A
+            td.text-center 170 cm
           tr
-            td Tórax Máximo
-            td N/A
-            td 90 cm
+            td.text-center Tórax Máximo
+            td.text-center N/A
+            td.text-center 90 cm
           tr
-            td Cadera
-            td Tórax máximo + 8 cm
-            td 98 cm
+            td.text-center Cadera
+            td.text-center Tórax máximo + 8 cm
+            td.text-center 98 cm
           tr
-            td Pecho*
-            td Tórax máximo – 4 cm
-            td 86 cm
+            td.text-center Pecho*
+            td.text-center Tórax máximo – 4 cm
+            td.text-center 86 cm
           tr
-            td Cintura
-            td Cadera – 28 cm
-            td 70 cm
+            td.text-center Cintura
+            td.text-center Cadera – 28 cm
+            td.text-center 70 cm
           tr
-            td Estatura 7ª cervical - útil
-            td Estatura total – 20 cm
-            td 150 cm
+            td.text-center Estatura 7ª cervical - útil
+            td.text-center Estatura total – 20 cm
+            td.text-center 150 cm
           tr
-            td Largo de brazo
-            td 4/10 de la estatura 7ª C
-            td 60 cm
+            td.text-center Largo de brazo
+            td.text-center 4/10 de la estatura 7ª C
+            td.text-center 60 cm
 
     .h4.mb-4 Construyendo cuadros de tallas
     p.mb-5 Se refiere a los grupos de magnitudes estandarizadas que definen las medidas de una prenda de vestir. Los siguientes cuadros contienen algunos grupos de tallas fundamentales:
@@ -433,38 +433,38 @@
             td
             td
 
-    .row
+    .row.mb-5
       .col-7
         p.mb-4 A partir de la información anterior, es importante relacionar el siguiente resultado:
         ul.lista-ul--color.mb-4
-          li
+          li.mb-0
             i.lista-ul__vineta
             | Cadera = tórax máximo + 4 cm
-          li
+          li.mb-0
             i.lista-ul__vineta
             | Pecho = tórax máximo – 2 cm
-          li
+          li.mb-0
             i.lista-ul__vineta
             | Cintura = cadera – 14 cm
-          li
+          li.mb-0
             i.lista-ul__vineta
             | Estatura total = estatura 7ª C + 20 cm
-          li
+          li.mb-0
             i.lista-ul__vineta
             | Estatura 7ª C. = estatura total – 20 cm
-          li
+          li.mb-0
             i.lista-ul__vineta
             | Talle = 3/10 de la estatura 7ª C
-          li
+          li.mb-0
             i.lista-ul__vineta
             | Largo de brazo = 4/10 de la estatura 7ª c
-          li
+          li.mb-0
             i.lista-ul__vineta
             | Cuello= 2/3 de pecho + 4 cm
-          li
+          li.mb-0
             i.lista-ul__vineta
             | Cintura/suelo = 7 /10 de la estatura 7ª c
-          li
+          li.mb-0
             i.lista-ul__vineta
             | Base = pecho + desahogo + costura (desahogo 4 cm y la costura 2 cm)
         p A renglón seguido, se puede observar cómo se realiza una construcción de talla 6 con aplicación de las fórmulas mencionadas.
@@ -487,51 +487,51 @@
               | 6
         tbody
           tr
-            td Tórax máximo
-            td 40 cm
-            td 40 cm
+            td.text-center Tórax máximo
+            td.text-center 40 cm
+            td.text-center 40 cm
           tr
-            td Cadera
-            td 40 cm + 4 cm = 44 cm
-            td 44 cm
+            td.text-center Cadera
+            td.text-center 40 cm + 4 cm = 44 cm
+            td.text-center 44 cm
           tr
-            td Pecho
-            td 40 cm - 2 cm =38 cm
-            td 38 cm
+            td.text-center Pecho
+            td.text-center 40 cm - 2 cm =38 cm
+            td.text-center 38 cm
           tr
-            td Cintura
-            td 44 - 14 =32 cm
-            td 30 cm
+            td.text-center Cintura
+            td.text-center 44 - 14 =32 cm
+            td.text-center 30 cm
           tr
-            td Estatura total
-            td 166 cm
-            td 166 cm
+            td.text-center Estatura total
+            td.text-center 166 cm
+            td.text-center 166 cm
           tr
-            td Estatura 7ª C
-            td 164 cm - 20 cm = 146 cm
-            td 146 cm
+            td.text-center Estatura 7ª C
+            td.text-center 164 cm - 20 cm = 146 cm
+            td.text-center 146 cm
           tr
-            td Talle
-            td 144 cm /10 cm = 14,6 cm * 3 = 43,8 cm
-            td 0 cm
+            td.text-center Talle
+            td.text-center 144 cm /10 cm = 14,6 cm * 3 = 43,8 cm
+            td.text-center 0 cm
           tr
-            td Largo de brazo
-            td 144/10 = 14,6 * 4 = 58,4
-            td 0 cm
+            td.text-center Largo de brazo
+            td.text-center 144/10 = 14,6 * 4 = 58,4
+            td.text-center 0 cm
           tr
-            td Cuello
-            td 40 cm / 3 cm = 13,3 cm * 2 cm = 26,6 cm
-            td 26,6 cm
+            td.text-center Cuello
+            td.text-center 40 cm / 3 cm = 13,3 cm * 2 cm = 26,6 cm
+            td.text-center 26,6 cm
           tr
-            td Cintura/suelo
-            td 144 cm / 10 cm = 14,6 cm * 7 cm = 102,2
-            td 0 cm
+            td.text-center Cintura/suelo
+            td.text-center 144 cm / 10 cm = 14,6 cm * 7 cm = 102,2
+            td.text-center 0 cm
           tr
-            td Base
-            td 38 cm + 4 cm + 2 cm = 44 cm
-            td 44 cm
+            td.text-center Base
+            td.text-center 38 cm + 4 cm + 2 cm = 44 cm
+            td.text-center 44 cm
 
-    AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
       .row(titulo="Errores más comunes")
         p.mb-4 Uno de los más comunes en modistería es la combinación de medidas. Cuando se trabaja con medidas deducidas, se debe realizar con las medidas obtenidas de cada fórmula de manera progresiva; para eso hay que tener en cuenta que el resultado cambia si, en vez de aplicar únicamente las medidas obtenidas por deducción, se debe adicionar una medida anatómica.
           br
@@ -539,19 +539,19 @@
         .row.justify-content-center
           .col-11
             ul.lista-ul--color
-              li
+              li.mb-0
                 i.fas.fa-check
                 | <strong>Anatómicos y deducidos</strong>: según la obtención de medidas.
-              li
+              li.mb-0
                 i.fas.fa-check
                 | <strong>Proporcionales</strong>: existe una secuencia numérica en el crecimiento de la talla.
-              li
+              li.mb-0
                 i.fas.fa-check
                 | <strong>No proporcionales</strong>: no hay una secuencia numérica en el crecimiento de la talla.
-              li
+              li.mb-0
                 i.fas.fa-check
                 | <strong>Completos</strong>: incluyen todas las medidas requeridas para la construcción de patrones de prendas.
-              li
+              li.mb-0
                 i.fas.fa-check
                 | <strong>Según prenda</strong>: que incluyen en algunos casos desahogos y costuras.
 
@@ -561,25 +561,25 @@
         .row.justify-content-center
           .col-11
             ul.lista-ul--color
-              li
+              li.mb-0
                 i.fas.fa-check
-                | <strong>NTC ISO 8559</strong>. Fabricación de vestuario y estudios antropométricos. Dimensiones corporales – Icontec.
-              li
+                p.mb-0 <strong>NTC ISO 8559</strong>. Fabricación de vestuario y estudios antropométricos. Dimensiones corporales – Icontec.
+              li.mb-0
                 i.fas.fa-check
-                | <strong>Norma UNE-EN 13402-3</strong>. Armoniza y simplifica el etiquetado de tallas de prendas de vestir para el beneficio del consumidor y de la industria en general.
+                p.mb-0 <strong>Norma UNE-EN 13402-3</strong>. Armoniza y simplifica el etiquetado de tallas de prendas de vestir para el beneficio del consumidor y de la industria en general.
 
       .row(titulo="Análisis de cuadros de tallas")
         p.mb-4 Para el análisis de cuadros de tallas se deben determinar los límites, la frecuencia y el incremento, tal como se relaciona a continuación:
         .row.justify-content-center
           .col-11
             ul.lista-ul--color
-              li
+              li.mb-0
                 i.fas.fa-check
                 | <strong>Límites</strong>: Fabricación de vestuario y estudios antropométricos. Dimensiones corporales – Icontec.
-              li
+              li.mb-0
                 i.fas.fa-check
                 | <strong>Frecuencia</strong>: Armoniza y simplifica el etiquetado de tallas de prendas de vestir para el beneficio del consumidor y de la industria en general.
-              li
+              li.mb-0
                 i.fas.fa-check
                 | <strong>Incremento</strong>: magnitud de crecimiento de la medida talla por talla.
         p El análisis de los anteriores aspectos dará como resultado: valores, proporciones, rupturas de talla (para una, dos o hasta tres tallas base).
@@ -609,7 +609,7 @@
       .col-6
         .titulo-quinto.color-acento-contenido
           h4 Figura 24 Proporciones en la deducción
-    .row
+    .row.mb-4
       .col
         img(src='@/assets/curso/tema3-figure24.png')
       .col
@@ -627,7 +627,7 @@
           h4 Figura 25 Comparación de medidas
         img(src='@/assets/curso/tema3-figure25.png')
 
-    p En la figura anterior, la ruptura está entre la talla 14 y 16, porque se incrementa 6 cm, rompiendo con los 4 cm de las demás medidas.
+    p.mb-5 En la figura anterior, la ruptura está entre la talla 14 y 16, porque se incrementa 6 cm, rompiendo con los 4 cm de las demás medidas.
 
     #t_3_4.titulo-segundo.mb-4
       h2 3.4  Identificar el DROP
@@ -643,9 +643,9 @@
                 i.fas.fa-check
                 p.mb-0 <strong>DROP femenino</strong>: diferencia entre cadera y contorno de busto para la mujer. Es decir, <strong>Contorno de Cadera - Contorno de Busto = DROP</strong>
         p.mb-0 El DROP tiene características importantes que se deben considerar al momento de realizar su identificación:
-        .row.justify-content-center
+        .row.justify-content-center.mb-0
           .col-11
-            ul.lista-ul--color
+            ul.lista-ul--color.mb-0
               li.mb-0
                 i.fas.fa-check
                 | Con el DROP se establecen las diferentes contexturas de una misma talla.

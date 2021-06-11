@@ -253,135 +253,116 @@ export default {
   },
   referencias: [
     {
+      referencia: 'AS - Special Dressing. (2021). Tomar medidas.',
+      link: 'https://atuendosuan.wordpress.com/tomar-medidas/',
+    },
+    {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Aula Fácil. (2021). Anatomía y proporción de la figura humana.',
+      link: 'https://cutt.ly/rvShcAx',
+    },
+    {
+      referencia:
+        'Cómo cubrir un cuerpo. (2013). Proporciones del cuerpo humano Da Vinci y Vitrubio.',
+    },
+    {
+      referencia:
+        'Fez, D. (2020). Moulage. El arte y la técnica de la construcción en moda.',
+      link: 'https://www.workshopgranada.com/moulage-cursos/',
+    },
+    {
+      referencia:
+        'Gutiérrez, R. L., Moncayo, V., A., Tanaka, K., Kimura, F., y Moreno, D. (2011). Manual de patronaje básico e interpretación de diseños. SENA, Japan Inernational Cooperation Agency - JICA.',
+    },
+    {
+      referencia:
+        'Historias Hiladas. (2021). 5 claves para tomar medidas corporales.',
+      link: [
+        'https://www.nastasianash.com/5-claves-para-tomar-medidas-corporales/',
+        'https://www.comocubriruncuerpo.org/proporciones-del-cuerpo-humano-1-da-vinci-y-vitruvio/',
+      ],
+    },
+    {
+      referencia:
+        'Paredro. (2015). Fractales, geometría y otros juegos matemáticos en la moda de hoy. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.paredro.com/fractales-geometria-y-otros-juegos-matematicos-en-la-moda-de-hoy/',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'SENA. (2020). Manual de patronaje básico e interpretación de diseños.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000025496',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'SENA. (2020). Programa técnico en patronaje industrial de prendas de vestir. SENA.',
     },
     {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+      referencia: 'SENA. (s.f.). Fashion Snoops.',
+      link: 'https://www-fashionsnoops-com.bdigital.sena.edu.co/Default.aspx',
     },
     {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+      referencia: 'Valero, V. (2013). Canon del cuerpo humano.',
+      link: 'https://valero7.webnode.es/tecnicas/a16-canon-del-cuerpo-humano/',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Estándar',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'sirve de patrón, modelo o punto de referencia para medir o valorar cosas de la misma especie.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Talla',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'expresión normalizada que permite identificar a las personas para el uso de prendas de vestir.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Trazo de un plano',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'en lo referente al oficio del patronista, el trazo de un plano hace referencia a la estructura de los patrones básicos que, posteriormente, se convertirán en moldes.',
     },
     {
-      termino: 'Áectores',
+      termino: 'Patronaje',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'oficio dedicado a la creación de patrones en la línea de vestuario que permitan la confección de prendas de vestir.',
     },
     {
-      termino: 'Moda',
+      termino: 'Molde',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'Diseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'término usado en el patronaje para señalar que, después del trazo de planos, se llegan a abstraer los elementos que permiten proceder con el corte del textil.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        'SENA. (2021). Dibujo bidimensional de prendas de vestir. [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=xptK7CFsF7o',
+    },
+    {
+      texto: 'SENA. (2021). Trazo de bitácora de formas. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=ppEdTvy94eU&t=1102s',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'SENA. (2021). Técnicas de achurados y acabados de la prenda. [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Di4R3jHoNkQ',
+    },
+    {
+      texto: 'SENA. (2021). Reconocimientos de las prendas. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=FHhqkd0h4Kw',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
+        'SENA. (2020). Manual de patronaje básico e interpretación de diseños. SENA.',
       tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000025496',
     },
   ],
 }
