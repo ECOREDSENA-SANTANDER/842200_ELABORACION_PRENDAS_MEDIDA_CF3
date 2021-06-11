@@ -110,7 +110,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '5.3',
-            titulo: 'Elaboración de básicos masculinos',
+            titulo: 'Elaboración de básicos femeninos',
             hash: 't_5_3',
           },
         ],
