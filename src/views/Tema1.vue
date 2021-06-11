@@ -67,7 +67,7 @@
       figure.mb-5.px-4.mt-5
         img(src='@/assets/curso/tema1-divisioncuerpos.svg', alt='Figura 2  Análisis de división de cuerpo')
 
-      a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+      a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=V81Fjuq8XWs" target="_blank")
         .anexo__icono
           img(src="@/assets/template/icono-link.svg")
         .anexo__texto
