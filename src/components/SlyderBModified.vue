@@ -1,0 +1,50 @@
+<template lang="pug">
+.slyder-b
+  ScrollHorizontal(v-if="datos.length" :selectedId="selected" item-full-width)
+    .slyder-b__slyde(
+      v-for="(item,index) in datos"
+      :key="'key-'+getId(index)"
+      :id="getId(index)"
+    )
+      .row
+        .col-lg-8.order-lg-2.mb-4.mb-lg-0
+          figure.slyder-b__img
+            img(:src='item.imagen', :alt='item.leyendaImagen')
+            figcaption(v-if="item.leyendaImagen") {{item.leyendaImagen}}
+
+        .col-lg-4.order-lg-1
+          //- .h3 {{item.titulo}}
+          //- p.mb-3(v-html="item.texto")
+          figure.slyder-b__img.mb-5
+            img(:src='item.imagentitulo')
+          .slyder__action
+            .slyder__pagination {{index+1}}/{{datos.length}}
+            a.slyder__btn(v-if="index -1 >= 0" @click="selected = getId(index -1)")
+              i.fas.fa-angle-left
+            a.slyder__btn(
+              v-if="index != datos.length -1"
+              @click="selected = getId(index +1)"
+              @mouseover="mostrarIndicador = false"
+            )
+              i.fas.fa-angle-right
+              .indicador__container(v-if="mostrarIndicador && index === 0")
+                .indicador--click.indicador--sm
+</template>
+
+<script>
+import slyderMixins from 'ecored-base-pkg/src/mixins/slyderMixins'
+import ScrollHorizontal from './ScrollHorizontal'
+export default {
+  name: 'SlyderBModified',
+  components: { ScrollHorizontal },
+  mixins: [slyderMixins],
+  data: () => ({
+    mostrarIndicador: true,
+  }),
+  mounted() {
+    this.selected = this.getId(0)
+  },
+}
+</script>
+
+<style lang="sass"></style>

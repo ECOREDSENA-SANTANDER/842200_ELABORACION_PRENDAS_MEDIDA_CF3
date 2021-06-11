@@ -585,7 +585,7 @@
         p El análisis de los anteriores aspectos dará como resultado: valores, proporciones, rupturas de talla (para una, dos o hasta tres tallas base).
 
     p.mb-5 Seguidamente se presentan los cuadros de tallas, infantiles, masculino y femenino.
-    SlyderB.mb-5(:datos="datosSlyder")
+    SlyderBModified.mb-5.slyder-b-primary(:datos="datosSlyder2")
 
     #t_3_3.titulo-segundo.mb-4
       h2 3.3  Proporciones en la deducción de medidas
@@ -721,8 +721,10 @@
 </template>
 
 <script>
+import SlyderBModified from '@/components/SlyderBModified'
 export default {
   name: 'Tema3',
+  components: { SlyderBModified },
   data: () => ({
     // variables de vue
     datosSlyder: [
@@ -740,6 +742,23 @@ export default {
         texto:
           'Los cuadros de tallas y medidas son usados, dentro del sector, para contar fácilmente con la información estandarizada de las tallas de un país o región, las cuales estarán determinadas de acuerdo con estudios antropométricos, dado que las condiciones geográficas, clima, entre otras, hacen que la anatomía y estructura corporal puedan diferir.',
         imagen: require('@/assets/curso/tema3-imagen1.png'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+    ],
+    datosSlyder2: [
+      {
+        imagentitulo: require('@/assets/curso/tema3-slyder1-left.svg'),
+        imagen: require('@/assets/curso/tema3-slyder1-right.svg'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        imagentitulo: require('@/assets/curso/tema3-slyder2-left.svg'),
+        imagen: require('@/assets/curso/tema3-slyder2-right.svg'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        imagentitulo: require('@/assets/curso/tema3-slyder3-left.svg'),
+        imagen: require('@/assets/curso/tema3-slyder3-right.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
     ],
