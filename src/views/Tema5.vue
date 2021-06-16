@@ -25,34 +25,35 @@
       h2 5.1  Metodología – Convenciones
     .row.mb-5
       .col
-        p.mb-0 Dentro de este proceso es necesario conocer y manejar las diferentes simbologías que facilitan los procesos técnicos de patronaje y corte. Algunos de estos símbolos permiten entender, fácilmente, las gráficas de construcción, eliminando el uso de textos y referencias alfanuméricas; otros indican de qué manera deben estar aplomados los patrones despiezados para su corte.
+        p.mb-4 Dentro de este proceso es necesario conocer y manejar las diferentes simbologías que facilitan los procesos técnicos de patronaje y corte. Algunos de estos símbolos permiten entender, fácilmente, las gráficas de construcción, eliminando el uso de textos y referencias alfanuméricas; otros indican de qué manera deben estar aplomados los patrones despiezados para su corte.
+          br
           br
           | Es importante anotar que, en el momento de despiezar el patrón para su identificación, cada pieza debe estar marcada así:
         ul.lista-ul--color
           li.mb-0
             i.fas.fa-check
-            | Nombre de la pieza.
+            | Nombre de la pieza
           li.mb-0
             i.fas.fa-check
-            | Referencia.
+            | Referencia
           li.mb-0
             i.fas.fa-check
-            | Talla.
+            | Talla
           li.mb-0
             i.fas.fa-check
-            | Nombre del patronista.
+            | Nombre del patronista
           li.mb-0
             i.fas.fa-check
-            | Simbología para corte.
+            | Simbología para corte
           li.mb-0
             i.fas.fa-check
-            | Número de veces a cortar.
+            | Número de veces a cortar
           li.mb-0
             i.fas.fa-check
-            | Piquetes de confección.
+            | Piquetes de confección
           li.mb-0
             i.fas.fa-check
-            | Líneas de aplome.
+            | Líneas de aplome
         p.mb-0 También es posible establecer otras especificaciones, como anexar datos de estampación, cambios de color o material, acabados especiales, ubicación de bolsillos, etc.
       .col
         img(src='@/assets/curso/tema5-titulo2.svg')
@@ -64,7 +65,7 @@
             figure
               img(src='@/assets/curso/tema5-form1.svg', alt='Formas geométricas')
 
-        p.fw-bold.text-center Formas geométricas:
+        p.fw-bold.text-center Formas geométricas
         p Se debe tener en cuenta cuáles son las claves geométricas, horizontal, vertical, perpendicular (escuadrar), rectángulo, cuadrado, paralelo, ángulo recto, diagonal, diagonal o sesgo, vértice, radio, rotar, semicurva, curva, convexo, cóncavo. Siempre se inicia la construcción desde un rectángulo y se tiene en cuenta el contorno principal y el talle o largo del básico.
 
       .col-md.tarjeta.color-primario-suave.p-5
@@ -73,7 +74,7 @@
             figure
               img(src='@/assets/curso/tema5-form2.svg', alt='Escalas')
 
-        p.fw-bold.text-center Escalas:
+        p.fw-bold.text-center Escalas
         p Estas permiten representar piezas de tamaño físico igual, mayor o menor que la realidad. Las escalas más utilizadas, son:
           br
           | 1:1 – Escala normal 10 x 10 cm.
@@ -88,7 +89,7 @@
             figure
               img(src='@/assets/curso/tema5-form3.svg', alt='Trazo de patrones a escala')
 
-        p.fw-bold.text-center Trazo de patrones a escala:
+        p.fw-bold.text-center Trazo de patrones a escala
         p Permiten realizar la construcción de básicos corporales y trazo de patrones en tamaños más pequeños.
 
     p Además, se deben tener en cuenta los materiales que se sugieren para la implementación del Manual:
@@ -163,19 +164,19 @@
     p.mb-5 La elaboración de básicos masculinos se centra en un análisis estructural, lo que conlleva a establecer el prepatronaje de los básicos, por lo anterior, es necesario abordar ciertos puntos para tener en cuenta, a saber:
 
     LineaTiempoD.color-primario.mb-5
-      p(numero="1" titulo="Sistema de medida:") los cuadros de tallas, las medidas, las tallas en masculino se trabaja en pulgadas.
+      p(numero="1" titulo="Sistema de medida") Los cuadros de tallas, las medidas, las tallas en masculino se trabaja en pulgadas.
         br
         strong 1 pulgada = 1 IN = 1".
 
-      div(numero="2" titulo="Las pulgadas:")
-        p el vestuario es tan antiguo como la humanidad así como su confección, y en la década de 1970 las casas de alta costura francesa y europeas, que confeccionaban únicamente ‘ropa a la medida’, decidieron incursionar en el mercado de la confección industrial lanzando sus famosas colecciones prêt à porter (listo para llevar), dando apertura a la creación de tallas comerciales y su estandarización. A continuación, se podrá observar su adaptación:
+      div(numero="2" titulo="Las pulgadas")
+        p El vestuario es tan antiguo como la humanidad así como su confección, y en la década de 1970 las casas de alta costura francesa y europeas, que confeccionaban únicamente ‘ropa a la medida’, decidieron incursionar en el mercado de la confección industrial lanzando sus famosas colecciones prêt à porter (listo para llevar), dando apertura a la creación de tallas comerciales y su estandarización. A continuación, se podrá observar su adaptación:
         ul.lista-ul
           li
             i.lista-ul__vineta
             | Sistema de medidas ‘imperial’: la mayoría de los países han adoptado el sistema de medidas ‘universal’, es decir: 1” pulgada mide 2,54 cm.
 
-      div(numero="3" titulo="Incremento antropométrico:")
-        p el crecimiento entre tallas, según la estandarización en pulgadas, corresponde:
+      div(numero="3" titulo="Incremento antropométrico")
+        p El crecimiento entre tallas, según la estandarización en pulgadas, corresponde:
         ul.lista-ul
           li
             i.lista-ul__vineta
@@ -199,7 +200,7 @@
             i.lista-ul__vineta
             | 1/2 pulgada equivale a 1,27 centímetros.
 
-      div(numero="5" titulo="Tallas masculino (medidas en pulgada):")
+      div(numero="5" titulo="Tallas masculino (medidas en pulgada)")
         ul.lista-ul
           li
             i.lista-ul__vineta
@@ -227,7 +228,9 @@
 
     .row.mb-5
       .col-8
-        p  El crecimiento entre la talla S y talla M: en el sistema imperial equivale a 4” pulgadas por contorno = a 10,2 cm, para el caso del sistema universal es de 8 cm, al hacer el equivalente no hay proporción. En este sentido, los cuadros de tallas en pulgadas serán igual al trazo en centímetros.
+        p
+          strong El crecimiento entre la talla S y talla M
+          | : en el <strong>sistema imperial</strong> equivale a 4” pulgadas por contorno = a 10,2 cm, para el caso del <strong>sistema universal</strong> es de 8 cm, al hacer el equivalente no hay proporción. En este sentido, los <strong>cuadros de tallas en pulgadas</strong> serán igual al <strong>trazo en centímetros</strong>.
           br
           br
           | A continuación, se relaciona la conversión del cuadro de tallas masculino de pulgadas a centímetros:
@@ -245,8 +248,8 @@
           .col-3
             img(src="@/assets/curso/tema5-figure10.svg")
           .col-8
-            .h3 Identificación de talla:
-            p para la mayoría de los casos, al hacer lectura de un cuadro de tallas se toma el encabezado como la identificación de la talla, tanto superior como inferior. Sin embargo, en este cuadro de tallas, el nombre de la medida viene acompañado con una especificación adicional.
+            .h3 Identificación de talla
+            p Para la mayoría de los casos, al hacer lectura de un cuadro de tallas se toma el encabezado como la identificación de la talla, tanto superior como inferior. Sin embargo, en este cuadro de tallas, el nombre de la medida viene acompañado con una especificación adicional.
               br
               br
               | Para tomar el encabezado como talla superior e inferior, se estaría trabajando una talla superior diferente a la inferior. Es decir, la talla 34 quedaría:
@@ -260,14 +263,14 @@
           .col-3
             img(src="@/assets/curso/tema5-figure11.svg")
           .col-8
-            .h3 Horma masculina:
+            .h3 Horma masculina
             p En términos de patronaje, en el ajuste y horma masculino se trabajan diferentes tipos de siluetas, en este caso el manual trabaja con: clásica y Slim fit. Esto hace referencia al tipo de horma o ajuste que se busca. En el cuadro de tallas, se podría tener un hombre talla 40 superior, con diferentes siluetas.
         .row.mb-5.py-4.row-list
           .col-3
             img(src="@/assets/curso/tema5-figure12.svg")
           .col-8
-            .h3 Implementación del manual masculino:
-            p para trabajar los básicos de masculino se deben identificar las páginas correspondientes que, para este caso, son desde la página 65 hasta la 78. Como se referenció en temas anteriores, se debe iniciar revisando y analizando el cuadro de tallas de la página 64, para identificar la talla, las medidas, incrementos y diferencias necesarias. Es importante señalar que este Manual está diseñado para iniciar siempre desde los básicos que, en la metodología SENA, funcionan de la siguiente manera:
+            .h3 Implementación del manual masculino
+            p Para trabajar los básicos de masculino se deben identificar las páginas correspondientes que, para este caso, son desde la página 65 hasta la 78. Como se referenció en temas anteriores, se debe iniciar revisando y analizando el cuadro de tallas de la página 64, para identificar la talla, las medidas, incrementos y diferencias necesarias. Es importante señalar que este Manual está diseñado para iniciar siempre desde los básicos que, en la metodología SENA, funcionan de la siguiente manera:
 
     .titulo-quinto.color-acento-contenido
       h4 Tabla 5. Desarrollo de básicos masculinos
@@ -299,13 +302,13 @@
             ul.lista-ul--color
               li.mb-0
                 i.lista-ul__vineta
-                | Pantalón: largo de pantalón.
+                | Pantalón: largo de pantalón
               li.mb-0
                 i.lista-ul__vineta
-                | Falda: altura de rodilla.
+                | Falda: altura de rodilla
               li.mb-0
                 i.lista-ul__vineta
-                | Superior: largo de talle posterior.
+                | Superior: largo de talle posterior
 
         tr
           th Medidas en el trazo

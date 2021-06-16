@@ -28,7 +28,7 @@
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
       .tarjeta.color-primario.p-4(titulo="Canon")
-        h1 Canon:
+        h1 Canon
         p.mb-5 Modelo o prototipo que reúne las características que se consideran perfectas en su género, especialmente el referido a la figura humana que reúne las proporciones ideales.
         .titulo-quinto.color-acento-contenido
           h4 Figura 18 Canon (número de cabezas)
@@ -39,8 +39,8 @@
               figcaption Canon (número de cabezas)
 
       .tarjeta.color-primario.p-4(titulo="Proporción")
-        h1 Proporción:
-        p.mb-5 es la relación de correspondencia, equilibrio o simetría que existe entre los componentes de un todo. Podría definirse como una secuencia de Fibonacci que presenta una serie numérica: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, etc. En este sentido, es una serie infinita en la que la suma de dos números consecutivos siempre da como resultado el siguiente número tratado en las proporciones Da Vinci o del hombre de Vitruvio, esto es lo que permite analizar en un mapa de simetría del cuerpo y determinar el estándar de 8 cabezas como canon de belleza.
+        h1 Proporción
+        p.mb-5 Es la relación de correspondencia, equilibrio o simetría que existe entre los componentes de un todo. Podría definirse como una secuencia de Fibonacci que presenta una serie numérica: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, etc. En este sentido, es una serie infinita en la que la suma de dos números consecutivos siempre da como resultado el siguiente número tratado en las proporciones Da Vinci o del hombre de Vitruvio, esto es lo que permite analizar en un mapa de simetría del cuerpo y determinar el estándar de 8 cabezas como canon de belleza.
         .titulo-quinto.color-acento-contenido
           h4 Figura 19 Proporción figura humana
         .row.justify-content-center
@@ -50,7 +50,7 @@
               figcaption Nota. Tomada de Valero (2013)
 
       .tarjeta.color-primario.p-4(titulo="Proporciones corporales")
-        h1 Proporciones corporales:
+        h1 Proporciones corporales
         p.mb-4 Es un modelo o prototipo que reúne las características que se consideran perfectas en su género, especialmente el referido a la figura humana que reúne las proporciones ideales.
         .titulo-quinto.color-acento-contenido
           h4 Figura 20 Proporción de acuerdo con etapas de crecimiento
@@ -397,6 +397,15 @@
             td
             td
           tr
+            td Talle
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+          tr
             td Largo de brazo
             td
             td
@@ -575,10 +584,10 @@
             ul.lista-ul--color
               li.mb-0
                 i.fas.fa-check
-                | <strong>Límites</strong>: Fabricación de vestuario y estudios antropométricos. Dimensiones corporales – Icontec.
+                | <strong>Límites</strong>: fabricación de vestuario y estudios antropométricos. Dimensiones corporales – Icontec.
               li.mb-0
                 i.fas.fa-check
-                | <strong>Frecuencia</strong>: Armoniza y simplifica el etiquetado de tallas de prendas de vestir para el beneficio del consumidor y de la industria en general.
+                | <strong>Frecuencia</strong>: armoniza y simplifica el etiquetado de tallas de prendas de vestir para el beneficio del consumidor y de la industria en general.
               li.mb-0
                 i.fas.fa-check
                 | <strong>Incremento</strong>: magnitud de crecimiento de la medida talla por talla.
@@ -642,8 +651,8 @@
               li
                 i.fas.fa-check
                 p.mb-0 <strong>DROP femenino</strong>: diferencia entre cadera y contorno de busto para la mujer. Es decir, <strong>Contorno de Cadera - Contorno de Busto = DROP</strong>
-        p.mb-0 El DROP tiene características importantes que se deben considerar al momento de realizar su identificación:
-        .row.justify-content-center.mb-0
+        p.mb-4 El DROP tiene características importantes que se deben considerar al momento de realizar su identificación:
+        .row.justify-content-center.mb-4
           .col-11
             ul.lista-ul--color.mb-0
               li.mb-0

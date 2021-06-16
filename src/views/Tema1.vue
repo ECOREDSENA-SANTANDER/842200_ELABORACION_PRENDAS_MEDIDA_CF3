@@ -46,7 +46,7 @@
     //-       .estructura-corporal-titulo Antropometría
 
     .titulo-quinto.color-acento-contenido
-      h4 Figura 1 Arquitectura del cuerpo
+      h4 Figura 1 División del cuerpo
 
     .row.mb-5
       .col-1

@@ -9,6 +9,9 @@
           i.fas.fa-info
       h1 Introducción
 
+    .h2 Estructura corporal y prepatronaje
+    p.mb-5 Comprender la estructura corporal permite tener una visión integral respecto a las necesidades que conlleva a la materialización del vestuario, lo que permite entender la figura humana tridimensional y cómo, para pasar a este plano, necesita interpretarse en segunda dimensión.
+
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

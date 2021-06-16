@@ -51,8 +51,8 @@
           img(src='@/assets/curso/figure33.png', alt="Figura 33 Técnica en moulage")
           .texto-imagenes.py-2.px-1
             p.mb-0.px-2.py-2
-              strong Drapeado – Moulage:
-              | se trabajan directamente las formas y moldes sobre una estructura 3D.
+              strong Drapeado – Moulage
+              | : se trabajan directamente las formas y moldes sobre una estructura 3D.
           .pie-imagenes
             p.mb-0.px-2.py-2 Nota. Tomada de Fex (2020).
 
@@ -63,8 +63,8 @@
           img(src='@/assets/curso/figure34.png', alt="Figura 34 Diseño geométrico")
           .texto-imagenes.py-2.px-1
             p.mb-0.px-2.py-2
-              strong Geometría y moda:
-              | para el desarrollo de prendas de vestir se implementan conceptos numéricos y geométricos y, además, siluetas, formas, medidas, estructuras, volúmenes, tamaños, armonías, etc.
+              strong Geometría y moda
+              | : para el desarrollo de prendas de vestir se implementan conceptos numéricos y geométricos y, además, siluetas, formas, medidas, estructuras, volúmenes, tamaños, armonías, etc.
           .pie-imagenes
             p.mb-0.px-2.py-2 Nota. Tomada de Paredro (2015)
 

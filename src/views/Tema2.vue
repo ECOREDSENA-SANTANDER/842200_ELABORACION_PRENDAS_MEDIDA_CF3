@@ -11,7 +11,7 @@
     SlyderD.mb-5.no-slyder-d-primary(:datos="datosSlyder")
 
     #t_2_1.titulo-segundo
-      h2 2.1  Sistemas de medidas: clasificación, características, usos e implementación.
+      h2 2.1  Sistemas de medidas: clasificación, características, usos e implementación
 
     p.mb-4 La <strong>longitud</strong> es la distancia que hay entre un punto y otro, y para realizar esta medida, existen dos sistemas:
 
@@ -21,11 +21,11 @@
           li
             .lista-ol--cuadro__vineta
               span a
-            p <strong>Sistema métrico inglés</strong>: La unidad básica de medida es la <strong>pulgada</strong>, la cual se aplica principalmente en Estados Unidos, Inglaterra y Australia.
+            p <strong>Sistema métrico inglés</strong>: la unidad básica de medida es la <strong>pulgada</strong>, la cual se aplica principalmente en Estados Unidos, Inglaterra y Australia.
           li
             .lista-ol--cuadro__vineta
               span b
-            p.mb-0 <strong>Sistema internacional o métrico decimal</strong>: Tiene como unidad principal el <strong>metro</strong>, el cual se usa en el resto del mundo.
+            p.mb-0 <strong>Sistema internacional o métrico decimal</strong>: tiene como unidad principal el <strong>metro</strong>, el cual se usa en el resto del mundo.
       .col
         .titulo-quinto.color-acento-contenido
           h4 Figura 3 Comparación de sistemas de medidas
@@ -39,7 +39,7 @@
       li
         .lista-ol--cuadro__vineta
           span c
-        p <strong>Sistema métrico fraccionario</strong>: Como todo número fraccionario, se representa A/B, donde A es el numerador y B el denominador. El numerador indica el número de partes que se toman de la unidad y el denominador en cuántas partes iguales se divide esa unidad.
+        p <strong>Sistema métrico fraccionario</strong>: como todo número fraccionario, se representa A/B, donde A es el numerador y B el denominador. El numerador indica el número de partes que se toman de la unidad y el denominador en cuántas partes iguales se divide esa unidad.
 
     .row.mb-5
       .col
@@ -56,10 +56,10 @@
     .row.mb-3
       .col.d-flex
         .cajon.color-primario.p-4.mb-4
-          p <strong>Ancho de la puntada</strong>: Se utiliza un calibrador para facilitar el proceso y, para ello, se sugiere que la planchuela de la máquina tenga las medidas para que sirva de guía.
+          p <strong>Ancho de la puntada</strong>: se utiliza un calibrador para facilitar el proceso y, para ello, se sugiere que la planchuela de la máquina tenga las medidas para que sirva de guía.
       .col.d-flex
         .cajon.color-primario.p-4.mb-4
-          p <strong>Pies de las máquinas</strong>: Pulgadas y de acuerdo con el ancho de las costuras.
+          p <strong>Pies de las máquinas</strong>: pulgadas y de acuerdo con el ancho de las costuras.
 
     .row.mb-3
       .col
@@ -88,7 +88,7 @@
       li
         .lista-ol--cuadro__vineta
           span d
-        p <strong>Sistema métrico decimal o universal</strong>: Es un sistema de unidades en el cual los múltiplos o submúltiplos de las unidades de una misma naturaleza siguen una escala decimal (10).
+        p <strong>Sistema métrico decimal o universal</strong>: es un sistema de unidades en el cual los múltiplos o submúltiplos de las unidades de una misma naturaleza siguen una escala decimal (10).
 
     .titulo-quinto.color-acento-contenido
       h4 Figura 9 Análisis de unidades
@@ -139,9 +139,7 @@
       .py-4.py-md-5(titulo="En confección" :icono="require('@/assets/curso/tema2-tabs1.svg')")
         .row
           .col-md-7.mb-4.mb-md-0
-            p
-              strong En confección:
-              | Se utiliza para verificar medidas finales de la prenda, razón por la cual se debe tener en cuenta lo siguiente:
+            p Se utiliza para verificar medidas finales de la prenda, razón por la cual se debe tener en cuenta lo siguiente:
 
             ul.lista-ul--color
               li
@@ -166,9 +164,7 @@
       .py-4.py-md-5(titulo="En patronaje" :icono="require('@/assets/curso/tema2-tabs2.svg')")
         .row
           .col-md-4.mb-4.mb-md-0
-            p
-              strong En patronaje
-              | la mayoría de los cuadros de tallas anatómicas e industriales, en todas las líneas, están construidos en centímetros que es el sistema métrico estandarizado para el proceso de toma de medidas, patronaje y corte de las prendas. Las reducciones o ampliaciones para el confort de la prenda se realizan en centímetros.
+            p La mayoría de los cuadros de tallas anatómicas e industriales, en todas las líneas, están construidos en centímetros que es el sistema métrico estandarizado para el proceso de toma de medidas, patronaje y corte de las prendas. Las reducciones o ampliaciones para el confort de la prenda se realizan en centímetros.
           .col-md-8
             .titulo-quinto.color-acento-contenido
               h4 Figura 11 Medidas en patronaje
@@ -251,13 +247,17 @@
               br
               br
               strong fracciones - ½ = decimales – 0,5
+
+            .titulo-quinto.color-acento-contenido
+              h4 Figura 13 Fracciones y decimales
+
             figure
               img(src='@/assets/curso/tema2-fracciones.svg', alt='Fracciones y decimales')
               figcaption Fracciones y decimales
 
           .col-md-5
             .titulo-quinto.color-acento-contenido
-              h4 Figura 13 Fracciones y decimales
+              h4 Figura 14 Conversión de fracciones y decimales
             img(src='@/assets/curso/tema2-figure13.png', alt='Fracciones y decimales')
 
 
@@ -297,8 +297,8 @@
             .lista-ol--cuadro__vineta
               span a
             p
-              strong Las medidas sobre el cuerpo:
-              | Por lo general se toman sobre los puntos de anclaje del cuerpo teniendo en cuenta los parámetros antropométricos y anatómicos, pasando por los volúmenes (contornos) protuberantes. Se clasifican en tres grupos:
+              strong Las medidas sobre el cuerpo
+              | : por lo general se toman sobre los puntos de anclaje del cuerpo teniendo en cuenta los parámetros antropométricos y anatómicos, pasando por los volúmenes (contornos) protuberantes. Se clasifican en tres grupos:
         .row
           .col-1
           .col-11
@@ -307,20 +307,20 @@
                 .lista-ol--cuadro__vineta
                   span 1
                 p
-                  strong Contornos:
-                  | Se toman alrededor de la parte a medir, cerrando el metro.
+                  strong Contornos
+                  | : se toman alrededor de la parte a medir, cerrando el metro.
               li.mb-0
                 .lista-ol--cuadro__vineta
                   span 2
                 p
-                  strong Largos:
-                  | Se toman verticalmente y corresponden a largos y talles.
+                  strong Largos
+                  | : se toman verticalmente y corresponden a largos y talles.
               li.mb-0
                 .lista-ol--cuadro__vineta
                   span 3
                 p
-                  strong Anchos:
-                  | se toman horizontalmente y corresponden a los anchos.
+                  strong Anchos
+                  | : se toman horizontalmente y corresponden a los anchos.
 
 
       .col
@@ -338,7 +338,7 @@
       li
         .lista-ol--cuadro__vineta
           span b
-        p <strong>Clasificación y análisis de medidas anatómicas</strong>:  Está dada según la metodología que se emplea en el patronaje para la confección de prendas, por ello es importante diferenciarlas y saber qué medidas tomar o no, si es sobre el cliente o solo se utilizan cuadros de tallas estandarizadas.
+        p <strong>Clasificación y análisis de medidas anatómicas</strong>:  está dada según la metodología que se emplea en el patronaje para la confección de prendas, por ello es importante diferenciarlas y saber qué medidas tomar o no, si es sobre el cliente o solo se utilizan cuadros de tallas estandarizadas.
     SlyderB.mb-5.slyder-b-primary(:datos="datosSlyder3")
 
     .row.justify-content-end
@@ -382,7 +382,7 @@ export default {
       },
       {
         titulo: 'Anchos',
-        texto: 'se toman horizontalmente y corresponden a los anchos.',
+        texto: 'Se toman horizontalmente y corresponden a los anchos.',
         imagen: require('@/assets/curso/tema2-anchos.svg'),
       },
     ],
