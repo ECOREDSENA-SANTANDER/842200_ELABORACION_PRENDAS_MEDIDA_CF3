@@ -27,8 +27,7 @@
               span b
             p.mb-0 <strong>Sistema internacional o métrico decimal</strong>: tiene como unidad principal el <strong>metro</strong>, el cual se usa en el resto del mundo.
       .col
-        .titulo-quinto.color-acento-contenido
-          h4 Figura 3 Comparación de sistemas de medidas
+        .BorTit.mb-4 Figura 3 Comparación de sistemas de medidas
         img(src='@/assets/curso/tema2-figure3.svg', alt='Comparación de sistemas de medidas')
     .row.justify-content-center.mb-4
       .col-8
@@ -43,12 +42,10 @@
 
     .row.mb-5
       .col
-        .titulo-quinto.color-acento-contenido
-          h4 Figura 4 Numerador - Denominador
+        .BorTit.mb-4 Figura 4 Numerador - Denominador
         img(src='@/assets/curso/tema2-figure4.svg', alt='Denominador', style='max-height: 400px')
       .col
-        .titulo-quinto.color-acento-contenido
-          h4 Figura 5 La pulgada
+        .BorTit.mb-4 Figura 5 La pulgada
         img(src='@/assets/curso/tema2-figure5.svg', alt='La pulgada', style='max-height: 400px')
 
     p.mb-5 En confección, se utiliza la pulgada como medida de estandarización la cual mide el número de Puntadas Por Pulgada (PPP).
@@ -63,20 +60,17 @@
 
     .row.mb-3
       .col
-        .titulo-quinto.color-acento-contenido
-          h4 Figura 6 Planchuela de máquina con ancho de puntada y medidas
+        .BorTit.mb-4 Figura 6 Planchuela de máquina con ancho de puntada y medidas
         img(src='@/assets/curso/tema2-figure6.svg', alt='Planchuela de máquina con ancho de puntada y medidas', style='max-height: 270px')
       .col
-        .titulo-quinto.color-acento-contenido
-          h4 Figura 7 Planchuela y pie
+        .BorTit.mb-4 Figura 7 Planchuela y pie
         img(src='@/assets/curso/tema2-figure7.svg', alt='Planchuela y pie', style='max-height: 270px')
 
     p.mb-4 Para el patronaje, la denominación de tallas europeas, y también unos cuadros de tallas en especial, los masculinos, se trabajan en pulgadas.
 
     .row
       .col-6
-        .titulo-quinto.color-acento-contenido
-          h4 Figura 8 Utilización de las pulgadas
+        .BorTit.mb-4 Figura 8 Utilización de las pulgadas
     .row.mb-5
       .col
         img(src='@/assets/curso/tema2-figure8.svg', alt='Utilización de las pulgadas', style='max-height: 270px')
@@ -90,11 +84,9 @@
           span d
         p <strong>Sistema métrico decimal o universal</strong>: es un sistema de unidades en el cual los múltiplos o submúltiplos de las unidades de una misma naturaleza siguen una escala decimal (10).
 
-    .titulo-quinto.color-acento-contenido
-      h4 Figura 9 Análisis de unidades
-
     .row.justify-content-center
       .col-10
+        .BorTit.mb-4 Figura 9 Análisis de unidades
         .tabla-a.color-acento-contenido.mb-5
           table
             thead
@@ -156,8 +148,7 @@
                 | Los textiles al detal se venden por metros.
 
           .col-md-5
-            .titulo-quinto.color-acento-contenido
-              h4 Figura 10 Medidas en confección
+            .BorTit.mb-4 Figura 10 Medidas en confección
             figure
               img(src='@/assets/curso/tema2-figure10.svg', alt='Medidas en confección', style='max-height: 320px')
 
@@ -166,8 +157,7 @@
           .col-md-4.mb-4.mb-md-0
             p La mayoría de los cuadros de tallas anatómicas e industriales, en todas las líneas, están construidos en centímetros que es el sistema métrico estandarizado para el proceso de toma de medidas, patronaje y corte de las prendas. Las reducciones o ampliaciones para el confort de la prenda se realizan en centímetros.
           .col-md-8
-            .titulo-quinto.color-acento-contenido
-              h4 Figura 11 Medidas en patronaje
+            .BorTit.mb-4 Figura 11 Medidas en patronaje
             .tabla-a.color-acento-contenido.mb-5
               table
                 thead
@@ -233,8 +223,7 @@
 
 
           .col-md-8
-            .titulo-quinto.color-acento-contenido
-              h4 Figura 12 Utilización de centímetros
+            .BorTit.mb-4 Figura 12 Utilización de centímetros
             img(src='@/assets/curso/tema2-figure12.svg', alt='Utilización de centímetros')
 
       .py-4.py-md-5(titulo="En resumen" :icono="require('@/assets/curso/tema2-tabs4.svg')")
@@ -248,16 +237,14 @@
               br
               strong fracciones - ½ = decimales – 0,5
 
-            .titulo-quinto.color-acento-contenido
-              h4 Figura 13 Fracciones y decimales
+            .BorTit.mb-4 Figura 13 Fracciones y decimales
 
             figure
               img(src='@/assets/curso/tema2-fracciones.svg', alt='Fracciones y decimales')
               figcaption Fracciones y decimales
 
           .col-md-5
-            .titulo-quinto.color-acento-contenido
-              h4 Figura 14 Conversión de fracciones y decimales
+            .BorTit.mb-4 Figura 14 Conversión de fracciones y decimales
             img(src='@/assets/curso/tema2-figure13.png', alt='Fracciones y decimales')
 
 
@@ -278,8 +265,7 @@
         img(src='@/assets/curso/tema2-machine.svg', alt='Personas manipulando confecciones')
 
       .col
-        .titulo-quinto.color-acento-contenido
-          h4 Figura 15 Tabla de equivalencias
+        .BorTit.mb-4 Figura 15 Tabla de equivalencias
         img(src='@/assets/curso/tema2-figure15.png', alt='Tabla de equivalencias')
 
     #t_2_2.titulo-segundo
@@ -326,8 +312,7 @@
       .col
         img(src='@/assets/curso/tema2-titulo2.png', alt='Mujeres tomando medidas')
 
-    .titulo-quinto.color-acento-contenido
-      h4 Figura 16 Clasificación de medidas
+    .BorTit.mb-4 Figura 16 Clasificación de medidas
     .row.justify-content-center.mb-4
       .col-8
         img(src='@/assets/curso/tema2-figure16.svg', alt='Clasificación de medidas')

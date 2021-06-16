@@ -45,12 +45,12 @@
     //-     .px-1
     //-       .estructura-corporal-titulo Antropometría
 
-    .titulo-quinto.color-acento-contenido
-      h4 Figura 1 División del cuerpo
+
 
     .row.mb-5
       .col-1
       .col-10
+        .BorTit.mb-5 Figura 1 División del cuerpo
         figure.mb-5.px-4
           img(src='@/assets/curso/tema1-arquitectura.svg', alt='Figura 1 Arquitectura del cuerpo')
 
@@ -61,8 +61,7 @@
         br
         | Conocer el cuerpo humano es muy importante para traducir su estructura en medidas y patronaje de prendas, por lo que, a continuación, se visualizará la división para tener en cuenta en su análisis.
 
-      .titulo-quinto.color-acento-contenido.mb-5.mt-5
-        h4 Figura 2  Análisis de división de cuerpo
+      .BorTit.mb-5 Figura 2  Análisis de división de cuerpo
 
       figure.mb-5.px-4.mt-5
         img(src='@/assets/curso/tema1-divisioncuerpos.svg', alt='Figura 2  Análisis de división de cuerpo')

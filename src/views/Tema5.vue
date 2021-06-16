@@ -272,8 +272,7 @@
             .h3 Implementación del manual masculino
             p Para trabajar los básicos de masculino se deben identificar las páginas correspondientes que, para este caso, son desde la página 65 hasta la 78. Como se referenció en temas anteriores, se debe iniciar revisando y analizando el cuadro de tallas de la página 64, para identificar la talla, las medidas, incrementos y diferencias necesarias. Es importante señalar que este Manual está diseñado para iniciar siempre desde los básicos que, en la metodología SENA, funcionan de la siguiente manera:
 
-    .titulo-quinto.color-acento-contenido
-      h4 Tabla 5. Desarrollo de básicos masculinos
+    .BorTit.mb-4 Tabla 5. Desarrollo de básicos masculinos
 
     .tabla-b.color-acento-contenido.mb-5
       .tabla-b__header
@@ -339,8 +338,7 @@
               .bloque-texto-a__texto.p-4
                 p Para la implementación del Manual, lo primero es identificar las páginas con las que se va a trabajar, que en este caso van desde la página 21 hasta la 32, pues como se referenció en temas anteriores, se debe iniciar revisando y analizando el cuadro de tallas página 20, para identificar la talla, las medidas, incrementos y diferencias que se va a trabajar. Este Manual está diseñado para iniciar siempre desde los básicos en la metodología SENA, que funcionan de la siguiente manera:
 
-    .titulo-quinto.color-acento-contenido
-      h4 Tabla 6. Desarrollo de básicos femeninos
+    .BorTit.mb-4 Tabla 6. Desarrollo de básicos femeninos
 
     .tabla-b.color-acento-contenido.mb-5
       .tabla-b__header

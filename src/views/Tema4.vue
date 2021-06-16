@@ -15,26 +15,22 @@
 
     .row.justify-content-center.mb-5
       .col-5
-        .titulo-quinto.color-acento-contenido
-          h4 Figura 29 Plano en 3D
+        .BorTit.mb-4 Figura 29 Plano en 3D
         img.mt-5(src="@/assets/curso/figure29.png" style="max-height: 270px; object-fit: contain;")
       .col-5
-        .titulo-quinto.color-acento-contenido
-          h4 Figura 30 Plano en 2D
+        .BorTit.mb-4 Figura 30 Plano en 2D
         img.mt-5(src="@/assets/curso/figure30.png" style="max-height: 270px; object-fit: contain;")
 
     .row.justify-content-center.mb-5.mt-5
       .col-5
-        .titulo-quinto.color-acento-contenido
-          h4 Figura 31 De la estructura al molde
+        .BorTit.mb-4 Figura 31 De la estructura al molde
         .shadow
           img(src='@/assets/curso/figure31.png')
           .texto-imagenes.py-2.px-1
             p.mb-0.px-2.py-2
               | Teniendo en cuenta lo revisado hasta este momento, es importante preguntarse, ¿para qué sirve el patronaje? La respuesta es un tanto sencilla: permite transferir la información de la estructura corporal en planos que luego se convierten en moldes.
       .col-5
-        .titulo-quinto.color-acento-contenido
-          h4 Figura 32 Interpretación en plano y molde
+        .BorTit.mb-4 Figura 32 Interpretación en plano y molde
         .shadow
           img(src='@/assets/curso/figure32.png')
           .texto-imagenes.py-2.px-1
@@ -45,8 +41,7 @@
 
     .row.justify-content-center.mb-5.mt-5
       .col-5
-        .titulo-quinto.color-acento-contenido
-          h4 Figura 33 Técnica en moulage
+        .BorTit.mb-4 Figura 33 Técnica en moulage
         .shadow
           img(src='@/assets/curso/figure33.png', alt="Figura 33 Técnica en moulage")
           .texto-imagenes.py-2.px-1
@@ -57,8 +52,7 @@
             p.mb-0.px-2.py-2 Nota. Tomada de Fex (2020).
 
       .col-5
-        .titulo-quinto.color-acento-contenido
-          h4 Figura 34 Diseño geométrico
+        .BorTit.mb-4 Figura 34 Diseño geométrico
         .shadow
           img(src='@/assets/curso/figure34.png', alt="Figura 34 Diseño geométrico")
           .texto-imagenes.py-2.px-1
