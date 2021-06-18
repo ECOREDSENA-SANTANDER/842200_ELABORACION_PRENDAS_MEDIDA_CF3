@@ -674,7 +674,7 @@
       .col
         .px-5.py-3.mb-4(style='background-color: #F7F1D7')
           .BorTit.mb-4 Figura 26 DROP femenino
-          img(src='@/assets/curso/tema3-figure26.svg')
+          img(src='@/assets/curso/tema3-figure26.svg', style='max-height: 400px')
 
     .row.mb-5
       .col
