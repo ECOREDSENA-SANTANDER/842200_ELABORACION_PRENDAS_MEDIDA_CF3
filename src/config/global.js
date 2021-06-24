@@ -170,6 +170,36 @@ export default {
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
+      {
+        nombre: 'Leidy Johana Velásquez Hernández',
+        cargo: 'Experta temática',
+        centro: 'Diseño, Confección y Moda',
+        regional: 'Regional Antioquía',
+      },
+      {
+        nombre: 'Paola Angélica Castro Salazar',
+        cargo: 'Experta temática',
+        centro: 'Diseño, Confección y Moda',
+        regional: 'Regional Antioquía',
+      },
+      {
+        nombre: 'Paula Andrea Taborda Ortiz',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Diseño y Metrología',
+        regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'Vilma Lucía Perilla Méndez',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro: 'Centro de Diseño y Metrología',
+        regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro de Diseño y Metrología',
+        regional: 'Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -199,6 +229,12 @@ export default {
       {
         nombre: 'Sergio Omar Camacho Orduz',
         cargo: 'Desarrollo front-end',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Yuli Marcela Gómez Tarazona',
+        cargo: 'Validación de diseño y contenido',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
