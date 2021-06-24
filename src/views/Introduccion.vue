@@ -10,7 +10,7 @@
       h1 Introducción
 
     .h2 Estructura corporal y prepatronaje
-    p.mb-5 Comprender la estructura corporal permite tener una visión integral respecto a las necesidades que conlleva a la materialización del vestuario, lo que permite entender la figura humana tridimensional y cómo, para pasar a este plano, necesita interpretarse en segunda dimensión.
+    p.mb-5 Comprender la estructura corporal permite tener una visión integral respecto a las necesidades que conlleva a la materialización del vestuario, lo que permite entender la figura humana tridimensional y cómo, para pasar a este plano, necesita interpretarse en segunda dimensión.<br><br>En este sentido y según el Manual de patronaje básico del SENA se desarrollará la aplicabilidad de la elaboración de prendas de vestir, pues esta integra la comprensión de la estructura corporal y anatómica vista desde la ergonomía y el movimiento; por otro lado, los conceptos de prepatronaje se integrarán a la construcción de los básicos femeninos y masculinos, base inicial de todo proceso de patronaje.
 
     figure.mb-5
       .video
