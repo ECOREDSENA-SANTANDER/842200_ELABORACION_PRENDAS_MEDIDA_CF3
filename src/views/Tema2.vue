@@ -400,7 +400,7 @@ export default {
         titulo: 'Medidas anatómicas – estandarizadas o normalizadas',
         texto:
           'Son el resultado de la toma de medidas directas o de estudios antropométricos, las cuales se toman exactas sobre la estructura, es decir, no tiene aumentos ni ajustes.<br><br>Es importante tener claro que de la correcta toma de las medidas depende el resultado del patrón, pues estas medidas son utilizadas para la construcción y elaboración de los básicos, superiores e inferiores.',
-        imagen: require('@/assets/curso/tema2-medidasana.png'),
+        imagen: require('@/assets/curso/tema2-medidasana.svg'),
       },
     ],
   }),
