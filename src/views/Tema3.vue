@@ -32,7 +32,7 @@
         .row.justify-content-center
           .col-9
             figure.mb-5.px-4
-              img(src='@/assets/curso/tema3-figure18.png', alt='Canon (número de cabezas)')
+              img(src='@/assets/curso/tema3-figure18.svg', alt='Canon (número de cabezas)')
               figcaption Canon (número de cabezas)
 
       .tarjeta.color-primario.p-4(titulo="Proporción")

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Estructura corporal y prepatronaje',
     descripcionCurso:
-      'Comprender la estructura corporal permite tener una visión integral respecto a las necesidades que conlleva a la materialización del vestuario, lo que permite entender la figura humana tridimensional y cómo, para pasar a este plano, necesita interpretarse en segunda dimensión.<br><br>En este sentido y según el Manual de patronaje básico del SENA se desarrollará la aplicabilidad de la elaboración de prendas de vestir, pues esta integra la comprensión de la estructura corporal y anatómica vista desde la ergonomía y el movimiento; por otro lado, los conceptos de prepatronaje se integrarán a la construcción de los básicos femeninos y masculinos, base inicial de todo proceso de patronaje.',
+      'Comprender la estructura corporal permite tener una visión integral respecto a las necesidades que conlleva a la materialización del vestuario, lo que permite entender la figura humana tridimensional y cómo, para pasar a este plano, necesita interpretarse en segunda dimensión.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
@@ -219,12 +219,6 @@ export default {
         cargo: 'Diseño web',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Zuleidy Maria Ruiz Torres',
-        cargo: 'Producción audiovisual',
-        centro: 'Centro de Comercio y Servicios',
-        regional: 'Regional Tolima',
       },
       {
         nombre: 'Sergio Omar Camacho Orduz',
