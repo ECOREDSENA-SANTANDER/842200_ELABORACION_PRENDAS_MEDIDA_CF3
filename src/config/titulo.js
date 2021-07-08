@@ -1,2 +1,2 @@
 module.exports =
-  'Estructura corporal y prepatronaje'
+  'Componente Formativo con un nombre extremadamente largo y extenso'

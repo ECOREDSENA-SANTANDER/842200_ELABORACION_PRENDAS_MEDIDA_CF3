@@ -1,8 +1,8 @@
-# **sena-base-2021 v3.2.0**
+# **sena-base-2021 v4.0.0**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ELABORACION_PRENDAS_MEDIDA_CF3](https://ecored-sena.github.io/ELABORACION_PRENDAS_MEDIDA_CF3)
+[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
 
 #
 
@@ -61,3 +61,6 @@ npm run lint
 ![instrucciones despues del primer push](src/assets/template/pasos.jpg 'Title')
 
 #
+
+## **Documentacion AOS**
+[https://github.com/michalsnik/aos](https://github.com/michalsnik/aos)
