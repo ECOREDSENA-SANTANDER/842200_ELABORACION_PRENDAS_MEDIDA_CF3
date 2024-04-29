@@ -2,9 +2,23 @@ export default {
   global: {
     componenteFormativo: 'Estructura corporal y prepatronaje',
     descripcionCurso:
-      'Comprender la estructura corporal permite tener una visión integral respecto a las necesidades que conlleva a la materialización del vestuario, lo que permite entender la figura humana tridimensional y cómo, para pasar a este plano, necesita interpretarse en segunda dimensión.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+      'Comprender la estructura corporal permite tener una visión integral respecto a las necesidades que conlleva a la materialización del vestuario, lo que permite entender la figura humana tridimensional y cómo, para pasar a este plano, necesita interpretarse en segunda dimensión.<br><br> En este sentido y según el Manual de patronaje básico del SENA se desarrollará la aplicabilidad de la elaboración de prendas de vestir, pues esta integra la comprensión de la estructura corporal y anatómica vista desde la ergonomía y el movimiento; por otro lado, los conceptos de prepatronaje se integrarán a la construcción de los básicos femeninos y masculinos, base inicial de todo proceso de patronaje.',
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/3.svg'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [
@@ -21,27 +35,27 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
+        icono: '',
         numero: '1',
         titulo: 'Análisis e identificación de la estructura del cuerpo',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
+        icono: '',
         numero: '2',
         titulo: 'Análisis y clasificación de las medidas',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
+            icono: '',
             numero: '2.1',
             titulo:
               'Sistemas de medidas: clasificación, características, usos e implementación',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
+            icono: '',
             numero: '2.2',
             titulo: 'Las medidas',
             hash: 't_2_2',
@@ -50,31 +64,31 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
+        icono: '',
         numero: '3',
         titulo: 'Análisis de medidas y cuadros de tallas',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
+            icono: '',
             numero: '3.1',
             titulo: 'Proporción vs. canon',
             hash: 't_3_1',
           },
           {
-            icono: 'far fa-file-alt',
+            icono: '',
             numero: '3.2',
             titulo: 'Medidas deducidas',
             hash: 't_3_2',
           },
           {
-            icono: 'far fa-file-alt',
+            icono: '',
             numero: '3.3',
             titulo: 'Proporciones en la deducción de medidas',
             hash: 't_3_3',
           },
           {
-            icono: 'far fa-file-alt',
+            icono: '',
             numero: '3.4',
             titulo: 'Identificar el DROP',
             hash: 't_3_4',
@@ -83,32 +97,32 @@ export default {
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
+        icono: '',
         numero: '4',
         titulo: 'Patronaje: concepto y procedimientos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
+        icono: '',
         numero: '5',
         titulo: 'Metodología - Presentación del Manual de patronaje SENA',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
+            icono: '',
             numero: '5.1',
             titulo: 'Metodología – Convenciones',
             hash: 't_5_1',
           },
           {
-            icono: 'far fa-file-alt',
+            icono: '',
             numero: '5.2',
             titulo: 'Elaboración de básicos masculinos',
             hash: 't_5_2',
           },
           {
-            icono: 'far fa-file-alt',
+            icono: '',
             numero: '5.3',
             titulo: 'Elaboración de básicos femeninos',
             hash: 't_5_3',
@@ -117,7 +131,7 @@ export default {
       },
       {
         nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
+        icono: '',
         numero: '6',
         titulo: 'Dibujo bidimensional de prendas de vestir',
         desarrolloContenidos: true,

@@ -2,6 +2,229 @@
 
 Estos son los cambios hechos en la ECORED-BASE-2021
 
+## 7.0.1 - 16-04-2023
+
+### Arreglado
+
+- Ocultar menu cuando se hace click en un enlace
+- Arreglo de iconos en el menu
+
+## 7.0.0 - 11-04-2023
+
+### Agregado
+
+- Creditos dinamicos donde se puede cambiar el titulo (nueva estructural en global.js)
+- Creditos adicionales para imagenes y crfeatavie commons
+
+### Arreglado
+
+- Logo sena (cambio de nombre logo-sena-naranja.svg a logo-sena.svg)
+- Arreglo de nombre en el inicio 'Ecosistema de Recursos Educativos Digitales'
+
+## 6.4.0 - 20-12-2022
+
+### Agregado
+
+- Componente .bloque-texto-g se puede reversar con la clase .bloque-texto-g--inverso
+- Componentes complementarios para dialogos de ingles
+
+### Arreglado
+
+- Componente slyder F los elementos toman toda la altura
+- Componentes de listas inconsistencias con la tipografia italica arreglado
+- El manu siempre va sobrepuesto en el contenido y se va a cerrar al hacer click por fuera del mismo
+
+## 6.3.1 - 28-06-2022
+
+### Agregado
+
+- Componente dialogo se puede modificar el feedback
+
+## 6.3.0 - 19-06-2022
+
+### Cambios
+
+- /package.json => "ecored-base-pkg": "5.3.0"
+- /src/styles/_styles.sass
+- /src/styles/_variables.sass
+- /src/assets/template/green-check.svg
+- /src/assets/template/red-x.svg
+
+### Agregado
+
+- Componente dialogo de arrastrar y soltar para ingles
+
+### Arreglado
+
+- compatibilidad del componente audio con mobiles
+
+## 6.2.1 - 13-06-2022
+
+### Arreglado
+
+- Las clases para animaciones no funcionavan
+
+#
+## 6.2.0 - 10-06-2022
+
+### Agregado
+
+- En el objeto global se puede agregar imagenes decorativas para el banner principal
+
+### Arreglado
+
+- El tamano de letra de los encabezados de las tablas
+
+### Eliminado
+
+- Animaciones que generan problemas en el main container
+
+#
+## 6.1.1 - 09-06-2022
+
+### Arreglado
+
+- En componente TarjetaAudio se agrego prop para quitar la barra de progreso
+
+#
+## 6.1.0 - 08-06-2022
+
+### Cambios
+
+- /package.json => "ecored-base-pkg": "5.1.1"
+
+### Agregado
+
+- Componente Audio
+- COmponente TarjetaAudio
+
+## 6.0.0 - 01-06-2022
+
+### Arreglado
+
+- Nuevo material complementario
+
+#
+
+## 5.1.0 - 01-12-2021
+
+### Agregado
+
+- Sintesis
+
+### Arreglado
+
+- Componente SlyderF en algunos casos los botones no funcionaban como se esperaba
+
+#
+
+## 5.0.1 - 09-11-2021
+
+### Arreglado
+
+- Componente SlyderF aveces no llegaba al último elemento
+- Componente Zoom hace zoom cuando se hacía scroll por la pagina, ahora solo hay que hacer click a la imágen para que se pueda hacer zoom
+- Vista Material complementario enlaces de descargas no funcionaban cuando era uno solo
+
+#
+
+## 5.0.0 - 29-10-2021
+
+### Agregado
+
+- Componente tarjeta-avatar-slide
+- Componente Tarjeta-slide
+- Componente lineaTiempoE
+- Componente SlyderF
+- Componente Zomm
+
+### Arreglado
+
+- Agregar numero a la imagen infografiaca e infografiaca-B (numero="1")
+- los botones del slyderA y slyderA quedan abajo (tipo="b")
+- titulo-principal y titulo-segundo de colores
+- acordiones agregar clase para estado activo (acordion__activo)
+- espacio para el icono del link de las referencias bibliograficas
+- deshabilitar descargable en local
+- SlyderB, SlyderC, SlyderD quitar titulo cuando no se ponga la llave
+- ponerle min-width a los creditos para moviles
+- material complementario recibe mas de un link o descarga
+- referencias bibliograficas y glosario se ordena incluso con tags html
+
+#
+
+## 4.2.0 - 21-09-2021
+
+### Agregado
+
+- Componente ImagenInfograficaB
+- Componente tarjeta-flip
+
+### Arreglado
+
+- Los titulos y todos los props que van dentro de las vistas soportan html
+  - AcordionA
+  - LineaTiempoA
+  - LineaTiempoB
+  - LineaTiempoC
+  - LineaTiempoD
+  - PasosB
+  - SlyderB
+  - SlyderC
+  - SlyderD
+  - TabsA
+  - TabsB
+  - TabsC
+
+#
+
+## 4.1.1 - 26-08-2021
+
+### Agregado
+
+- Glosario ahora recibe HTML a través de la llave terminoHtml (debe tener ambas llaves termino y terminoHtml para que funcione)
+
+### Arreglado
+
+- Doble slash (//) en enlaces dentro de la plantilla
+
+#
+
+## 4.1.0 - 26-07-2021
+
+### Cambios
+
+- /package.json
+- /src/components/Muestras.vue
+
+### Agregado
+
+- Componente SlyderE
+- Componente cajon-b
+- En el componente 'linea-tiempo-c' la opcion de hacer los titulos mas pequenos
+
+### Arreglado
+
+- En el componente 'linea-tiempo-c' el problema generado por la cantidad de texto en el titulo
+- En el componente 'bloque-texto-e' el nombre de la clase 'bloque-texto-e__text' cambio a 'bloque-texto-e__texto' para mejor consistencia
+- En el componente 'tarjeta-avatar-b' ahora la imagen va a estar dentro de '.tarjeta-avatar-b__img" para arreglar el responsive del componente
+- Los textos dentro de estos componentes ahora se pueden utilizar como html
+  - menu principal
+  - banner interno
+  - banner principal
+  - header
+  - material complementario
+  - inicio
+  - referencias bibliograficas
+- En el componente 'pasos' el problema con los circulos en responsive
+- En los componentes de texto destacado, los problemas de alineacion de las comillas
+
+### Potenciales problemas con versiones anteriores
+
+- en el componente 'tarjeta-avatar-b', la imagen solo necesita estar dentro de: .tarjeta-avatar-b__img
+
+#
+
 ## 4.0.0 - 26-06-2021
 
 ### Cambios
@@ -28,6 +251,8 @@ Estos son los cambios hechos en la ECORED-BASE-2021
 - arreglo de overflow-x en el contenedor de tema
 - la versión 5.0.2 de bootstrap tiene un problema con la grilla
 - el orden del glosario no toma en cuenta mayúsculas
+
+#
 
 ## 3.3.0 - 14-06-2021
 
@@ -61,6 +286,8 @@ Estos son los cambios hechos en la ECORED-BASE-2021
 - Unificación de pie de imagen y pie de tabla
 - Mejor contraste en el encabezado de la tabla de material complementario
 - Tamaño de titulo de .tabla-b
+
+#
 
 ## 3.2.0 - 02-06-2021
 
