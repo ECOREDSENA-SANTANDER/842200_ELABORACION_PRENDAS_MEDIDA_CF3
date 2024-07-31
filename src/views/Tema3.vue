@@ -13,7 +13,7 @@
     .row.justify-content-center.mb-5
       .col-9
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 16
+          h5 Figura 16.
           | Medidas figura humana
         figure.mb-5.px-4
           img.d-none.d-lg-block(src='@/assets/curso/tema3-medidas.svg', alt='Medidas figura humana')
@@ -33,7 +33,7 @@
             h4 Canon
             p  Modelo o prototipo que reúne las características que se consideran perfectas en su género, especialmente el referido a la figura humana que reúne las proporciones ideales.
             .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 17
+              h5 Figura 17.
               | Canon (número de cabezas)
             .row.justify-content-center
               .col-9
@@ -47,7 +47,7 @@
             h4.text-dark Proporción
             p.text-dark Es la relación de correspondencia, equilibrio o simetría que existe entre los componentes de un todo. Podría definirse como una secuencia de Fibonacci que presenta una serie numérica: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, etc. En este sentido, es una serie infinita en la que la suma de dos números consecutivos siempre da como resultado el siguiente número tratado en las proporciones Da Vinci o del hombre de Vitruvio, esto es lo que permite analizar en un mapa de simetría del cuerpo y determinar el estándar de 8 cabezas como canon de belleza.
             .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 18
+              h5 Figura 18.
               | Proporción figura humana
             .row.justify-content-center
               .col-9
@@ -60,8 +60,26 @@
           .col-lg-11
             h4 Proporciones corporales
             p Es un modelo o prototipo que reúne las características que se consideran perfectas en su género, especialmente el referido a la figura humana que reúne las proporciones ideales.
+            .row.justify-content-center.align-items-center
+              .col-lg-12
+                .row.justify-content-center.align-items-center
+                  .col-lg-3
+                        img.img-a.img-t.mb-4(src='@/assets/curso/im1.1.svg', alt='tema3')
+                        .titulo-sexto.color-acento-contenido.mb-3.mx-4
+                          h5 Figura 19.
+                  .col-lg-3
+                    img.img-a.img-t.mb-4(src='@/assets/curso/im1.2.svg', alt='tema3')
+                    .titulo-sexto.color-acento-contenido.mb-3.mx-4
+                      h5 Figura 20.
+                  .col-lg-3
+                    img.img-a.img-t.mb-4(src='@/assets/curso/im1.3.svg', alt='tema3')
+                    .titulo-sexto.color-acento-contenido.mb-3.mx-4
+                      h5 Figura 21.
+            
+            
+            
             .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 19
+              h5 Figura 19.
               | Proporción de acuerdo con etapas de crecimiento
             .row.justify-content-center.mb-5
               .col-9
@@ -71,14 +89,14 @@
 
 
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 20
+            h5 Figura 20.
             | Proporción con medidas de la figura
         .row.justify-content-center.mb-5
           .col-9
             figure.mb-5.px-4
               img(src='@/assets/curso/tema3-figure21.svg', alt='Proporción con medidas de la figura')
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 21
+            h5 Figura 21.
             | Modulares, figurín masculino y femenino
         .row.justify-content-center
           .col-9
@@ -108,7 +126,7 @@
           .row.justify-content-center
             .col-lg-6.col-md-12.col-12.mb-3
               .titulo-sexto.color-acento-contenido.my-3
-                h5 Tabla 1
+                h5 Tabla 1.
                 | Fórmulas medidas deducidas
               .tabla-a.color-acento-contenido.mb-5
                 table
@@ -158,14 +176,14 @@
                 
                 .col-lg-4.col-md-12.col-12.mb-4
                   .titulo-sexto.color-acento-contenido
-                    h5 Figura 22
+                    h5 Figura 22.
                     | Cervical o largo útil
                   img(src='@/assets/curso/tema3-figure23.svg')
 
     p.mb-5 A continuación, se pueden observar otras fórmulas de deducción
 
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 2
+      h5 Tabla 2.
       | Fórmulas para deducción de tallas
 
     .tabla-a.color-acento-contenido.mb-5
@@ -295,7 +313,7 @@
     p.mb-5 Ahora, se podrá observar cómo obtener medidas deducidas a partir del desarrollo de las siguientes fórmulas:
 
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 3
+      h5 Tabla 3.
       | Medidas reducidas
 
     .tabla-a.color-acento-contenido.mb-5
@@ -340,7 +358,7 @@
     p.mb-5 Se refiere a los grupos de magnitudes estandarizadas que definen las medidas de una prenda de vestir. Los siguientes cuadros contienen algunos grupos de tallas fundamentales:
 
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 4
+      h5 Tabla 4.
       | Grupos de tallas
 
     .tabla-a.color-acento-contenido.mb-5.text-center
@@ -514,7 +532,7 @@
         img.my-2.mb-4(src='@/assets/curso/tema3-imagen2.png')
 
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 5
+      h5 Tabla 5.
       | Aplicación de fórmulas
 
     .tabla-a.color-acento-contenido.mb-5
@@ -1507,7 +1525,7 @@
     
     
     .titulo-sexto.color-acento-contenido.mb-4
-      h5 Figura 24
+      h5 Figura 24.
       | Proporciones en la deducción
     
     .row.justify-content
@@ -1542,7 +1560,7 @@
     .row.justify-content-center.mb-5
       .col-lg-6.col-md-12.col-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 25
+          h5 Figura 25.
           | Comparación de medidas
         img(src='@/assets/curso/tema3-figure25.svg')
 
@@ -1600,7 +1618,7 @@
 
       .col-lg-6.col-md-12.col-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 26
+          h5 Figura 26.
           | DROP femenino
         .caja12.p-3
           img(src='@/assets/curso/tema3-figure26.svg', style='max-height: 400px')
@@ -1609,7 +1627,7 @@
     .row.justify-content-center.mb-4
       .col-lg-6.col-md-12.col-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 27
+          h5 Figura 27.
           | DROP masculino
         .caja12.mb-5
           img.img-a.img-t(src='@/assets/curso/tema3-figure27.svg')
@@ -1635,7 +1653,7 @@
         p.mb-5 Acorde con el género, cada tipo de silueta tiene un DROP característico determinado, a su vez, por la tipología del cuerpo dentro de una clasificación general, puesto que hay particularidades y cada persona necesita un análisis en cuanto a su silueta para poder abordar el vestuario, patronaje y confección.
 
     .titulo-sexto.color-acento-contenido.mb-5
-      h5 Figura 28
+      h5 Figura 28.
       | Tipos de siluetas generales masculinas y femeninas
     img.d-none.d-lg-block(src='@/assets/curso/tema3-figure28.svg')
     img.imagen-mobile(src='@/assets/curso/tema3-figure28.3.svg')
@@ -1650,6 +1668,11 @@ export default {
   components: { SlyderBModified },
   data: () => ({
     // variables de vue
+    components: {},
+    data: () => ({
+      mostrarIndicador: true,
+      modal1: false,
+    }),
     datosSlyder: [
       {
         titulo: '',

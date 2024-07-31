@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Estructura corporal y prepatronaje',
     descripcionCurso:
-      'Comprender la estructura corporal permite tener una visión integral respecto a las necesidades que conlleva a la materialización del vestuario, lo que permite entender la figura humana tridimensional y cómo, para pasar a este plano, necesita interpretarse en segunda dimensión.<br><br> En este sentido y según el Manual de patronaje básico del SENA se desarrollará la aplicabilidad de la elaboración de prendas de vestir, pues esta integra la comprensión de la estructura corporal y anatómica vista desde la ergonomía y el movimiento; por otro lado, los conceptos de prepatronaje se integrarán a la construcción de los básicos femeninos y masculinos, base inicial de todo proceso de patronaje.',
+      'Comprender la estructura corporal es esencial para obtener una visión completa de las necesidades inherentes a la creación de vestuario. Esto facilita la comprensión de la figura humana en tres dimensiones y cómo se debe interpretar en un plano bidimensional para su materialización. De acuerdo con el Manual de patronaje básico del SENA, se explorará la aplicabilidad de esta comprensión en la confección de prendas de vestir.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -138,6 +138,12 @@ export default {
       },
     ],
     subMenu: [
+      {
+        icono: 'fas fa-sitemap',
+        titulo: 'Síntesis',
+        nombreRuta: 'sintesis',
+        desarrolloContenidos: true,
+      },
       // {
       //   nombreRuta: 'actividad',
       //   icono: 'far fa-question-circle',

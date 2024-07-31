@@ -24,7 +24,7 @@ export default {
       {
         titulo: '',
         texto:
-          'Permite plasmar todas aquellas ideas respecto a las propuestas encaminadas a satisfacer las necesidades particulares del público objetivo al cual se le apunta en la comercialización de las prendas de vestir. Es por ello que en este apartado se pretende dar un acercamiento frente a la ilustración de prendas, detalles y demás insumos que permitan la bocetación de los mismos.',
+          'Facilita la concreción de ideas relacionadas con las propuestas diseñadas para cumplir con los requerimientos específicos de nuestro público objetivo en el mercado de la moda. Por consiguiente, este segmento busca ofrecer una aproximación al arte de la ilustración de vestimenta, detalles y demás elementos esenciales que posibilitan el esbozo de estas creaciones.',
         imagen: require('@/assets/curso/tema6-imagen1.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

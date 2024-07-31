@@ -24,29 +24,28 @@
             .col-lg-12.col-md-9.col-9
               figure.mb-5
                 img.d-none.d-lg-block(src='@/assets/curso/tema1-estructuracorporal.svg', alt='Mujeres con un maniquí')
-                img.imagen-mobile(src='@/assets/curso/tema1-estructuracorporal.1.jpg', alt='Mujeres con un maniquí')
+                img.imagen-mobile(src='@/assets/curso/tema1-estructuracorporal.1.svg', alt='Mujeres con un maniquí')
 
 
     .row.justify-content-center
       .col-lg-8.col-md-12.col-12
         .titulo-sexto.color-acento-contenido
-          h5 Figura 1 
+          h5 Figura 1. 
           |  Arquitectura del cuerpo
     
     .row.justify-content-center
       .col-lg-8.col-md-10.col-10
         figure.mb-5
-          img(src='@/assets/curso/tema1-arquitectura.jpg', alt='Figura 1 Arquitectura del cuerpo')
+          img(src='@/assets/curso/tema1-arquitectura.jpg', alt='Arquitectura del cuerpo. La imagen expone  una serie de imágenes con su nombre en el lado izquierdo, cada uno conectado por una flecha a un término correspondiente en el lado derecho. Los emparejamientos son los siguientes: •	Anatomía con Estructura •	Biomecánica con Movimiento •	Morfología con Geometría •	Ergonomía con Postura •	Antropometría con Medidas. Este diagrama parece resumir las relaciones entre diferentes disciplinas del estudio del cuerpo humano y sus aplicaciones prácticas en términos de diseño, movimiento y medición')
 
     .cajon.color-primario.p-4.mb-5
-      h4.mx-3.mb-4 Arquitectura del cuerpo
+      h4.mx-3.mb-4 División del cuerpo
       p.mb-0.mx-3 Conocer el cuerpo humano es muy importante para traducir su estructura en medidas y patronaje de prendas, por lo que, a continuación, se visualizará la división para tener en cuenta en su análisis.
-
       
     .row.justify-content-center
       .col-lg-10.col-md-12.col-12
         .titulo-sexto.color-acento-contenido
-          h5 Figura 2
+          h5 Figura 2.
           |  Análisis de división de cuerpo 
 
     .row.justify-content-center.mb-5
@@ -55,8 +54,8 @@
           .row.justify-content-center
             .col-lg-10.col-md-10.col-10
               figure.mb-5.px-4.mt-5
-                img.d-none.d-lg-block(src='@/assets/curso/tema1-divisioncuerpos.svg', alt='Figura 2  Análisis de división de cuerpo')
-                img.imagen-mobile(src='@/assets/curso/tema1-divisioncuerpos.1.svg', alt='Figura 2  Análisis de división de cuerpo')
+                img.d-none.d-lg-block(src='@/assets/curso/tema1-divisioncuerpos.svg', alt='La imagen expone un diagrama con dos figuras humanas, una de frente y otra de perfil. Las partes del cuerpo están etiquetadas e indicadas con líneas de colores diferentes. La cabeza está marcada en ambas figuras, el tronco y los miembros superiores en la figura de perfil, y los miembros inferiores en la figura de frente. También se señalan las divisiones para prendas superiores (en la figura de perfil) y prendas inferiores (en la figura de frente), refiriéndose probablemente a cómo se dividen las prendas de vestir en relación con el cuerpo.')
+                img.imagen-mobile(src='@/assets/curso/tema1-divisioncuerpos.1.svg', alt='La imagen expone un diagrama con dos figuras humanas, una de frente y otra de perfil. Las partes del cuerpo están etiquetadas e indicadas con líneas de colores diferentes. La cabeza está marcada en ambas figuras, el tronco y los miembros superiores en la figura de perfil, y los miembros inferiores en la figura de frente. También se señalan las divisiones para prendas superiores (en la figura de perfil) y prendas inferiores (en la figura de frente), refiriéndose probablemente a cómo se dividen las prendas de vestir en relación con el cuerpo.')
 
                 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
@@ -66,7 +65,7 @@
             .col-lg-1.col-md-12.col-12
               img.mx-2.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/video.svg", alt="tema 2")
             .col-lg-9.col-md-12.col-12
-              h4.mb-1 Enlace web.  Video – Estructura del cuerpo
+              h4.mb-1 Enlace #[em web]. Video – Estructura del cuerpo
               p.mb-0 Conoce la estructura corporal, anatomía, cortes y ejes del cuerpo, antropometría y ergonomía, biomecánica, somatotipos, doshas, siluetas y evaluación de plomos y posturas.
             .col-lg-2.col-md-12.col-12
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=V81Fjuq8XWs" target="_blank")
