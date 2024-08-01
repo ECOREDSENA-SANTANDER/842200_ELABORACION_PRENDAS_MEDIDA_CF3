@@ -25,8 +25,8 @@
 
     .row.justify-content-center
       .col-lg-6.col-md-12.col-12
-        .caja.p-4.my-2
-          p.my-5.mb-5 En el sector de la moda diversas son las metodologías que se emplean para comprender la figura humana, dado que para lograr la creación de prendas, estas deben contar con los requerimientos del cliente y, a su vez, generar elementos diferenciadores que brinden #[em confort] respecto al uso de vestuario, convirtiéndose en uno de los fines de todo aquel que se encamina en este oficio.
+        .caja.p-5.my-3
+          p.my-5.mb-5.mx-5.p-md-2 En el sector de la moda diversas son las metodologías que se emplean para comprender la figura humana, dado que para lograr la creación de prendas, estas deben contar con los requerimientos del cliente y, a su vez, generar elementos diferenciadores que brinden #[em confort] respecto al uso de vestuario, convirtiéndose en uno de los fines de todo aquel que se encamina en este oficio.
       .col-lg-4.col-md-10.col-12
         figure
           img(src='@/assets/curso/intro-imagen1.svg', alt='introduccion')

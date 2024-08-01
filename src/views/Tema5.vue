@@ -274,7 +274,7 @@
             img.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema5-figure11.svg")
           .col-lg-8.col-md-12.col-12
             .h3 Horma masculina
-            p En términos de patronaje, en el ajuste y horma masculino se trabajan diferentes tipos de siluetas, en este caso el manual trabaja con: clásica y Slim fit. Esto hace referencia al tipo de horma o ajuste que se busca. En el cuadro de tallas, se podría tener un hombre talla 40 superior, con diferentes siluetas.
+            p En términos de patronaje, en el ajuste y horma masculino se trabajan diferentes tipos de siluetas, en este caso el manual trabaja con: clásica y #[em Slim fit]. Esto hace referencia al tipo de horma o ajuste que se busca. En el cuadro de tallas, se podría tener un hombre talla 40 superior, con diferentes siluetas.
         .row.mb-5.py-4.row-list
           .col-lg-3.col-md-12.col-12
             img.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema5-figure12.svg")
@@ -285,10 +285,10 @@
     .row.justify-content-center
       .col-lg-12.col-md-12.col-12.mb-30
         .titulo-sexto.color-acento-contenido
-          h5 Tabla 6
+          h5 Tabla 10.
           | Desarrollo de básicos masculinos
     .tabla-b.color-acento-contenido.mb-5
-      .tabla-b__header
+      .tabla-b__header(alt='La tabla detalla el desarrollo de básicos masculinos, comenzando por identificar el tipo de plano a trabajar (único, separado o montado). Se inicia con un rectángulo basado en la medida del contorno más protuberante y el largo de la parte del cuerpo a trabajar. La medida más protuberante se calcula usando fórmulas, como el contorno de pecho. La medida más larga corresponde al largo de la parte del cuerpo, como pantalón, falda o superior. Las medidas se trazan según el cuadro de tallas, excluyendo hombro, cuello y sisa. Se recomienda usar papel manila o blanco opaco para el trazo y mantener consistencia en las fórmulas y pasos para manejar las siluetas.')
         .h3.mb-0 Desarrollo de básicos masculinos
       table
         tr
@@ -341,18 +341,18 @@
     #t_5_3.titulo-segundo
       h2 5.3  Elaboración de básicos femeninos
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-9.col-md-10.col-10
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img.img-a.img-t.d-none.d-lg-block(
+    
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bloque-texto-g.fondo-b.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema5-figure14.png')})`}"
           )
-          .bloque-texto-g__texto.p-4
-            p Para la implementación del Manual, lo primero es identificar las páginas con las que se va a trabajar, que en este caso van desde la página 21 hasta la 32, pues como se referenció en temas anteriores, se debe iniciar revisando y analizando el cuadro de tallas página 20, para identificar la talla, las medidas, incrementos y diferencias que se va a trabajar. 
-
-  
+          .bloque-texto-g__texto.p-5.mt-4.mb-4
+            p.mb-0 Para la implementación del Manual, lo primero es identificar las páginas con las que se va a trabajar, que en este caso van desde la página 21 hasta la 32, pues como se referenció en temas anteriores, se debe iniciar revisando y analizando el cuadro de tallas página 20, para identificar la talla, las medidas, incrementos y diferencias que se va a trabajar. 
+    p.mb-4 Este Manual está diseñado para iniciar siempre desde los básicos en la metodología SENA, que funcionan de la siguiente manera:
     .titulo-sexto.color-acento-contenido.my-3
-      h5 Tabla 7
+      h5 Tabla 11.
       | Desarrollo de básicos femeninos
 
     .tabla-b.color-acento-contenido.mb-5

@@ -16,8 +16,8 @@
           h5 Figura 16.
           | Medidas figura humana
         figure.mb-5.px-4
-          img.d-none.d-lg-block(src='@/assets/curso/tema3-medidas.svg', alt='Medidas figura humana')
-          img.imagen-mobile(src='@/assets/curso/tema3-medidas.3.svg', alt='Medidas figura humana')
+          img.d-none.d-lg-block(src='@/assets/curso/tema3-medidas.svg', alt='La imagen expone una figura humana con varias líneas y etiquetas que indican cómo tomar medidas corporales. Las medidas especificadas incluyen: cuello, alto de pecho, talle delantero, contorno de pecho, alto sisa, contorno de brazo, cintura, cadera, largo cadera, muslo, largo de falda, gemelo, tobillo y largo total. Las etiquetas están colocadas al lado de la figura, con líneas de diferentes colores que señalan la posición de cada medida en el cuerpo.')
+          img.imagen-mobile(src='@/assets/curso/tema3-medidas.3.svg', alt='La imagen expone una figura humana con varias líneas y etiquetas que indican cómo tomar medidas corporales. Las medidas especificadas incluyen: cuello, alto de pecho, talle delantero, contorno de pecho, alto sisa, contorno de brazo, cintura, cadera, largo cadera, muslo, largo de falda, gemelo, tobillo y largo total. Las etiquetas están colocadas al lado de la figura, con líneas de diferentes colores que señalan la posición de cada medida en el cuerpo.')
     
     
     Separador
@@ -38,21 +38,21 @@
             .row.justify-content-center
               .col-9
                 figure.mb-5.px-4
-                  img.mb-4(src='@/assets/curso/tema3-figure18.svg', alt='Canon (número de cabezas)')
+                  img.mb-4(src='@/assets/curso/tema3-figure18.svg', alt='La imagen expone un diagrama del "Canon" o "Número de cabezas" utilizado para medir proporciones en el cuerpo humano. A la izquierda, se detalla una figura humana dividida en siete partes iguales, cada una del tamaño de una cabeza. A la derecha, se indica cómo estas divisiones corresponden a diferentes partes del cuerpo: mentón, hombros, pechos (final de la caja torácica), ombligo, pubis, nudillos y rodillas. Esta representación ayuda a entender las proporciones ideales del cuerpo humano según el canon clásico.')
                   figcaption Canon (número de cabezas)
       
       .tarjeta.color-acento-conte--borde.p-4(titulo="Proporción")
         .row.justify-content-center.align-items-center
           .col-lg-11
             h4.text-dark Proporción
-            p.text-dark Es la relación de correspondencia, equilibrio o simetría que existe entre los componentes de un todo. Podría definirse como una secuencia de Fibonacci que presenta una serie numérica: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, etc. En este sentido, es una serie infinita en la que la suma de dos números consecutivos siempre da como resultado el siguiente número tratado en las proporciones Da Vinci o del hombre de Vitruvio, esto es lo que permite analizar en un mapa de simetría del cuerpo y determinar el estándar de 8 cabezas como canon de belleza.
+            p.text-dark Se refiere a la armonía y correspondencia entre las partes de un conjunto, buscando un equilibrio y simetría. Un ejemplo clásico es la secuencia numérica de Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, etc., donde cada número resulta de la suma de los dos anteriores. Esta progresión está vinculada a las proporciones ideales del cuerpo humano, como las establecidas por Da Vinci en su estudio del Hombre de Vitruvio. Estos principios permiten la creación de un mapa simétrico del cuerpo humano, donde se utiliza el estándar del canon de las ocho cabezas para definir un ideal de belleza.
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 18.
               | Proporción figura humana
             .row.justify-content-center
               .col-9
                 figure.mb-5.px-4
-                  img.mb-4(src='@/assets/curso/tema3-figure19.svg', alt='Proporción figura humana')
+                  img.mb-4(src='@/assets/curso/tema3-figure19.svg', alt='La imagen detalla el famoso dibujo del Hombre de Vitruvio de Leonardo da Vinci, que representa las proporciones ideales del cuerpo humano dentro de un círculo y un cuadrado, ilustrando los principios de la geometría y la armonía en el diseño del cuerpo humano.')
                   figcaption Nota. Tomada de Valero (2013)      
 
       .tarjeta.color-acento-conte--borde.p-4(titulo="Proporciones corporales")
@@ -64,19 +64,78 @@
               .col-lg-12
                 .row.justify-content-center.align-items-center
                   .col-lg-3
-                        img.img-a.img-t.mb-4(src='@/assets/curso/im1.1.svg', alt='tema3')
+                        img.img-a.img-t.mb-4(src='@/assets/curso/im1.1.svg', alt='La imagen detalla una serie de ilustraciones de figuras humanas en distintas etapas de crecimiento, desde recién nacido hasta adulto de 25 años, con la proporción de sus cuerpos medida en unidades de cabezas. La altura de cada figura aumenta con la edad, desde 4 cabezas para un recién nacido hasta 8 cabezas para un adulto, lo que demuestra cómo las proporciones del cuerpo humano cambian con el desarrollo.')
                         .titulo-sexto.color-acento-contenido.mb-3.mx-4
                           h5 Figura 19.
                   .col-lg-3
-                    img.img-a.img-t.mb-4(src='@/assets/curso/im1.2.svg', alt='tema3')
+                    img.img-a.img-t.mb-4(src='@/assets/curso/im1.2.svg', alt='La imagen, titulada "Proporción con medidas de la figura", presenta dibujos de la figura masculina inspirados en el Hombre de Vitruvio, con anotaciones numéricas que indican las medidas de diferentes partes del cuerpo en centímetros, como la envergadura de los brazos y la altura total.')
                     .titulo-sexto.color-acento-contenido.mb-3.mx-4
                       h5 Figura 20.
                   .col-lg-3
-                    img.img-a.img-t.mb-4(src='@/assets/curso/im1.3.svg', alt='tema3')
+                    img.img-a.img-t.mb-4(src='@/assets/curso/im1.3.svg', alt='La  imagen, expone dos figuras humanas, una masculina y una femenina, de frente y de espaldas. Están superpuestas sobre una cuadrícula modular que parece servir como referencia para el estudio de las proporciones del cuerpo humano en el diseño de moda.')
                     .titulo-sexto.color-acento-contenido.mb-3.mx-4
                       h5 Figura 21.
             
+            .row.justify-content-center.mb-0
+              .col-lg-4.col-12.d-flex(@click="modal1 = true")
+                .py-5.p-3.w-100.mb-lg-0.mb-3.CPointer(style="border-radius: 15px; background-color: #ffe5cf")
+                  .p-0.d-flex.justify-content-center.mb-4
+                    img.mb-lg-0.mb-3( style="width: 181px" alt="" src="@/assets/curso/im1.1.svg")
+                  .p-0.d-flex.justify-content-center.mb-3
+                    h4.p-1.text-center.mb-0(style="width: 198px; background-color:white; border-radius:19px") Estático
+                  .p-0.d-flex.justify-content-center
+                    a.d-flex.indicador__container
+                      p.mb-0 Leer más
+                      img.mb-0.mx-2( style="width: 13px" alt="" src="@/assets/curso/im1.1.svg")
+                      .indicador--click(v-if="mostrarIndicador")
+
+              .col-lg-4.col-12.d-flex(@click="modal2 = true")
+                .py-5.p-3.w-100.CPointer(style="border-radius: 15px; background-color: #0c5b7c")
+                  .p-0.d-flex.justify-content-center.mb-4
+                    img.mb-lg-0.mb-3( style="width: 181px" alt="" src="@/assets/curso/im1.2.svg")
+                  .p-0.d-flex.justify-content-center.mb-3
+                    h4.p-1.text-center.mb-0(style="width: 198px; background-color:white; border-radius:19px") Dinámico
+                  .p-0.d-flex.justify-content-center
+                    a.d-flex.indicador__container
+                      p.mb-0.text-white Leer más
+                      img.mb-0.mx-2( style="width: 13px" alt="" src="@/assets/curso/im1.2.svg")
+                      .indicador--click(v-if="mostrarIndicador")
+              
+              .col-lg-4.col-12.d-flex(@click="modal3 = true")
+                .py-5.p-3.w-100.CPointer(style="border-radius: 15px; background-color: #0c5b7c")
+                  .p-0.d-flex.justify-content-center.mb-4
+                    img.mb-lg-0.mb-3( style="width: 181px" alt="" src="@/assets/curso/im1.3.svg")
+                  .p-0.d-flex.justify-content-center.mb-3
+                    h4.p-1.text-center.mb-0(style="width: 198px; background-color:white; border-radius:19px") Dinámico
+                  .p-0.d-flex.justify-content-center
+                    a.d-flex.indicador__container
+                      p.mb-0.text-white Leer más
+                      img.mb-0.mx-2( style="width: 13px" alt="" src="@/assets/curso/im1.3.svg")
+                      .indicador--click(v-if="mostrarIndicador")
+
+            ModalA(:abrir-modal.sync="modal1")
+              .d-flex
+                div.p-2
+                  img.mb-0( style="width: 80px; min-width: 80px; max-width: 80px" alt="" src="@/assets/curso/im1.1.svg")
+                div.p-2
+                  h4 Estático
+                  p.mb-4 Acceden a la configuración manual de las tablas de enrutamiento, las tablas no serán modificadas en forma dinámica, no tiene flexibilidad frente a fallas de los enlaces, no son fundamentales las cargas y procesos asociados a un protocolo de descubrimiento de rutas, se establecen fácilmente barreras de seguridad.
             
+            ModalA(:abrir-modal.sync="modal2")
+              .d-flex
+                div.p-2
+                  img.mb-0( style="width: 80px; min-width: 80px; max-width: 80px" alt="" src="@/assets/curso/im1.1.svg")
+                div.p-2
+                  h4 Dinámico
+                  p.mb-4 Se basa en la comunicación, por medio de <em>broadcasts</em>, entre los <em>routers</em>. Para hallar las mejores rutas, los <em>routers</em> utilizan el concepto de métrica y no se requiere mantener manualmente las tablas de rutas.
+            
+            ModalA(:abrir-modal.sync="modal3")
+              .d-flex
+                div.p-2
+                  img.mb-0( style="width: 80px; min-width: 80px; max-width: 80px" alt="" src="@/assets/curso/im1.1.svg")
+                div.p-2
+                  h4 Dinámico
+                  p.mb-4 Se 
             
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 19.
@@ -84,7 +143,7 @@
             .row.justify-content-center.mb-5
               .col-9
                 figure.mb-5.px-4
-                  img.mb-4(src='@/assets/curso/tema3-figure20.svg', alt='Proporción de acuerdo con etapas de crecimiento')
+                  img.mb-4(src='@/assets/curso/tema3-figure20.svg', alt='La imagen detalla una serie de ilustraciones de figuras humanas en distintas etapas de crecimiento, desde recién nacido hasta adulto de 25 años, con la proporción de sus cuerpos medida en unidades de cabezas. La altura de cada figura aumenta con la edad, desde 4 cabezas para un recién nacido hasta 8 cabezas para un adulto, lo que demuestra cómo las proporciones del cuerpo humano cambian con el desarrollo.')
                   figcaption Tomada de Cómo cubrir un cuerpo (2013)
 
 
@@ -94,14 +153,14 @@
         .row.justify-content-center.mb-5
           .col-9
             figure.mb-5.px-4
-              img(src='@/assets/curso/tema3-figure21.svg', alt='Proporción con medidas de la figura')
+              img(src='@/assets/curso/tema3-figure21.svg', alt='La imagen, titulada "Proporción con medidas de la figura", presenta dibujos de la figura masculina inspirados en el Hombre de Vitruvio, con anotaciones numéricas que indican las medidas de diferentes partes del cuerpo en centímetros, como la envergadura de los brazos y la altura total.')
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 21.
             | Modulares, figurín masculino y femenino
         .row.justify-content-center
           .col-9
             figure.mb-5.px-4
-              img(src='@/assets/curso/tema3-figure22.svg', alt='Modulares, figurín masculino y femenino')
+              img(src='@/assets/curso/tema3-figure22.svg', alt='La  imagen, expone dos figuras humanas, una masculina y una femenina, de frente y de espaldas. Están superpuestas sobre una cuadrícula modular que parece servir como referencia para el estudio de las proporciones del cuerpo humano en el diseño de moda.')
       
 
 
@@ -109,15 +168,15 @@
     #t_3_2.titulo-segundo.mb-4
       h2 3.2  Medidas deducidas
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
-      .col-lg-9.col-md-10.col-10
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img.img-a.img-t.d-none.d-lg-block(
+    
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bloque-texto-g.fondo-b.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema3-deducida.png')})`}"
           )
-          .bloque-texto-g__texto.p-4
-            p Para calcular un cuadro de tallas completo se utilizan, generalmente, dos medidas anatómicas: la altura o estatura total y el contorno superior más prominente. A continuación, se relaciona la fórmula que posibilita una expresión breve y precisa del modo de hacer, resolver o conseguir algo, es decir, del cálculo estandarizado para obtener un resultado.
-    
+          .bloque-texto-g__texto.p-5.mt-4.mb-4
+            p.mb-0 Para calcular un cuadro de tallas completo se utilizan, generalmente, dos medidas anatómicas: la altura o estatura total y el contorno superior más prominente. A continuación, se relaciona la fórmula que posibilita una expresión breve y precisa del modo de hacer, resolver o conseguir algo, es decir, del cálculo estandarizado para obtener un resultado.
     
     .row.fondo3.align-items-center
       .col-lg-12.col-md-12.col-12.px-lg-5.px-4
@@ -126,42 +185,42 @@
           .row.justify-content-center
             .col-lg-6.col-md-12.col-12.mb-3
               .titulo-sexto.color-acento-contenido.my-3
-                h5 Tabla 1.
+                h5 Tabla 2.
                 | Fórmulas medidas deducidas
-              .tabla-a.color-acento-contenido.mb-5
+              .tabla-a.color-acento-contenido.mb-5(alt='La tabla presenta las medidas correspondientes a "Tórax máximo" y "Talla". Para el pecho, la talla es el tórax máximo menos 2 cm; para la cadera, el tórax máximo más 4 cm; y para la cintura, la cadera menos 14 cm. La estatura 7ª cervical es la estatura total menos 20 cm. El talle es 3/10 de la estatura 7ª cervical, la cintura/suelo es 7/10 de la estatura 7ª cervical, y el largo de brazo es 4/10 de la estatura 7ª cervical. La estatura total es la estatura 7ª cervical más 20 cm. La base se calcula sumando pecho, desahogo (4 cm) y costura (2 cm).')
                 table
                   thead
                     tr
                       th.text-center Tórax máximo
-                      th Talla
+                      th.text-center Talla
                   tbody
                     tr
-                      td Pecho
-                      td Tórax máximo – 2 cm
+                      td.text-center Pecho
+                      td.text-center Tórax máximo – 2 cm
                     tr
-                      td Cadera
-                      td Tórax máximo + 4 cm
+                      td.text-center Cadera
+                      td.text-center Tórax máximo + 4 cm
                     tr
-                      td Cintura
-                      td Cadera – 14 cm
+                      td.text-center Cintura
+                      td.text-center Cadera – 14 cm
                     tr
-                      td Estatura 7ª
-                      td Estatura total – 20 cm
+                      td.text-center Estatura 7ª
+                      td.text-center Estatura total – 20 cm
                     tr
-                      td Talle
-                      td 3/10 de la estatura 7ª cervical
+                      td.text-center Talle
+                      td.text-center 3/10 de la estatura 7ª cervical
                     tr
-                      td Cintura/suelo
-                      td 7/10 de la estatura 7ª cervical
+                      td.text-center Cintura/suelo
+                      td.text-center 7/10 de la estatura 7ª cervical
                     tr
-                      td Largo de brazo
-                      td 4/10 de la estatura 7ª cervical
+                      td.text-center Largo de brazo
+                      td.text-center 4/10 de la estatura 7ª cervical
                     tr
-                      td Estatura total
-                      td Estatura 7ª cervical + 20 cm
+                      td.text-center Estatura total
+                      td.text-center Estatura 7ª cervical + 20 cm
                     tr
-                      td Base
-                      td Pecho + desahogo (4 cm) + costura (2 cm)
+                      td.text-center Base
+                      td.text-center Pecho + desahogo (4 cm) + costura (2 cm)
 
           .row.justify-content-center
             .col-lg-8.col-md-12.col-12.mb-3
@@ -178,15 +237,15 @@
                   .titulo-sexto.color-acento-contenido
                     h5 Figura 22.
                     | Cervical o largo útil
-                  img(src='@/assets/curso/tema3-figure23.svg')
+                  img(src='@/assets/curso/tema3-figure23.svg' ,alt='Se detalla la figura masculina dividida en siete partes iguales, cada una correspondiente al tamaño de una cabeza, para ilustrar las proporciones del cuerpo humano. La figura de frente y de perfil resalta cómo estas proporciones se distribuyen a lo largo del cuerpo, utilizando la medida de la cabeza como unidad de referencia. Esto ayuda a visualizar y entender las proporciones ideales del cuerpo masculino según el canon clásico.')
 
-    p.mb-5 A continuación, se pueden observar otras fórmulas de deducción
+    p.mb-5 A continuación, se detallan otras fórmulas de deducción de tallas 
 
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 2.
+      h5 Tabla 3.
       | Fórmulas para deducción de tallas
 
-    .tabla-a.color-acento-contenido.mb-5
+    .tabla-a.color-acento-contenido.mb-5(alt='La tabla proporciona fórmulas para deducir medidas corporales a partir del busto y otras referencias. Se divide en tres secciones: horizontales, que incluyen medidas como tórax, pecho, cintura, cadera, cuello, rodilla, tobillo, brazo, muñeca y ancho de espalda; verticales, que abarcan estatura total y parcial, altura del busto, largo de brazo, cintura al suelo y altura de cadera; y otras fórmulas de deducción, basadas en la edad y proporciones del cuerpo para determinar medidas adicionales como el talle, codo y largo de falda. Estas fórmulas facilitan el cálculo preciso y proporcional de las dimensiones corporales.')
       table
         thead
           tr
@@ -313,10 +372,10 @@
     p.mb-5 Ahora, se podrá observar cómo obtener medidas deducidas a partir del desarrollo de las siguientes fórmulas:
 
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 3.
+      h5 Tabla 4.
       | Medidas reducidas
 
-    .tabla-a.color-acento-contenido.mb-5
+    .tabla-a.color-acento-contenido.mb-5(alt='La tabla expone diferentes medidas corporales junto con sus fórmulas y resultados. La estatura total es de 170 cm y el tórax máximo es de 90 cm. La cadera se calcula como el tórax máximo más 8 cm, resultando en 98 cm. El pecho se obtiene restando 4 cm del tórax máximo, dando 86 cm. La cintura se calcula como la cadera menos 28 cm, resultando en 70 cm. La estatura 7ª cervical útil se obtiene restando 20 cm de la estatura total, resultando en 150 cm.')
       table
         thead
           tr
@@ -358,10 +417,10 @@
     p.mb-5 Se refiere a los grupos de magnitudes estandarizadas que definen las medidas de una prenda de vestir. Los siguientes cuadros contienen algunos grupos de tallas fundamentales:
 
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 4.
+      h5 Tabla 5.
       | Grupos de tallas
 
-    .tabla-a.color-acento-contenido.mb-5.text-center
+    .tabla-a.color-acento-contenido.mb-5.text-center(alt='La tabla expone las medidas de tórax máximo y estatura total para diferentes tallas de ropa, desde XS/30 (talla 6) hasta SL/42 (talla 16), con incrementos de 2 cm entre tallas. Las medidas de tórax máximo varían desde 40 cm hasta 50 cm, y las estaturas totales varían desde 166 cm hasta 174 cm. También se incluye una columna de incremento de 2 cm para ajustar las medidas entre las tallas. Otras medidas, como cadera, pecho, cintura, estatura de la 7ª cervical, talle, largo de brazo, cuello, cintura/suelo y base.')
       table
         thead
           tr
@@ -526,16 +585,16 @@
           li.mb-0
             i.fas.fa-bullseye
             | #[b Base] = pecho + desahogo + costura (desahogo 4 cm y la costura 2 cm)
-        p A renglón seguido, se puede observar cómo se realiza una construcción de talla 6 con aplicación de las fórmulas mencionadas.
+        p A continuación, se expone cómo se realiza una construcción de talla 6 utilizando las fórmulas mencionadas.
 
       .col-lg-5.col-md-8.col-8
         img.my-2.mb-4(src='@/assets/curso/tema3-imagen2.png')
 
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 5.
+      h5 Tabla 6.
       | Aplicación de fórmulas
 
-    .tabla-a.color-acento-contenido.mb-5
+    .tabla-a.color-acento-contenido.mb-5(alt='La tabla compara las medidas para las tallas 6 y XS/30, mostrando que ambas tienen un tórax máximo de 40 cm, cadera de 44 cm, pecho de 38 cm, cintura de 30 cm y estatura total de 168 cm. La estatura de la 7ª cervical es 148 cm en ambas. Para la talla 6, se detallan cálculos adicionales: talle de 43.8 cm, largo de brazo de 58.4 cm, cuello de 28.6 cm, cintura/suelo de 102.2 cm, y base de 44 cm. En la talla XS/30, estos cálculos no se muestran.')
       table
         thead
           tr
@@ -592,8 +651,7 @@
 
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--grist")
       .row(titulo="Errores más comunes")
-        p.mb-4 Uno de los más comunes en modistería es la combinación de medidas. Cuando se trabaja con medidas deducidas, se debe realizar con las medidas obtenidas de cada fórmula de manera progresiva; para eso hay que tener en cuenta que el resultado cambia si, en vez de aplicar únicamente las medidas obtenidas por deducción, se debe adicionar una medida anatómica.
-        p.mb-3 De acuerdo con lo anterior, es importante establecer los cuadros de tallas:
+        p.mb-4 En modistería, es habitual trabajar con una combinación de medidas. Al emplear medidas deducidas, es crucial aplicarlas de manera secuencial y considerar que las dimensiones finales pueden variar si se incorpora una medida anatómica adicional a las obtenidas por deducción. Por ello, es esencial definir tablas de tallas basadas en distintos criterios:        
         .row.justify-content-center
           .col-12
             ul.lista-ul--color
@@ -649,8 +707,10 @@
           .col-lg-12.col-md-12.col-12.mb-4
             .row.justify-content-center.p-4
               .col-lg-11.col-md-12.col-12.mb-4
-                h4.mb-5 Cuadro de tallas infantil, medidas en centímetros
-                .tabla-a.color-acento-contenido.mb-5
+                .titulo-sexto.color-acento-contenido
+                  h5 Tabla 7.
+                  | Tallas infantiles medidas en centímetros
+                .tabla-a.color-acento-contenido.mb-5(alt='La tabla presenta diversas medidas para diferentes tallas, que van desde la talla 2 hasta la talla 14. Las medidas incluyen estatura, contorno de cadera, contorno de pecho, contorno de cintura, ancho de espalda, ancho de pecho, largo de talle, largo de costado, largo de centro frente, largo de centro atrás, largo de hombro, largo de pantalón, largo de tiro, largo de falda, largo de blusa, largo de manga, cabeza de manga y puño. Cada columna muestra las medidas específicas para cada talla, indicando cómo varían estas dimensiones entre las diferentes tallas de ropa.')
                   table(style="background-color: white")
                     thead
                       tr
@@ -867,8 +927,10 @@
           .col-lg-12.col-md-12.col-12.mb-4
             .row.justify-content-center.p-4
               .col-lg-11.col-md-12.col-12.mb-4
-                h4.mb-5 Cuadro de tallas masculinas, medidas en pulgadas
-                .tabla-a.color-acento-contenido.mb-5
+                .titulo-sexto.color-acento-contenido
+                  h5 Tabla 8.
+                  | Tallas masculinas, medidas en pulgadas
+                .tabla-a.color-acento-contenido.mb-5(alt='La tabla presenta medidas de tallas masculinas en pulgadas para tallas de 33 a 44. Las medidas incluyen contornos de cuello, pecho, cintura, y cadera; anchos de espalda, pecho, y hombro; largos de brazo, pantalón, y tiro; y anchos de puño y espalda. Cada fila muestra cómo varían estas medidas según la talla.')
                   table(style="background-color: white")
                     thead
                       tr.tableizer-firstrow
@@ -1226,8 +1288,10 @@
           .col-lg-12.col-md-12.col-12.mb-4
             .row.justify-content-center.p-4
               .col-lg-11.col-md-12.col-12.mb-4
-                h4.mb-5 Cuadro de tallas femeninas, medidas anatómicas sin desahogos. Medidas en centímetros
-                .tabla-a.color-acento-contenido.mb-5
+                .titulo-sexto.color-acento-contenido
+                  h5 Tabla 9.
+                  | Tallas femeninas, medidas anatómicas sin desahogos y medidas en centímetros
+                .tabla-a.color-acento-contenido.mb-5(alt='La tabla presenta medidas anatómicas femeninas sin desahogos para las tallas 6, 8, 10, 12, 14, 16 y 18, expresadas en centímetros. Las medidas incluyen contornos de busto, cadera, cintura y base; anchos de espalda y pecho; largos de talle, costado, centro frente, centro atrás, y hombro; además de largo de manga, largo de pantalón, largo de tiro, largo de falda, largo de blusa, y largo total. Cada fila expone cómo estas medidas varían según la talla.')
                   table(style="background-color: white")
                     thead
                       tr
@@ -1525,7 +1589,7 @@
     
     
     .titulo-sexto.color-acento-contenido.mb-4
-      h5 Figura 24.
+      h5 Figura 23.
       | Proporciones en la deducción
     
     .row.justify-content
@@ -1541,7 +1605,7 @@
           .col-lg-7.col-md-10.col-10
             img.img-a.img-t.mx-4.mov(src='@/assets/curso/temmaa.svg')
       .col-lg-5.col-md-12.col-12
-        img.img-a.img-t.move.d-none.d-lg-block(src='@/assets/curso/temm.svg')
+        img.img-a.img-t.move.d-none.d-lg-block(src='@/assets/curso/temm.svg', alt='En la imagen se exponen dos tablas de medidas para tallas de ropa. En la primera tabla, se destacan las medidas de contorno de busto, cintura y cadera para diferentes tallas, con un énfasis en el incremento vertical de 4 centímetros entre ciertas tallas. En la segunda tabla, se listan proporciones de diferentes medidas como el ancho de espalda, ancho de pecho y otras, cada una con un factor proporcional relacionado, indicando cómo estas medidas escalan de una talla a otra. Se subraya que esta información es crucial para el escalado de tallas y el ajuste preciso de las prendas basado en las medidas.')
 
 
     .row.justify-content
@@ -1560,9 +1624,9 @@
     .row.justify-content-center.mb-5
       .col-lg-6.col-md-12.col-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 25.
+          h5 Figura 24.
           | Comparación de medidas
-        img(src='@/assets/curso/tema3-figure25.svg')
+        img(src='@/assets/curso/tema3-figure25.svg', alt='La imagen expone un cuadro con medidas de contorno de busto para distintas tallas de ropa femenina que van desde la talla 6 hasta la 18. Los incrementos entre cada talla están marcados con flechas rosas, indicando un aumento consistente de 4 centímetros entre las tallas 6 y 14, y luego un incremento de 6 centímetros entre las tallas 14 y 18.')
 
     p.mb-5 En la figura anterior, la ruptura está entre la talla 14 y 16, porque se incrementa 6 cm, rompiendo con los 4 cm de las demás medidas.
     
@@ -1618,19 +1682,19 @@
 
       .col-lg-6.col-md-12.col-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 26.
+          h5 Figura 25.
           | DROP femenino
         .caja12.p-3
-          img(src='@/assets/curso/tema3-figure26.svg', style='max-height: 400px')
+          img(src='@/assets/curso/tema3-figure26.svg', style='max-height: 400px')(alt='Se expone una figura femenina en la cual se indica con flechas el DROP que es la diferencia entre las medidas de Contorno de Cadera y Contorno de Busto')
 
     
     .row.justify-content-center.mb-4
       .col-lg-6.col-md-12.col-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 27.
+          h5 Figura 26.
           | DROP masculino
         .caja12.mb-5
-          img.img-a.img-t(src='@/assets/curso/tema3-figure27.svg')
+          img.img-a.img-t(src='@/assets/curso/tema3-figure27.svg')(alt='Se expone Figura Masculina en la cual se indica con flechas el DROP que es la diferencia entre las medidas de Contorno del pecho y la cintura')
         
       .col-lg-6.col-md-12.col-12.my-5
         ul.lista-ul--color
@@ -1653,10 +1717,10 @@
         p.mb-5 Acorde con el género, cada tipo de silueta tiene un DROP característico determinado, a su vez, por la tipología del cuerpo dentro de una clasificación general, puesto que hay particularidades y cada persona necesita un análisis en cuanto a su silueta para poder abordar el vestuario, patronaje y confección.
 
     .titulo-sexto.color-acento-contenido.mb-5
-      h5 Figura 28.
+      h5 Figura 27.
       | Tipos de siluetas generales masculinas y femeninas
-    img.d-none.d-lg-block(src='@/assets/curso/tema3-figure28.svg')
-    img.imagen-mobile(src='@/assets/curso/tema3-figure28.3.svg')
+    img.d-none.d-lg-block(src='@/assets/curso/tema3-figure28.svg', alt='La imagen ilustra unas figuras masculinas y femeninas con distintos tipos de cuerpos clasificados según formas geométricas. Para las mujeres, de izquierda a derecha: Pera, Triángulo Invertido, Manzana, Rectángulo y Reloj de Arena. Para los hombres, las formas son menos variadas y parecen seguir un patrón triangular con ligeras variaciones. Cada tipo de cuerpo está asociado con una forma geométrica específica que describe la distribución de peso y la proporción general del cuerpo.')
+    img.imagen-mobile(src='@/assets/curso/tema3-figure28.3.svg', alt='La imagen ilustra unas figuras masculinas y femeninas con distintos tipos de cuerpos clasificados según formas geométricas. Para las mujeres, de izquierda a derecha: Pera, Triángulo Invertido, Manzana, Rectángulo y Reloj de Arena. Para los hombres, las formas son menos variadas y parecen seguir un patrón triangular con ligeras variaciones. Cada tipo de cuerpo está asociado con una forma geométrica específica que describe la distribución de peso y la proporción general del cuerpo.')
 
 
 </template>
@@ -1667,6 +1731,10 @@ export default {
   name: 'Tema3',
   components: { SlyderBModified },
   data: () => ({
+    mostrarIndicador: true,
+    modal1: false,
+    modal2: false,
+    modal3: false,
     // variables de vue
     components: {},
     data: () => ({
