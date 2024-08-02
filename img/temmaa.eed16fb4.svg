@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="381.213" height="319.503" viewBox="0 0 381.213 319.503">
+  <g id="Grupo_1054817" data-name="Grupo 1054817" transform="translate(-516.787 -10421.497)">
+    <text id="_4_Prop." data-name="4 Prop." transform="translate(869 10552)" fill="#12263f" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" style="isolation: isolate"><tspan x="-23.533" y="0">4 Prop.</tspan></text>
+    <text id="_1_Prop." data-name="1 Prop." transform="translate(869 10604)" fill="#12263f" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" style="isolation: isolate"><tspan x="-23.533" y="0">1 Prop.</tspan></text>
+    <text id="_Prop." data-name="½ Prop." transform="translate(871 10656)" fill="#12263f" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" style="isolation: isolate"><tspan x="-26.264" y="0">½ Prop.</tspan></text>
+    <text id="_Prop.-2" data-name="¼ Prop." transform="translate(871 10708)" fill="#12263f" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" style="isolation: isolate"><tspan x="-26.171" y="0">¼ Prop.</tspan></text>
+    <g id="Grupo_1054815" data-name="Grupo 1054815" transform="matrix(-0.052, -0.999, 0.999, -0.052, -9545.946, 11686.516)">
+      <path id="Trazado_774586" data-name="Trazado 774586" d="M640.748,215.021a36.152,36.152,0,0,0,11.191,12.017,28.142,28.142,0,0,0,6.877,3.212,26.88,26.88,0,0,0,7.293,1.144,32.839,32.839,0,0,0,3.7-.1c1.229-.172,2.466-.267,3.687-.558a50.086,50.086,0,0,0,7.289-2.053,96.806,96.806,0,0,0,14.094-6.867,56.473,56.473,0,0,1-13.524,8.92l-1.833.782-.92.382c-.308.122-.625.214-.937.322l-1.882.62c-.63.2-1.275.323-1.912.488a36.667,36.667,0,0,1-3.876.7,33.372,33.372,0,0,1-3.933.145,25.732,25.732,0,0,1-7.8-1.381,26.068,26.068,0,0,1-7.2-3.88A31.751,31.751,0,0,1,640.748,215.021Z" transform="translate(23 10172.217)" fill="#73d8c0"/>
+      <path id="Trazado_774587" data-name="Trazado 774587" d="M734.656,216.915a16.4,16.4,0,0,0,1.606,1.283c.268.2.545.376.816.556l.834.483a12.08,12.08,0,0,0,3.407,1.3,10.23,10.23,0,0,0,3.457.2,10.815,10.815,0,0,0,1.719-.291c.573-.122,1.129-.372,1.7-.525l.143-.038c.6-.158,1.179.328,1.3,1.086a1.716,1.716,0,0,1-.208,1.147l-3.321,5.442-3.385,5.5a26.841,26.841,0,0,1,.862-3.388c.341-1.105.746-2.17,1.169-3.221s.885-2.072,1.367-3.075.984-1.982,1.529-2.959l1.237,2.2c-.323.125-.647.247-.974.361a6.813,6.813,0,0,1-.986.313,10.459,10.459,0,0,1-2.031.3,9.364,9.364,0,0,1-4.046-.657,10.685,10.685,0,0,1-3.575-2.325A11.958,11.958,0,0,1,734.656,216.915Z" transform="translate(-28.174 10171.185)" fill="#73d8c0"/>
+    </g>
+    <g id="Grupo_1054814" data-name="Grupo 1054814" transform="translate(337 -156)">
+      <g id="Rectángulo_673" data-name="Rectángulo 673" transform="translate(180 10637)">
+        <rect id="Rectángulo_5209" data-name="Rectángulo 5209" width="318" height="260" fill="#fff"/>
+        <rect id="Rectángulo_5210" data-name="Rectángulo 5210" width="317.425" height="259.5" transform="translate(0.287)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      </g>
+      <g id="Norma" transform="translate(218 10634)" style="isolation: isolate">
+        <text id="Medidas" transform="translate(0 22)" fill="#12263f" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Medidas</tspan></text>
+      </g>
+      <text id="_8" data-name="8" transform="translate(407 10656)" fill="#12263f" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" style="isolation: isolate"><tspan x="-4.026" y="0">8</tspan></text>
+      <text id="_88" data-name="88" transform="translate(411 10683)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-7.547" y="0">88</tspan></text>
+      <text id="_32" data-name="32" transform="translate(411 10785)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-7.547" y="0">32</tspan></text>
+      <text id="_64" data-name="64" transform="translate(411 10711)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-7.547" y="0">64</tspan></text>
+      <text id="_44" data-name="44" transform="translate(411 10813)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-7.547" y="0">44</tspan></text>
+      <text id="_10" data-name="10" transform="translate(467 10656)" fill="#12263f" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" style="isolation: isolate"><tspan x="-8.053" y="0">10</tspan></text>
+      <text id="_92" data-name="92" transform="translate(467 10683)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-7.547" y="0">92</tspan></text>
+      <text id="_33" data-name="33" transform="translate(467 10785)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-7.547" y="0">33</tspan></text>
+      <text id="_68" data-name="68" transform="translate(467 10711)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-7.547" y="0">68</tspan></text>
+      <text id="_44.5" data-name="44.5" transform="translate(473 10813)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-12.838" y="0">44.5</tspan></text>
+      <line id="Línea_52" data-name="Línea 52" y2="260" transform="translate(385 10637)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <line id="Línea_52-2" data-name="Línea 52" y2="260" transform="translate(443 10637)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <line id="Línea_55" data-name="Línea 55" x1="317.425" transform="translate(180.575 10689.521)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <line id="Línea_55-2" data-name="Línea 55" x1="317.425" transform="translate(180.575 10663)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <line id="Línea_55-3" data-name="Línea 55" x1="317.425" transform="translate(180.575 10716.564)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <line id="Línea_55-4" data-name="Línea 55" x1="317.425" transform="translate(180.575 10767.521)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <line id="Línea_55-5" data-name="Línea 55" x1="317.425" transform="translate(180.575 10818.564)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <line id="Línea_55-6" data-name="Línea 55" x1="317.425" transform="translate(180.575 10843.564)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <line id="Línea_55-7" data-name="Línea 55" x1="317.425" transform="translate(180.575 10870.521)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <line id="Línea_55-8" data-name="Línea 55" x1="317.425" transform="translate(180.575 10792.521)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <line id="Línea_55-9" data-name="Línea 55" x1="317.425" transform="translate(180.575 10742.521)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <text id="Contorno_de_busto" data-name="Contorno de busto" transform="translate(276 10682.521)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-58.505" y="0">Contorno de busto</tspan></text>
+      <text id="Ancho_de_pecho" data-name="Ancho de pecho" transform="translate(268 10784.521)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-50.463" y="0">Ancho de pecho</tspan></text>
+      <text id="Contorno_de_cintura" data-name="Contorno de cintura" transform="translate(279 10710.043)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-62.204" y="0">Contorno de cintura</tspan></text>
+      <text id="Talle_frente" data-name="Talle frente" transform="translate(253 10812.043)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-33.691" y="0">Talle frente</tspan></text>
+      <text id="Contorno_de_cadera" data-name="Contorno de cadera" transform="translate(279 10735)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-61.558" y="0">Contorno de cadera</tspan></text>
+      <text id="Talle_atrás" data-name="Talle atrás" transform="translate(250 10837)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-30.311" y="0">Talle atrás</tspan></text>
+      <text id="Ancho_de_espalda" data-name="Ancho de espalda" transform="translate(274 10760)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-55.077" y="0">Ancho de espalda</tspan></text>
+      <text id="Centro_frente" data-name="Centro frente" transform="translate(259 10862)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-41.06" y="0">Centro frente</tspan></text>
+      <text id="Centro_atrás" data-name="Centro atrás" transform="translate(256 10887)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-37.68" y="0">Centro atrás</tspan></text>
+      <text id="_92-2" data-name="92" transform="translate(411 10735)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-7.547" y="0">92</tspan></text>
+      <text id="_42" data-name="42" transform="translate(411 10837)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-7.547" y="0">42</tspan></text>
+      <text id="_34" data-name="34" transform="translate(411 10760)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-7.547" y="0">34</tspan></text>
+      <text id="_36.75" data-name="36.75" transform="translate(421 10862)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-16.611" y="0">36.75</tspan></text>
+      <text id="_40" data-name="40" transform="translate(411 10887)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-7.547" y="0">40</tspan></text>
+      <text id="_96" data-name="96" transform="translate(467 10735)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-7.547" y="0">96</tspan></text>
+      <text id="_42.5" data-name="42.5" transform="translate(473 10837)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-12.838" y="0">42.5</tspan></text>
+      <text id="_35" data-name="35" transform="translate(467 10760)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-7.547" y="0">35</tspan></text>
+      <text id="_37" data-name="37" transform="translate(467 10862)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-7.547" y="0">37</tspan></text>
+      <text id="_40.5" data-name="40.5" transform="translate(473 10887)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI" style="isolation: isolate"><tspan x="-12.838" y="0">40.5</tspan></text>
+    </g>
+    <rect id="Rectángulo_362011" data-name="Rectángulo 362011" width="208" height="29" transform="translate(517 10532)" fill="#baefe4" opacity="0.26"/>
+    <rect id="Rectángulo_362012" data-name="Rectángulo 362012" width="208" height="26" transform="translate(517 10585)" fill="#baefe4" opacity="0.26"/>
+    <rect id="Rectángulo_362013" data-name="Rectángulo 362013" width="208" height="29" transform="translate(517 10635)" fill="#baefe4" opacity="0.26"/>
+    <rect id="Rectángulo_362014" data-name="Rectángulo 362014" width="208" height="28" transform="translate(517 10688)" fill="#baefe4" opacity="0.26"/>
+  </g>
+</svg>
