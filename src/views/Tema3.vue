@@ -26,7 +26,7 @@
 
     p.mb-5 Esta comparación hace relación sobre cuántas cabezas caben en la altura del cuerpo.
 
-    TabsA.color-acento-botones.mt-5(data-aos="flip-up")
+    TabsA.color-acento-botones.mb-5.rela(data-aos="flip-up")
       .tarjeta.color-acento-conte--borde.p-4(titulo="Canon")
         .row.justify-content-center.align-items-center
           .col-lg-11
@@ -55,114 +55,77 @@
                   img.mb-4(src='@/assets/curso/tema3-figure19.svg', alt='La imagen detalla el famoso dibujo del Hombre de Vitruvio de Leonardo da Vinci, que representa las proporciones ideales del cuerpo humano dentro de un círculo y un cuadrado, ilustrando los principios de la geometría y la armonía en el diseño del cuerpo humano.')
                   figcaption Nota. Tomada de Valero (2013)      
 
-      .tarjeta.color-acento-conte--borde.p-4(titulo="Proporciones corporales")
+      .tarjeta.color-acento-conte--borde.p-4.modal-content(titulo="Proporciones corporales")
         .row.justify-content-center.align-items-center
           .col-lg-11
             h4 Proporciones corporales
             p Es un modelo o prototipo que reúne las características que se consideran perfectas en su género, especialmente el referido a la figura humana que reúne las proporciones ideales.
-            .row.justify-content-center.align-items-center
-              .col-lg-12
-                .row.justify-content-center.align-items-center
-                  .col-lg-3
-                        img.img-a.img-t.mb-4(src='@/assets/curso/im1.1.svg', alt='La imagen detalla una serie de ilustraciones de figuras humanas en distintas etapas de crecimiento, desde recién nacido hasta adulto de 25 años, con la proporción de sus cuerpos medida en unidades de cabezas. La altura de cada figura aumenta con la edad, desde 4 cabezas para un recién nacido hasta 8 cabezas para un adulto, lo que demuestra cómo las proporciones del cuerpo humano cambian con el desarrollo.')
-                        .titulo-sexto.color-acento-contenido.mb-3.mx-4
-                          h5 Figura 19.
-                  .col-lg-3
-                    img.img-a.img-t.mb-4(src='@/assets/curso/im1.2.svg', alt='La imagen, titulada "Proporción con medidas de la figura", presenta dibujos de la figura masculina inspirados en el Hombre de Vitruvio, con anotaciones numéricas que indican las medidas de diferentes partes del cuerpo en centímetros, como la envergadura de los brazos y la altura total.')
-                    .titulo-sexto.color-acento-contenido.mb-3.mx-4
-                      h5 Figura 20.
-                  .col-lg-3
-                    img.img-a.img-t.mb-4(src='@/assets/curso/im1.3.svg', alt='La  imagen, expone dos figuras humanas, una masculina y una femenina, de frente y de espaldas. Están superpuestas sobre una cuadrícula modular que parece servir como referencia para el estudio de las proporciones del cuerpo humano en el diseño de moda.')
-                    .titulo-sexto.color-acento-contenido.mb-3.mx-4
-                      h5 Figura 21.
-            
+
             .row.justify-content-center.mb-0
-              .col-lg-4.col-12.d-flex(@click="modal1 = true")
-                .py-5.p-3.w-100.mb-lg-0.mb-3.CPointer(style="border-radius: 15px; background-color: #ffe5cf")
+              .col-lg-3.col-12.d-flex(@click="modal1 = true")
+                .py-5.p-3
                   .p-0.d-flex.justify-content-center.mb-4
                     img.mb-lg-0.mb-3( style="width: 181px" alt="" src="@/assets/curso/im1.1.svg")
-                  .p-0.d-flex.justify-content-center.mb-3
-                    h4.p-1.text-center.mb-0(style="width: 198px; background-color:white; border-radius:19px") Estático
                   .p-0.d-flex.justify-content-center
                     a.d-flex.indicador__container
-                      p.mb-0 Leer más
-                      img.mb-0.mx-2( style="width: 13px" alt="" src="@/assets/curso/im1.1.svg")
                       .indicador--click(v-if="mostrarIndicador")
-
-              .col-lg-4.col-12.d-flex(@click="modal2 = true")
-                .py-5.p-3.w-100.CPointer(style="border-radius: 15px; background-color: #0c5b7c")
+                      .titulo-sexto.color-acento-contenido
+                        h5 Figura 19.
+            
+              .col-lg-3.col-12.d-flex(@click="modal2 = true")
+                .py-5.p-3
                   .p-0.d-flex.justify-content-center.mb-4
                     img.mb-lg-0.mb-3( style="width: 181px" alt="" src="@/assets/curso/im1.2.svg")
-                  .p-0.d-flex.justify-content-center.mb-3
-                    h4.p-1.text-center.mb-0(style="width: 198px; background-color:white; border-radius:19px") Dinámico
                   .p-0.d-flex.justify-content-center
                     a.d-flex.indicador__container
-                      p.mb-0.text-white Leer más
-                      img.mb-0.mx-2( style="width: 13px" alt="" src="@/assets/curso/im1.2.svg")
                       .indicador--click(v-if="mostrarIndicador")
-              
-              .col-lg-4.col-12.d-flex(@click="modal3 = true")
-                .py-5.p-3.w-100.CPointer(style="border-radius: 15px; background-color: #0c5b7c")
+                      .titulo-sexto.color-acento-contenido
+                        h5 Figura 20.
+
+              .col-lg-3.col-12.d-flex(@click="modal3 = true")
+                .py-5.p-3
                   .p-0.d-flex.justify-content-center.mb-4
                     img.mb-lg-0.mb-3( style="width: 181px" alt="" src="@/assets/curso/im1.3.svg")
-                  .p-0.d-flex.justify-content-center.mb-3
-                    h4.p-1.text-center.mb-0(style="width: 198px; background-color:white; border-radius:19px") Dinámico
                   .p-0.d-flex.justify-content-center
                     a.d-flex.indicador__container
-                      p.mb-0.text-white Leer más
-                      img.mb-0.mx-2( style="width: 13px" alt="" src="@/assets/curso/im1.3.svg")
                       .indicador--click(v-if="mostrarIndicador")
+                      .titulo-sexto.color-acento-contenido
+                        h5 Figura 21.
 
             ModalA(:abrir-modal.sync="modal1")
-              .d-flex
-                div.p-2
-                  img.mb-0( style="width: 80px; min-width: 80px; max-width: 80px" alt="" src="@/assets/curso/im1.1.svg")
-                div.p-2
-                  h4 Estático
-                  p.mb-4 Acceden a la configuración manual de las tablas de enrutamiento, las tablas no serán modificadas en forma dinámica, no tiene flexibilidad frente a fallas de los enlaces, no son fundamentales las cargas y procesos asociados a un protocolo de descubrimiento de rutas, se establecen fácilmente barreras de seguridad.
+              .row.justify-content-center.align-items-center.modal-image
+                .col-lg-11.col-md-12.col-12
+                  .titulo-sexto.color-acento-contenido.mb-4
+                    h5 Figura 19.
+                      | Proporción de acuerdo con etapas de crecimiento
+                  .row.justify-content-center
+                    .col-12
+                      figure
+                        img.mb-4(src='@/assets/curso/tema3-figure20.svg', alt='La imagen detalla una serie de ilustraciones de figuras humanas en distintas etapas de crecimiento, desde recién nacido hasta adulto de 25 años, con la proporción de sus cuerpos medida en unidades de cabezas. La altura de cada figura aumenta con la edad, desde 4 cabezas para un recién nacido hasta 8 cabezas para un adulto, lo que demuestra cómo las proporciones del cuerpo humano cambian con el desarrollo.')
+                        figcaption Tomada de Cómo cubrir un cuerpo (2013)            
             
             ModalA(:abrir-modal.sync="modal2")
-              .d-flex
-                div.p-2
-                  img.mb-0( style="width: 80px; min-width: 80px; max-width: 80px" alt="" src="@/assets/curso/im1.1.svg")
-                div.p-2
-                  h4 Dinámico
-                  p.mb-4 Se basa en la comunicación, por medio de <em>broadcasts</em>, entre los <em>routers</em>. Para hallar las mejores rutas, los <em>routers</em> utilizan el concepto de métrica y no se requiere mantener manualmente las tablas de rutas.
-            
+              .row.justify-content-center.align-items-center.modal-image
+                .col-lg-11.col-md-12.col-12
+                  .titulo-sexto.color-acento-contenido.mb-4            
+                    h5 Figura 20.
+                    | Proporción con medidas de la figura
+                  .row.justify-content-center.mb-5
+                    .col-12
+                      figure
+                      img(src='@/assets/curso/tema3-figure21.svg', alt='La imagen, titulada "Proporción con medidas de la figura", presenta dibujos de la figura masculina inspirados en el Hombre de Vitruvio, con anotaciones numéricas que indican las medidas de diferentes partes del cuerpo en centímetros, como la envergadura de los brazos y la altura total.')
+          
             ModalA(:abrir-modal.sync="modal3")
-              .d-flex
-                div.p-2
-                  img.mb-0( style="width: 80px; min-width: 80px; max-width: 80px" alt="" src="@/assets/curso/im1.1.svg")
-                div.p-2
-                  h4 Dinámico
-                  p.mb-4 Se 
-            
-            .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 19.
-              | Proporción de acuerdo con etapas de crecimiento
-            .row.justify-content-center.mb-5
-              .col-9
-                figure.mb-5.px-4
-                  img.mb-4(src='@/assets/curso/tema3-figure20.svg', alt='La imagen detalla una serie de ilustraciones de figuras humanas en distintas etapas de crecimiento, desde recién nacido hasta adulto de 25 años, con la proporción de sus cuerpos medida en unidades de cabezas. La altura de cada figura aumenta con la edad, desde 4 cabezas para un recién nacido hasta 8 cabezas para un adulto, lo que demuestra cómo las proporciones del cuerpo humano cambian con el desarrollo.')
-                  figcaption Tomada de Cómo cubrir un cuerpo (2013)
-
-
-          .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 20.
-            | Proporción con medidas de la figura
-        .row.justify-content-center.mb-5
-          .col-9
-            figure.mb-5.px-4
-              img(src='@/assets/curso/tema3-figure21.svg', alt='La imagen, titulada "Proporción con medidas de la figura", presenta dibujos de la figura masculina inspirados en el Hombre de Vitruvio, con anotaciones numéricas que indican las medidas de diferentes partes del cuerpo en centímetros, como la envergadura de los brazos y la altura total.')
-          .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 21.
-            | Modulares, figurín masculino y femenino
-        .row.justify-content-center
-          .col-9
-            figure.mb-5.px-4
-              img(src='@/assets/curso/tema3-figure22.svg', alt='La  imagen, expone dos figuras humanas, una masculina y una femenina, de frente y de espaldas. Están superpuestas sobre una cuadrícula modular que parece servir como referencia para el estudio de las proporciones del cuerpo humano en el diseño de moda.')
-      
-
+              .row.justify-content-center.align-items-center.modal-image
+                .col-lg-11.col-md-12.col-12
+                  .titulo-sexto.color-acento-contenido.mb-4
+                    h5 Figura 21.
+                    | Modulares, figurín masculino y femenino
+                  .row.justify-content-center
+                    .col-12
+                      figure
+                        img(src='@/assets/curso/tema3-figure22.svg', alt='La  imagen, expone dos figuras humanas, una masculina y una femenina, de frente y de espaldas. Están superpuestas sobre una cuadrícula modular que parece servir como referencia para el estudio de las proporciones del cuerpo humano en el diseño de moda.')
+    .row.justify-content 
 
     Separador
     #t_3_2.titulo-segundo.mb-4
@@ -183,7 +146,7 @@
         .row.justify-content-center.mb-4(data-aos="fade-down") 
 
           .row.justify-content-center
-            .col-lg-6.col-md-12.col-12.mb-3
+            .col-lg-7.col-md-12.col-12.mb-3
               .titulo-sexto.color-acento-contenido.my-3
                 h5 Tabla 2.
                 | Fórmulas medidas deducidas
