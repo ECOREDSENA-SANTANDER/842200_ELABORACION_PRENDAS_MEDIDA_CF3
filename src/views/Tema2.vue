@@ -70,7 +70,7 @@
           p.mb-0 #[b Ancho de la puntada:] se utiliza un calibrador para facilitar el proceso y, para ello, se sugiere que la planchuela de la máquina tenga las medidas para que sirva de guía.
       .col.d-flex
         .cajon.color-primario.p-4.mb-4
-          p #[b Pies de las máquinas:] pulgadas y de acuerdo con el ancho de las costuras.
+          p #[b Pies de las máquinas:] se miden por pulgadas y de acuerdo con el ancho de las costuras.
 
     .row.justify-content-center.mb-5
       .col-lg-6.col-md-12.col-12.mb-4
@@ -90,7 +90,7 @@
       .col-lg-6.col-md-12.col-12.mb-3
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 8.
-          | Planchuela de máquina con
+          | Utilización de las pulgadas
         img(src='@/assets/curso/tema2-figure8.svg', alt='La imagen contiene un gráfico que exponen medidas en pulgadas de manera progresiva. La gráfica tiene una escala de 0 a 1 pulgada, con divisiones marcadas y etiquetadas con fracciones de pulgada y sus equivalentes en fracciones de 32 y 16. Por ejemplo, se muestra 1/32, 2/32 (que también es 1/16), 4/32 (1/8), hasta llegar a 32/32 (1 pulgada).  "Se detallan las pulgadas que van de acuerdo a la medida progresiva encontrada así:" sugiere que el gráfico está diseñado para ayudar a entender cómo las fracciones de pulgada se acumulan o incrementan para formar una pulgada completa.')
       .col-lg-6.col-md-12.col-12.mb-5
         .cajon.color-acento-contenido.p-4.mb-5.my-5
@@ -238,7 +238,7 @@
             p Para entender las conversiones de metro a decímetros, de decímetro a centímetros y de centímetros a milímetros, se debe tener en cuenta:
               br
               br
-              | Cómo se utilizan los centímetros:
+              | #[b Cómo se utilizan los centímetros:]
             ul.lista-ul--color
               li.mb-0
                 i.fas.fa-bullseye
@@ -283,27 +283,28 @@
 
     .row.justify-content-center
       .col-lg-6.col-md-12.col-12.mb-4
-        p.mb-4 Para las conversiones y equivalencias de fracciones, milésimas y milímetros es importante tener una tabla que permita hacer una lectura puntual y acertada del ejercicio como la que se muestra a continuación:
-        p.mb-4 A continuación, se muestran algunos ejemplos, a partir de la conversión anterior:
-        ul.lista-ul--color.mb-4
-          li
-            i.lista-ul__vineta.mb-3
-            | 1/2 pulgada = 1,27 centímetros = 12,700 milímetros
-          li
-            i.lista-ul__vineta
-            | ¼ de Fracción = 0,25 decimales = 0,33 milímetros
-
-        img.mb-4(src='@/assets/curso/tema2-machine.svg', alt='Personas manipulando confecciones')
-
-      .col-lg-6.col-md-12.col-12.mb-3
-        .cajanaranja
+        p.mb-3 Para las conversiones y equivalencias de fracciones, milésimas y milímetros es importante tener una tabla que permita hacer una lectura puntual y acertada del ejercicio como la que se presenta a continuación:
+        .cajanaranja.p-2
           .row.justify-content-center
-            .col-lg-10.col-md-12.col-12.mb-3
+            .col-lg-11.col-md-12.col-12.mb-3
               .titulo-sexto.color-acento-contenido.my-3
                 h5 Tabla 1.
                 | Tabla de equivalencias
               img(src='@/assets/curso/tema2-figure15.svg', alt='La tabla de equivalencias expone cómo se  convierten fracciones de pulgada a milésimas de pulgada y también expone las equivalencias a milímetros, de cada fracción.')
-    
+      .col-lg-6.col-md-12.col-12.mb-3
+        .cajaer.p-5.mb-4
+          p.mb-5 A continuación, se muestran algunos ejemplos, a partir de la conversión anterior:
+          ul.lista-ul--color.mb-4
+            li
+              i.fas.fa-circle.mb-4
+              | 1/2 pulgada = 1,27 centímetros = 12,700 milímetros
+            li
+              i.fas.fa-circle.mb-3
+              | ¼ de Fracción = 0,25 decimales = 0,33 milímetros
+
+        img.mb-4(src='@/assets/curso/maqu.svg', alt='Personas manipulando confecciones')
+
+            
     
     Separador
     #t_2_2.titulo-segundo
@@ -365,6 +366,9 @@
         .col-md-6.mb-4.mb-md-0
           p Se toman alrededor de la parte a medir, cerrando el metro.
         .col-md-5
+          .titulo-sexto.color-acento-contenido.my-3
+            h5 Figura 16.
+            | Contornos
           figure
             img(src='@/assets/curso/tema2-contorno.svg', alt='La imagen expone una figura humana con etiquetas que indican cómo tomar medidas de diferentes contornos del cuerpo: cuello, pecho/busto, cintura, codo, brazo, puño, cadera, rodilla y bota. Las instrucciones señalan que las medidas deben tomarse alrededor de la parte correspondiente, cerrando el metro.')
       
@@ -372,6 +376,9 @@
         .col-md-6.mb-4.mb-md-0
           p Se toman verticalmente y corresponden a largos y talles.
         .col-md-5
+          .titulo-sexto.color-acento-contenido.my-3
+            h5 Figura 17.
+            | Largos
           figure
             img(src='@/assets/curso/tema2-largos.svg', alt='La imagen expone una figura humana con etiquetas que indican cómo tomar medidas de diferentes contornos del cuerpo: cuello, pecho/busto, cintura, codo, brazo, puño, cadera, rodilla y bota. Las instrucciones señalan que las medidas deben tomarse alrededor de la parte correspondiente, cerrando el metro.')
 
@@ -379,6 +386,9 @@
         .col-md-6.mb-4.mb-md-0
           p Se toman horizontalmente y corresponden a los anchos.
         .col-md-5
+          .titulo-sexto.color-acento-contenido.my-3
+            h5 Figura 18.
+            | Anchos
           figure
             img(src='@/assets/curso/tema2-anchos.svg', alt='La imagen expone una figura humana con etiquetas que indican cómo tomar medidas de diferentes contornos del cuerpo: cuello, pecho/busto, cintura, codo, brazo, puño, cadera, rodilla y bota. Las instrucciones señalan que las medidas deben tomarse alrededor de la parte correspondiente, cerrando el metro.')
   

@@ -359,25 +359,46 @@ td, th
     background-color: #025157
     border-radius: 50%
 
-.modal-content 
-      background: none
-      border: none
-      box-shadow: none
-      overflow: hidden
 
-.modal-image 
-      display: block
-      max-width: 100%
-      max-height: 100%
-      object-fit: cover
 
 .modal-a--abierto .modal-a__content 
     transform: translate(-50%, -50%) scale(1)
-    position: fixed
 
 .modal-a__content 
-    position: absolute
+    position: fixed
     top: 50%
     left: 50%
-    background-color: #fff
+    background-color: #E9F9F5
+    width: 90%
+    max-width: 1300px
+    max-height: 100vh
+    overflow-y: auto
+    z-index: 110001
     border-radius: 20px
+    transform: translate(-50%, -50%) scale(0)
+    transition: transform 0.3s ease-in-out
+
+
+.cajaer
+  background-color: #EFFCF9
+  border-radius: 15px
+
+
+.fa-circle-small:before 
+  content: "\e122"
+  .fa-lg 
+    font-size: 1em
+
+
+.lista-ul--color li > i:first-of-type 
+    color: $color-secundario
+
+
+.titulo-segundo:after 
+    content: ''
+    display: block
+    height: 3px
+    width: 140px
+    border-left: solid 50px
+    border-left-color: #baefe4
+    background-color: #e8e8e8

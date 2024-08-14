@@ -40,7 +40,7 @@
 
     .cajon.color-primario.p-4.mb-5
       h4.mx-3.mb-4 División del cuerpo
-      p.mb-0.mx-3 Conocer el cuerpo humano es muy importante para traducir su estructura en medidas y patronaje de prendas, por lo que, a continuación, se visualizará la división para tener en cuenta en su análisis.
+      p.mb-0.mx-3 Conocer el cuerpo humano es muy importante para traducir su estructura en medidas y patronaje de prendas, por lo que, a continuación, se expondrá la división para tener en cuenta en su análisis.
       
     .row.justify-content-center
       .col-lg-10.col-md-12.col-12

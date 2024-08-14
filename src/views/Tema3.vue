@@ -13,7 +13,7 @@
     .row.justify-content-center.mb-5
       .col-9
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 16.
+          h5 Figura 19.
           | Medidas figura humana
         figure.mb-5.px-4
           img.d-none.d-lg-block(src='@/assets/curso/tema3-medidas.svg', alt='La imagen expone una figura humana con varias líneas y etiquetas que indican cómo tomar medidas corporales. Las medidas especificadas incluyen: cuello, alto de pecho, talle delantero, contorno de pecho, alto sisa, contorno de brazo, cintura, cadera, largo cadera, muslo, largo de falda, gemelo, tobillo y largo total. Las etiquetas están colocadas al lado de la figura, con líneas de diferentes colores que señalan la posición de cada medida en el cuerpo.')
@@ -33,13 +33,12 @@
             h4 Canon
             p  Modelo o prototipo que reúne las características que se consideran perfectas en su género, especialmente el referido a la figura humana que reúne las proporciones ideales.
             .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 17.
+              h5 Figura 20.
               | Canon (número de cabezas)
             .row.justify-content-center
               .col-9
                 figure.mb-5.px-4
                   img.mb-4(src='@/assets/curso/tema3-figure18.svg', alt='La imagen expone un diagrama del "Canon" o "Número de cabezas" utilizado para medir proporciones en el cuerpo humano. A la izquierda, se detalla una figura humana dividida en siete partes iguales, cada una del tamaño de una cabeza. A la derecha, se indica cómo estas divisiones corresponden a diferentes partes del cuerpo: mentón, hombros, pechos (final de la caja torácica), ombligo, pubis, nudillos y rodillas. Esta representación ayuda a entender las proporciones ideales del cuerpo humano según el canon clásico.')
-                  figcaption Canon (número de cabezas)
       
       .tarjeta.color-acento-conte--borde.p-4(titulo="Proporción")
         .row.justify-content-center.align-items-center
@@ -47,7 +46,7 @@
             h4.text-dark Proporción
             p.text-dark Se refiere a la armonía y correspondencia entre las partes de un conjunto, buscando un equilibrio y simetría. Un ejemplo clásico es la secuencia numérica de Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, etc., donde cada número resulta de la suma de los dos anteriores. Esta progresión está vinculada a las proporciones ideales del cuerpo humano, como las establecidas por Da Vinci en su estudio del Hombre de Vitruvio. Estos principios permiten la creación de un mapa simétrico del cuerpo humano, donde se utiliza el estándar del canon de las ocho cabezas para definir un ideal de belleza.
             .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 18.
+              h5 Figura 21.
               | Proporción figura humana
             .row.justify-content-center
               .col-9
@@ -70,7 +69,7 @@
                     a.d-flex.indicador__container
                       .indicador--click(v-if="mostrarIndicador")
                       .titulo-sexto.color-acento-contenido
-                        h5 Figura 19.
+                        h5 Figura 22.
             
               .col-lg-3.col-12.d-flex(@click="modal2 = true")
                 .py-5.p-3
@@ -80,7 +79,7 @@
                     a.d-flex.indicador__container
                       .indicador--click(v-if="mostrarIndicador")
                       .titulo-sexto.color-acento-contenido
-                        h5 Figura 20.
+                        h5 Figura 23.
 
               .col-lg-3.col-12.d-flex(@click="modal3 = true")
                 .py-5.p-3
@@ -90,14 +89,14 @@
                     a.d-flex.indicador__container
                       .indicador--click(v-if="mostrarIndicador")
                       .titulo-sexto.color-acento-contenido
-                        h5 Figura 21.
+                        h5 Figura 24.
 
             ModalA(:abrir-modal.sync="modal1")
-              .row.justify-content-center.align-items-center.modal-image
+              .row.justify-content-center.align-items-center
                 .col-lg-11.col-md-12.col-12
                   .titulo-sexto.color-acento-contenido.mb-4
-                    h5 Figura 19.
-                      | Proporción de acuerdo con etapas de crecimiento
+                    h5 Figura 22.
+                    | Proporción de acuerdo con etapas de crecimiento
                   .row.justify-content-center
                     .col-12
                       figure
@@ -105,10 +104,10 @@
                         figcaption Tomada de Cómo cubrir un cuerpo (2013)            
             
             ModalA(:abrir-modal.sync="modal2")
-              .row.justify-content-center.align-items-center.modal-image
+              .row.justify-content-center.align-items-center
                 .col-lg-11.col-md-12.col-12
                   .titulo-sexto.color-acento-contenido.mb-4            
-                    h5 Figura 20.
+                    h5 Figura 23.
                     | Proporción con medidas de la figura
                   .row.justify-content-center.mb-5
                     .col-12
@@ -116,10 +115,10 @@
                       img(src='@/assets/curso/tema3-figure21.svg', alt='La imagen, titulada "Proporción con medidas de la figura", presenta dibujos de la figura masculina inspirados en el Hombre de Vitruvio, con anotaciones numéricas que indican las medidas de diferentes partes del cuerpo en centímetros, como la envergadura de los brazos y la altura total.')
           
             ModalA(:abrir-modal.sync="modal3")
-              .row.justify-content-center.align-items-center.modal-image
+              .row.justify-content-center.align-items-center
                 .col-lg-11.col-md-12.col-12
                   .titulo-sexto.color-acento-contenido.mb-4
-                    h5 Figura 21.
+                    h5 Figura 24.
                     | Modulares, figurín masculino y femenino
                   .row.justify-content-center
                     .col-12
@@ -198,11 +197,11 @@
                 
                 .col-lg-4.col-md-12.col-12.mb-4
                   .titulo-sexto.color-acento-contenido
-                    h5 Figura 22.
+                    h5 Figura 25.
                     | Cervical o largo útil
                   img(src='@/assets/curso/tema3-figure23.svg' ,alt='Se detalla la figura masculina dividida en siete partes iguales, cada una correspondiente al tamaño de una cabeza, para ilustrar las proporciones del cuerpo humano. La figura de frente y de perfil resalta cómo estas proporciones se distribuyen a lo largo del cuerpo, utilizando la medida de la cabeza como unidad de referencia. Esto ayuda a visualizar y entender las proporciones ideales del cuerpo masculino según el canon clásico.')
 
-    p.mb-5 A continuación, se detallan otras fórmulas de deducción de tallas 
+    p.mb-5 A continuación, se detallan otras fórmulas de deducción de tallas.
 
     .titulo-sexto.color-acento-contenido
       h5 Tabla 3.
@@ -332,7 +331,7 @@
                     strong #[b Largo de falda corta] 
                     |  = 1/2 de la medida cintura al suelo -3 cm
 
-    p.mb-5 Ahora, se podrá observar cómo obtener medidas deducidas a partir del desarrollo de las siguientes fórmulas:
+    p.mb-5 Ahora, se podrá estudiar la forma cómo obtener medidas deducidas a partir del desarrollo de las siguientes fórmulas: 
 
     .titulo-sexto.color-acento-contenido
       h5 Tabla 4.
@@ -620,19 +619,19 @@
             ul.lista-ul--color
               li.mb-0
                 i.fas.fa-bullseye
-                | #[b Anatómicos y deducidos:]  según la obtención de medidas.
+                | #[b Anatómicos y deducidos:] clasificadas según el método de obtención de las medidas.
               li.mb-0
                 i.fas.fa-bullseye
-                | #[b Proporcionales:] existe una secuencia numérica en el crecimiento de la talla.
+                | #[b Proporcionales:] caracterizadas por un crecimiento secuencial y numérico de las tallas.
               li.mb-0
                 i.fas.fa-bullseye
-                | #[b No proporcionales:] no hay una secuencia numérica en el crecimiento de la talla.
+                | #[b No proporcionales:] donde el crecimiento de las tallas no sigue una secuencia numérica fija.
               li.mb-0
                 i.fas.fa-bullseye
-                | #[b Completos:] incluyen todas las medidas requeridas para la construcción de patrones de prendas.
+                | #[b Completas:] que abarcan todas las medidas necesarias para la creación de patrones de ropa.
               li.mb-0
                 i.fas.fa-bullseye
-                | #[b Según prenda:] que incluyen en algunos casos desahogos y costuras.
+                | #[b Específicas por prenda:] que pueden incluir holguras y margen de costura según sea necesario.
 
 
       .row(titulo="Normatividad")
@@ -654,17 +653,17 @@
             ul.lista-ul--color
               li.mb-0
                 i.fas.fa-bullseye
-                | #[b Límites:] fabricación de vestuario y estudios antropométricos. Dimensiones corporales – Icontec.
+                | #[b Límites:] la más pequeña y la más grande. 
               li.mb-0
                 i.fas.fa-bullseye
-                | #[b Frecuencia:] armoniza y simplifica el etiquetado de tallas de prendas de vestir para el beneficio del consumidor y de la industria en general.
+                | #[b Frecuencia:]  aumento de medida #[b talla a talla] (secuencial y no secuencial - constantes y variables).
               li.mb-0
                 i.fas.fa-bullseye
                 | #[b Incremento:] magnitud de crecimiento de la medida talla por talla.
-        p El análisis de los anteriores aspectos dará como resultado: valores, proporciones, rupturas de talla (para una, dos o hasta tres tallas base).
-
+        p.mb-4 El análisis de los anteriores aspectos dará como resultado: valores, proporciones, rupturas de talla (para una, dos o hasta tres tallas base).
+        p.mb-0 Seguidamente se presentan los cuadros de tallas, infantiles, masculino y femenino.
     
-    .tarjeta.tarjeta--azule.p-3.mb-5
+    .tarjeta.tarjeta--azule.p-3.mb-0
       SlyderA(tipo="a")
         .row.justify-content-center.p-4
           .col-lg-12.col-md-12.col-12.mb-4
@@ -1552,7 +1551,7 @@
     
     
     .titulo-sexto.color-acento-contenido.mb-4
-      h5 Figura 23.
+      h5 Figura 26.
       | Proporciones en la deducción
     
     .row.justify-content
@@ -1587,18 +1586,18 @@
     .row.justify-content-center.mb-5
       .col-lg-6.col-md-12.col-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 24.
+          h5 Figura 27.
           | Comparación de medidas
         img(src='@/assets/curso/tema3-figure25.svg', alt='La imagen expone un cuadro con medidas de contorno de busto para distintas tallas de ropa femenina que van desde la talla 6 hasta la 18. Los incrementos entre cada talla están marcados con flechas rosas, indicando un aumento consistente de 4 centímetros entre las tallas 6 y 14, y luego un incremento de 6 centímetros entre las tallas 14 y 18.')
 
-    p.mb-5 En la figura anterior, la ruptura está entre la talla 14 y 16, porque se incrementa 6 cm, rompiendo con los 4 cm de las demás medidas.
+    p.mb-0 En la figura anterior, la ruptura está entre la talla 14 y 16, porque se incrementa 6 cm, rompiendo con los 4 cm de las demás medidas.
     
     
     Separador
     #t_3_4.titulo-segundo.mb-5
-      h2 3.4  Identificar el DROP
+      h2 3.4  Identificar el #[em DROP]
 
-    p.mb-5 DROP es la palabra técnica que indica la diferencia en centímetros entre dos medidas del cuerpo que permite determinar su morfología, tal como se puede observar aquí:
+    p.mb-4 #[em DROP] es la palabra técnica que indica la diferencia en centímetros entre dos medidas del cuerpo que permite determinar su morfología, tal como se presenta a continuacion:
 
     
     .row.justify-content-center.mb-5
@@ -1606,56 +1605,56 @@
         ul.lista-ul--color
           li.d-flex
             i.fas.fa-bullseye
-            p.mb-0 #[b DROP femenino]: diferencia entre cadera y contorno de busto para la mujer. Es decir, #[b Contorno de Cadera - Contorno de Busto = DROP]
+            p.mb-0 #[b #[em DROP] femenino]: diferencia entre cadera y contorno de busto para la mujer. Es decir, #[b Contorno de Cadera - Contorno de Busto = DROP].
 
-        p.mb-3 El DROP tiene características importantes que se deben considerar al momento de realizar su identificación:
+        p.mb-3 El #[em DROP] tiene características importantes que se deben considerar al momento de realizar su identificación:
 
         ul.lista-ul--color.mb-3
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            | Con el DROP se establecen las diferentes contexturas de una misma talla.
+            p.mb-0 Con el #[em DROP] se establecen las diferentes contexturas de una misma talla.
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            | En las mujeres, el DROP es la diferencia entre las medidas de Contorno de Cadera y Contorno de Busto.
+            p.mb-0 En las mujeres, el #[em DROP] es la diferencia entre las medidas de Contorno de Cadera y Contorno de Busto.
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            | En las tallas femeninas predomina un DROP positivo.
+            p.mb-0 En las tallas femeninas predomina un #[em DROP] positivo.
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            | Generalmente una talla se considera normal cuando el DROP es positivo entre +2 cm y +4 cm.
+            p.mb-0 Generalmente una talla se considera normal cuando el #[em DROP] es positivo entre +2 cm y +4 cm.
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            | El DROP estándar usado en Colombia es + 4 cm.
+            p.mb-0 El #[em DROP] estándar usado en Colombia es + 4 cm.
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            | En las tallas extremas y altas el DROP se vuelve negativo.
+            p.mb-0 En las tallas extremas y altas el #[em DROP] se vuelve negativo.
         
         p.mb-3 A continuación, se relacionan algunos ejemplos:
         
         ul.lista-ul--color
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 #[b DROP + 2], indica la medida de cadera 2 cm mayor que el contorno de busto.
+            p.mb-0 #[b #[em DROP] + 2], indica la medida de cadera 2 cm mayor que el contorno de busto.
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 #[b El DROP 0], indica que la medida de cadera es igual a la medida de contorno de busto.
+            p.mb-0 #[b El #[em DROP] 0], indica que la medida de cadera es igual a la medida de contorno de busto.
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 #[b El DROP - 4], indica que la medida de cadera tiene 4 cm menos que el contorno de busto.
+            p.mb-0 #[b El #[em DROP] - 4], indica que la medida de cadera tiene 4 cm menos que el contorno de busto.
 
       .col-lg-6.col-md-12.col-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 25.
-          | DROP femenino
+          h5 Figura 28.
+          | #[em DROP] femenino
         .caja12.p-3
           img(src='@/assets/curso/tema3-figure26.svg', style='max-height: 400px')(alt='Se expone una figura femenina en la cual se indica con flechas el DROP que es la diferencia entre las medidas de Contorno de Cadera y Contorno de Busto')
 
     
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-0
       .col-lg-6.col-md-12.col-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 26.
-          | DROP masculino
+          h5 Figura 29.
+          | #[em DROP] masculino
         .caja12.mb-5
           img.img-a.img-t(src='@/assets/curso/tema3-figure27.svg')(alt='Se expone Figura Masculina en la cual se indica con flechas el DROP que es la diferencia entre las medidas de Contorno del pecho y la cintura')
         
@@ -1663,24 +1662,24 @@
         ul.lista-ul--color
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 #[b DROP masculino:] para este caso la diferencia está entre la cintura y el pecho. Generalmente en tallas masculinas predomina el DROP negativo (más pecho que cintura), aunque al realizar una tabla de tallas (a mayor talla menos DROP) en tallas extremas puede a ser positivo, es decir, un cuerpo con más cintura que pecho.
+            p.mb-0 #[b #[em DROP] masculino:] para este caso la diferencia está entre la cintura y el pecho. Generalmente en tallas masculinas predomina el DROP negativo (más pecho que cintura), aunque al realizar una tabla de tallas (a mayor talla menos DROP) en tallas extremas puede a ser positivo, es decir, un cuerpo con más cintura que pecho.
         p.mb-3 A continuación, se relacionan algunos ejemplos:
 
         ul.lista-ul--color
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 #[b Un DROP - 4] indica, una cintura con 4 pulgadas menos que la medida de pecho.
+            p.mb-0 #[b Un #[em DROP] - 4] indica, una cintura con 4 pulgadas menos que la medida de pecho.
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 #[b Un DROP 0,] indica una cintura igual al pecho.
+            p.mb-0 #[b Un #[em DROP] 0,] indica una cintura igual al pecho.
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 #[b Un DROP + 2,] indica una cintura con 2 pulgadas que el pecho.
+            p.mb-0 #[b Un #[em DROP] + 2,] indica una cintura con 2 pulgadas que el pecho.
 
-        p.mb-5 Acorde con el género, cada tipo de silueta tiene un DROP característico determinado, a su vez, por la tipología del cuerpo dentro de una clasificación general, puesto que hay particularidades y cada persona necesita un análisis en cuanto a su silueta para poder abordar el vestuario, patronaje y confección.
+        p.mb-4 Acorde con el género, cada tipo de silueta tiene un #[em DROP] característico determinado, a su vez, por la tipología del cuerpo dentro de una clasificación general, puesto que hay particularidades y cada persona necesita un análisis en cuanto a su silueta para poder abordar el vestuario, patronaje y confección.
 
     .titulo-sexto.color-acento-contenido.mb-5
-      h5 Figura 27.
+      h5 Figura 30.
       | Tipos de siluetas generales masculinas y femeninas
     img.d-none.d-lg-block(src='@/assets/curso/tema3-figure28.svg', alt='La imagen ilustra unas figuras masculinas y femeninas con distintos tipos de cuerpos clasificados según formas geométricas. Para las mujeres, de izquierda a derecha: Pera, Triángulo Invertido, Manzana, Rectángulo y Reloj de Arena. Para los hombres, las formas son menos variadas y parecen seguir un patrón triangular con ligeras variaciones. Cada tipo de cuerpo está asociado con una forma geométrica específica que describe la distribución de peso y la proporción general del cuerpo.')
     img.imagen-mobile(src='@/assets/curso/tema3-figure28.3.svg', alt='La imagen ilustra unas figuras masculinas y femeninas con distintos tipos de cuerpos clasificados según formas geométricas. Para las mujeres, de izquierda a derecha: Pera, Triángulo Invertido, Manzana, Rectángulo y Reloj de Arena. Para los hombres, las formas son menos variadas y parecen seguir un patrón triangular con ligeras variaciones. Cada tipo de cuerpo está asociado con una forma geométrica específica que describe la distribución de peso y la proporción general del cuerpo.')

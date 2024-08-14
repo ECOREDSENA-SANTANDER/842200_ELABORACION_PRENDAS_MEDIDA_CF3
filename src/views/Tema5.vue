@@ -237,19 +237,19 @@
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-7.col-md-12.col-12
-        p.mb-4
+        p.mb-5
           strong Manejo de tallas
           | : cada país o región trataba de #[b copiar] las medidas de la #[b ropa] producida por las grandes fábricas, cuya elaboración se hacía con base en #[b ‘pulgadas’] y al copiarlas se #[b adaptaban] las medidas en #[b ‘centímetros’]. Con el tiempo en varias regiones se #[b inventaban] los nombres de las tallas según su propia definición o experiencia, generando así 'nuevos' cuadros de tallas. Fue así como, la expansión en la estandarización de tallas generó caos por su falta de información técnica, invadiendo países en vía de desarrollo.
-        .cajon.color-acento-contenido.p-3.mb-4
+        .cajon.color-acento-contenido.p-4.mb-5
           p Hoy en día son pocos los países que usan el sistema de medidas ‘imperial’, pues la mayoría han adoptado el ‘universal’.
 
         p.mb-4 El crecimiento entre la talla S y talla M : en el sistema imperial equivale a 4” pulgadas por contorno = a 10,2 cm, para el caso del sistema universal es de 8 cm, al hacer el equivalente no hay proporción. En este sentido, los cuadros de tallas en pulgadas serán igual al trazo en centímetros.
-        p.mb-4 A continuación, se relaciona la conversión del cuadro de tallas masculino de pulgadas a centímetros:
       
-      .col-lg-5.col-md-12.col-12
+      .col-lg-5.col-md-10.col-10
         img.mb-3.img-a.img-t(src="@/assets/curso/tema5-figure2.svg")
-      
-        .cajon.color-acento-contenido.p-4.mb-4.w-auto
+        p.mb-3 A continuación, se relaciona la conversión del cuadro de tallas masculino de pulgadas a centímetros:
+        
+        .cajon.color-acento-contenido.p-3.mb-4.w-auto
           p.text-center.mb-1 1" = 2,54 cm
           p.text-center.mb-1 Pulgadas x 2,54= cm
           p.text-center.mb-1 33" = 83,8 cm

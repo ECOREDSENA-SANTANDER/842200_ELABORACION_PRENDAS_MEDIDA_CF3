@@ -185,7 +185,8 @@ export default {
     {
       referencia:
         'Aula Fácil. (2021). Anatomía y proporción de la figura humana.',
-      link: 'https://cutt.ly/rvShcAx',
+      link:
+        'https://www.aulafacil.com/cursos/dibujo-lineal-secundaria/educacion-plastica-y-visual-4-eso/anatomia-y-proporcion-de-la-figura-humana-l11844',
     },
     {
       referencia:
@@ -194,7 +195,8 @@ export default {
     {
       referencia:
         'Fez, D. (2020). Moulage. El arte y la técnica de la construcción en moda.',
-      link: 'https://www.workshopgranada.com/moulage-cursos/',
+      link:
+        'https://www.andrespert.com/moulage-una-tecnica-de-corte-y-confeccion/',
     },
     {
       referencia:
@@ -208,12 +210,6 @@ export default {
     },
     {
       referencia:
-        'Historias Hiladas. (2021). 5 claves para tomar medidas corporales.',
-      link:
-        'https://www.comocubriruncuerpo.org/proporciones-del-cuerpo-humano-1-da-vinci-y-vitruvio/',
-    },
-    {
-      referencia:
         'Paredro. (2015). Fractales, geometría y otros juegos matemáticos en la moda de hoy. ',
       link:
         'https://www.paredro.com/fractales-geometria-y-otros-juegos-matematicos-en-la-moda-de-hoy/',
@@ -223,18 +219,6 @@ export default {
         'SENA. (2020). Manual de patronaje básico e interpretación de diseños.',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000025496',
-    },
-    {
-      referencia:
-        'SENA. (2020). Programa técnico en patronaje industrial de prendas de vestir. SENA.',
-    },
-    {
-      referencia: 'SENA. (s.f.). Fashion Snoops.',
-      link: 'https://www-fashionsnoops-com.bdigital.sena.edu.co/Default.aspx',
-    },
-    {
-      referencia: 'Valero, V. (2013). Canon del cuerpo humano.',
-      link: 'https://valero7.webnode.es/tecnicas/a16-canon-del-cuerpo-humano/',
     },
   ],
   glosario: [
@@ -263,117 +247,214 @@ export default {
       significado:
         'término usado en el patronaje para señalar que, después del trazo de planos, se llegan a abstraer los elementos que permiten proceder con el corte del textil.',
     },
+    {
+      termino: 'Medida más protuberante',
+      significado:
+        'La medida del contorno corporal más amplio que se utiliza como base para trazar patrones, como el contorno de pecho.',
+    },
+    {
+      termino: 'Cuadro de tallas ',
+      significado:
+        'Tabla que contiene las medidas estándar de diferentes partes del cuerpo para varias tallas, utilizada para la elaboración de patrones. ',
+    },
+    {
+      termino: 'Contorno ',
+      significado:
+        'Medida alrededor de una parte específica del cuerpo, como el contorno de pecho, cadera o cintura. ',
+    },
+    {
+      termino: 'Estatura ',
+      significado:
+        'Altura total de una persona, medida desde la cabeza hasta los pies.',
+    },
+    {
+      termino: 'Talle ',
+      significado: 'Medida vertical desde el hombro hasta la cintura. ',
+    },
+    {
+      termino: 'Largo de brazo ',
+      significado: 'Longitud medida desde el hombro hasta la muñeca ',
+    },
+    {
+      termino: 'Cuello ',
+      significado: 'Medida alrededor de la base del cuello ',
+    },
+    {
+      termino: ' Cintura/suelo ',
+      significado: 'Distancia vertical desde la cintura hasta el suelo. ',
+    },
+    {
+      termino: 'Base ',
+      significado:
+        'Medida de pecho ajustada con desahogo y costura, utilizada como referencia en patrones. ',
+    },
+    {
+      termino: 'Siluetas',
+      significado:
+        'Forma o contorno general de una prenda o figura, determinada por el diseño y las medidas utilizadas en los patrones. ',
+    },
+    {
+      termino: ' Papel manila ',
+      significado:
+        'Tipo de papel utilizado en la creación de patrones de costura, recomendado por su opacidad y resistencia. ',
+    },
+    {
+      termino: ' Desahogo ',
+      significado:
+        'Espacio adicional añadido a las medidas corporales en los patrones para permitir comodidad y movimiento. ',
+    },
+    {
+      termino: 'Canon',
+      significado:
+        'Sistema de proporciones utilizado para representar el cuerpo humano de manera ideal, generalmente basado en la altura de la cabeza.',
+    },
+    {
+      termino: 'Proporciones',
+      significado:
+        'Relación de tamaño entre diferentes partes del cuerpo, esencial en el diseño de ropa para asegurar un ajuste equilibrado y estético. ',
+    },
   ],
   complementario: [
     {
-      texto:
-        'SENA. (2021). Dibujo bidimensional de prendas de vestir. [Video]. YouTube.',
+      tema: 'Dibujo bidimensional de prendas de vestir',
+      referencia: 'SENA. (2021). Dibujo bidimensional de prendas de vestir. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=xptK7CFsF7o',
     },
     {
-      texto: 'SENA. (2021). Trazo de bitácora de formas. [Video]. YouTube.',
+      tema: 'Elaboración de básicos masculino ',
+      referencia: 'SENA. (2021). Trazo de bitácora de formas.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=ppEdTvy94eU&t=1102s',
     },
     {
-      texto:
-        'SENA. (2021). Técnicas de achurados y acabados de la prenda. [Video]. YouTube. ',
+      tema: 'medidas reducidas ',
+      referencia:
+        'SENA. (2021). Técnicas de achurados y acabados de la prenda. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Di4R3jHoNkQ',
     },
     {
-      texto: 'SENA. (2021). Reconocimientos de las prendas. [Video]. YouTube.',
+      tema: 'las medidas ',
+      referencia: 'SENA. (2021). Reconocimientos de las prendas. [Video]. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=FHhqkd0h4Kw',
     },
     {
-      texto:
+      tema: 'Todo el componente ',
+      referencia:
         'SENA. (2020). Manual de patronaje básico e interpretación de diseños. SENA.',
-      tipo: 'Página web',
+      tipo: 'Manual',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000025496',
     },
   ],
-  creditos: {
-    liderEquipo: [
-      {
-        nombre: 'Maria Camila Garcia Santamaria',
-        cargo: 'Líder del equipo',
-        centro: 'Dirección General',
-      },
-    ],
-    contenidoInstruccional: [
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Leidy Johana Velásquez Hernández',
-        cargo: 'Experta temática',
-        centro: 'Diseño, Confección y Moda - Regional Antioquía',
-      },
-      {
-        nombre: 'Paola Angélica Castro Salazar',
-        cargo: 'Experta temática',
-        centro: 'Diseño, Confección y Moda - Regional Antioquía',
-      },
-      {
-        nombre: 'Paula Andrea Taborda Ortiz',
-        cargo: 'Diseñadora instruccional',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-      },
-      {
-        nombre: 'Vilma Lucía Perilla Méndez',
-        cargo: 'Revisora metodológica y pedagógica',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-      },
-      {
-        nombre: 'José Gabriel Ortiz Abella',
-        cargo: 'Corrector de estilo',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Integración de recursos y pruebas',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Anllelo Andres Reina Montañez',
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Sergio Omar Camacho Orduz',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Yuli Marcela Gómez Tarazona',
-        cargo: 'Validación de diseño y contenido',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-    ],
+  creditos: [
+    {
+      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Responsable del Ecosistema',
+          centro: 'Dirección General',
+        },
+        {
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo: 'Responsable de Línea de Producción',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+      ],
+    },
+    {
+      titulo: 'CONTENIDO INSTRUCCIONAL',
+      autores: [
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor Metodológico y Pedagógico',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Paola Angélica Castro Salazar',
+          cargo: 'Experta Temática',
+          centro:
+            'Regional Antioquia - Centro de Formación en Diseño, Confección y Moda',
+        },
+        {
+          nombre: 'Ledy Johana Velásquez Hernández',
+          cargo: 'Experta Temática',
+          centro:
+            'Regional Antioquia - Centro de Formación en Diseño, Confección y Moda',
+        },
+        {
+          nombre: 'Paula Andrea Taborda Ortiz',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
+        },
+        {
+          nombre: 'Vilma Lucía Perilla Méndez ',
+          cargo: 'Revisora Metodológica y Pedagógica',
+          centro: 'Regional Distrito Capital - Centro de Gestión industrial.',
+        },
+        {
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Corrector de Estilo',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
+        },
+        {
+          nombre: 'Sandra Paola Morales Páez',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+      ],
+    },
+    {
+      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Yazmin Rocio Figueroa Pacheco',
+          cargo: 'Diseñadora de Contenidos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'Pedro Alonso Bolivar Gonzalez',
+          cargo: 'Desarrollador <em>Fullstack</em>',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y Productora Multimedia',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+      ],
+    },
+    {
+      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      autores: [
+        {
+          nombre: 'Yineth Ibette Gonzalez Quintero',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+      ],
+    },
+  ],
+  creditosAdicionales: {
+    imagenes:
+      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+    creativeCommons:
+      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
   // creditosInicio: [
   //   {
