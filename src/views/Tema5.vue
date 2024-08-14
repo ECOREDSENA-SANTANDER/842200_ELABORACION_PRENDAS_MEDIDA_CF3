@@ -8,7 +8,7 @@
         span 5
       h1 Metodología - Presentación del Manual de patronaje SENA
 
-    SlyderD.mb-4.no-slyder-d-primary(:datos="datosSlyder")
+    SlyderD.mb-4.no-slyder-d-primary(:datos="datosSlyder")(data-aos="fade-right")
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
       .col-lg-10.col-md-12.col-12
@@ -28,10 +28,10 @@
     #t_5_1.titulo-segundo
       h2 5.1  Metodología – Convenciones
     
-    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-6.col-md-12.col-12
-        p.mb-0 Dentro de este proceso es necesario conocer y manejar las diferentes simbologías que facilitan los procesos técnicos de patronaje y corte. Algunos de estos símbolos permiten entender, fácilmente, las gráficas de construcción, eliminando el uso de textos y referencias alfanuméricas; otros indican de qué manera deben estar aplomados los patrones despiezados para su corte.
-        p.mb-4 Es importante anotar que, en el momento de despiezar el patrón para su identificación, cada pieza debe estar marcada así:
+        p.mb-0(data-aos="fade-right") Dentro de este proceso es necesario conocer y manejar las diferentes simbologías que facilitan los procesos técnicos de patronaje y corte. Algunos de estos símbolos permiten entender, fácilmente, las gráficas de construcción, eliminando el uso de textos y referencias alfanuméricas; otros indican de qué manera deben estar aplomados los patrones despiezados para su corte.
+        p.mb-4(data-aos="fade-right") Es importante anotar que, en el momento de despiezar el patrón para su identificación, cada pieza debe estar marcada así:
         ul.lista-ul--color.mb-4
           li.mb-0
             i.fas.fa-bullseye
@@ -57,20 +57,20 @@
           li.mb-0
             i.fas.fa-bullseye
             | Líneas de aplome
-        p.mb-0 También es posible establecer otras especificaciones, como anexar datos de estampación, cambios de color o material, acabados especiales, ubicación de bolsillos, etc.
+        p.mb-0(data-aos="fade-right") También es posible establecer otras especificaciones, como anexar datos de estampación, cambios de color o material, acabados especiales, ubicación de bolsillos, etc.
       .col-lg-6.col-md-12.col-12
         img.mb-4(src='@/assets/curso/tema5-titulo2.svg')
 
     
     .tarjeta.tarjeta--azule.p-2.mb-5
-      SlyderA(tipo="a")
+      SlyderA(tipo="a")(data-aos="fade-right")
         .row.justify-content-center.p-4
           .col-lg-12.col-md-12.col-12.mb-4
             .row.justify-content.p-4
               .col-lg-1.col-md-12.col-12.mb-4
               .col-lg-5.col-md-12.col-12.mb-4
                 h4.mb-4 Formas geométricas
-                p Se debe tener en cuenta cuáles son las claves geométricas, horizontal, vertical, perpendicular (escuadrar), rectángulo, cuadrado, paralelo, ángulo recto, diagonal, diagonal o sesgo, vértice, radio, rotar, semicurva, curva, convexo, cóncavo. Siempre se inicia la construcción desde un rectángulo y se tiene en cuenta el contorno principal y el talle o largo del básico.
+                p(data-aos="fade-right") Se debe tener en cuenta cuáles son las claves geométricas, horizontal, vertical, perpendicular (escuadrar), rectángulo, cuadrado, paralelo, ángulo recto, diagonal, diagonal o sesgo, vértice, radio, rotar, semicurva, curva, convexo, cóncavo. Siempre se inicia la construcción desde un rectángulo y se tiene en cuenta el contorno principal y el talle o largo del básico.
               .col-lg-5.col-md-12.col-12.mb-4
                 figure
                   img.img-a.img-t(src='@/assets/curso/tema5-form1.svg', alt='Texto que describa la imagen')
@@ -99,7 +99,7 @@
               .col-lg-1.col-md-12.col-12.mb-4
               .col-lg-5.col-md-12.col-12.mb-4
                 h4.mb-4 Trazo de patrones a escala: 
-                p Permiten realizar la construcción de básicos corporales y trazo de patrones en tamaños más pequeños.
+                p(data-aos="fade-right") Permiten realizar la construcción de básicos corporales y trazo de patrones en tamaños más pequeños.
               .col-lg-5.col-md-12.col-12.mb-4
                 figure
                   img.img-a.img-t(src='@/assets/curso/tema5-form3.svg', alt='Texto que describa la imagen')
@@ -107,7 +107,7 @@
               
     .row.justify-content.mb-5
       .col-lg-7.col-md-12.col-12.mb-4
-        p.nb-4 Además, se deben tener en cuenta los materiales que se sugieren para la implementación del Manual:
+        p.nb-4(data-aos="fade-right") Además, se deben tener en cuenta los materiales que se sugieren para la implementación del Manual:
         ul.lista-ul--color
           li.d-flex.mb-0
             i.fas.fa-bullseye
@@ -155,7 +155,7 @@
               strong Juego de reglas convencional de patronaje
               | : Como apoyo, se sugiere trabajar con el juego de reglas convencional, sisómetro, curva de cadera, curva de tiro, escuadra.
       
-      .col-lg-5.col-md-12.col-12.mb-4
+      .col-lg-5.col-md-12.col-12.mb-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema5-figure1.svg', alt='Trazo de patrones a escala')
 
@@ -178,14 +178,14 @@
     #t_5_2.titulo-segundo
       h2 5.2  Elaboración de básicos masculinos
 
-    p.mb-5 La elaboración de básicos masculinos se centra en un análisis estructural, lo que conlleva a establecer el prepatronaje de los básicos, por lo anterior, es necesario abordar ciertos puntos para tener en cuenta, a saber:
+    p.mb-5(data-aos="fade-right") La elaboración de básicos masculinos se centra en un análisis estructural, lo que conlleva a establecer el prepatronaje de los básicos, por lo anterior, es necesario abordar ciertos puntos para tener en cuenta, a saber:
     
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
       .col-lg-12.col-md-12.col-12
         LineaTiempoD.color-acento-botones.mb-5
           div(numero="1" titulo="Sistema de medida") 
-            p Los cuadros de tallas, las medidas, las tallas en masculino se trabaja en pulgadas. #[em #[b 1 pulgada = 1 IN = 1".]]
+            p(data-aos="fade-right") Los cuadros de tallas, las medidas, las tallas en masculino se trabaja en pulgadas. #[em #[b 1 pulgada = 1 IN = 1".]]
 
           div(numero="2" titulo="Las pulgadas")
             p El vestuario es tan antiguo como la humanidad así como su confección, y en la década de 1970 las casas de alta costura francesa y europeas, que confeccionaban únicamente ‘ropa a la medida’, decidieron incursionar en el mercado de la confección industrial lanzando sus famosas colecciones prêt à porter (listo para llevar), dando apertura a la creación de tallas comerciales y su estandarización. A continuación, se podrá observar su adaptación:
@@ -195,7 +195,7 @@
                 p  Sistema de medidas ‘imperial’: la mayoría de los países han adoptado el sistema de medidas ‘universal’, es decir: 1” pulgada mide 2,54 cm.
 
           div(numero="3" titulo="Incremento antropométrico")
-            p El crecimiento entre tallas, según la estandarización en pulgadas, corresponde:
+            p(data-aos="fade-right") El crecimiento entre tallas, según la estandarización en pulgadas, corresponde:
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-bullseye
@@ -235,15 +235,15 @@
                 p #[b Talla=] contorno en pulgadas.
 
     
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-7.col-md-12.col-12
         p.mb-5
           strong Manejo de tallas
           | : cada país o región trataba de #[b copiar] las medidas de la #[b ropa] producida por las grandes fábricas, cuya elaboración se hacía con base en #[b ‘pulgadas’] y al copiarlas se #[b adaptaban] las medidas en #[b ‘centímetros’]. Con el tiempo en varias regiones se #[b inventaban] los nombres de las tallas según su propia definición o experiencia, generando así 'nuevos' cuadros de tallas. Fue así como, la expansión en la estandarización de tallas generó caos por su falta de información técnica, invadiendo países en vía de desarrollo.
         .cajon.color-acento-contenido.p-4.mb-5
-          p Hoy en día son pocos los países que usan el sistema de medidas ‘imperial’, pues la mayoría han adoptado el ‘universal’.
+          p(data-aos="fade-right") Hoy en día son pocos los países que usan el sistema de medidas ‘imperial’, pues la mayoría han adoptado el ‘universal’.
 
-        p.mb-4 El crecimiento entre la talla S y talla M : en el sistema imperial equivale a 4” pulgadas por contorno = a 10,2 cm, para el caso del sistema universal es de 8 cm, al hacer el equivalente no hay proporción. En este sentido, los cuadros de tallas en pulgadas serán igual al trazo en centímetros.
+        p.mb-4(data-aos="fade-right") El crecimiento entre la talla S y talla M : en el sistema imperial equivale a 4” pulgadas por contorno = a 10,2 cm, para el caso del sistema universal es de 8 cm, al hacer el equivalente no hay proporción. En este sentido, los cuadros de tallas en pulgadas serán igual al trazo en centímetros.
       
       .col-lg-5.col-md-10.col-10
         img.mb-3.img-a.img-t(src="@/assets/curso/tema5-figure2.svg")
@@ -300,7 +300,7 @@
         tr
           th.negro.th Medida más protuberante a trabajar
           td.th
-            p.mb-4 Por lo general, el Manual trabaja con fórmulas o convenciones, en la mayoría de los casos la medida más protuberante es sustituida por una letra, por ejemplo, en masculino, contorno de pecho (medida más protuberante de la cintura para arriba) equivale o es igual a la letra “P”
+            p.mb-4(data-aos="fade-right") Por lo general, el Manual trabaja con fórmulas o convenciones, en la mayoría de los casos la medida más protuberante es sustituida por una letra, por ejemplo, en masculino, contorno de pecho (medida más protuberante de la cintura para arriba) equivale o es igual a la letra “P”
             p.text-center
               strong P = contorno de pecho de la talla a trabajar
               br

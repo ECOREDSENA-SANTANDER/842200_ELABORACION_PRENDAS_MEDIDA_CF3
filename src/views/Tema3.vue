@@ -8,7 +8,7 @@
         span 3
       h1 Análisis de medidas y cuadros de tallas
 
-    SlyderD.mb-5.no-slyder-d-primary(:datos="datosSlyder")
+    SlyderD.mb-5.no-slyder-d-primary(:datos="datosSlyder")(data-aos="zoom-in-up")
 
     .row.justify-content-center.mb-5
       .col-9
@@ -24,14 +24,14 @@
     #t_3_1.titulo-segundo.mb-4
       h2 3.1  Proporción vs. canon
 
-    p.mb-5 Esta comparación hace relación sobre cuántas cabezas caben en la altura del cuerpo.
+    p.mb-5(data-aos="zoom-in-up") Esta comparación hace relación sobre cuántas cabezas caben en la altura del cuerpo.
 
     TabsA.color-acento-botones.mb-5.rela(data-aos="flip-up")
       .tarjeta.color-acento-conte--borde.p-4(titulo="Canon")
         .row.justify-content-center.align-items-center
           .col-lg-11
             h4 Canon
-            p  Modelo o prototipo que reúne las características que se consideran perfectas en su género, especialmente el referido a la figura humana que reúne las proporciones ideales.
+            p(data-aos="zoom-in-up")  Modelo o prototipo que reúne las características que se consideran perfectas en su género, especialmente el referido a la figura humana que reúne las proporciones ideales.
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 20.
               | Canon (número de cabezas)
@@ -43,8 +43,8 @@
       .tarjeta.color-acento-conte--borde.p-4(titulo="Proporción")
         .row.justify-content-center.align-items-center
           .col-lg-11
-            h4.text-dark Proporción
-            p.text-dark Se refiere a la armonía y correspondencia entre las partes de un conjunto, buscando un equilibrio y simetría. Un ejemplo clásico es la secuencia numérica de Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, etc., donde cada número resulta de la suma de los dos anteriores. Esta progresión está vinculada a las proporciones ideales del cuerpo humano, como las establecidas por Da Vinci en su estudio del Hombre de Vitruvio. Estos principios permiten la creación de un mapa simétrico del cuerpo humano, donde se utiliza el estándar del canon de las ocho cabezas para definir un ideal de belleza.
+            h4.text-dark(data-aos="zoom-in-up") Proporción
+            p.text-dark(data-aos="zoom-in-up") Se refiere a la armonía y correspondencia entre las partes de un conjunto, buscando un equilibrio y simetría. Un ejemplo clásico es la secuencia numérica de Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, etc., donde cada número resulta de la suma de los dos anteriores. Esta progresión está vinculada a las proporciones ideales del cuerpo humano, como las establecidas por Da Vinci en su estudio del Hombre de Vitruvio. Estos principios permiten la creación de un mapa simétrico del cuerpo humano, donde se utiliza el estándar del canon de las ocho cabezas para definir un ideal de belleza.
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 21.
               | Proporción figura humana
@@ -57,8 +57,8 @@
       .tarjeta.color-acento-conte--borde.p-4.modal-content(titulo="Proporciones corporales")
         .row.justify-content-center.align-items-center
           .col-lg-11
-            h4 Proporciones corporales
-            p Es un modelo o prototipo que reúne las características que se consideran perfectas en su género, especialmente el referido a la figura humana que reúne las proporciones ideales.
+            h4(data-aos="zoom-in-up") Proporciones corporales
+            p(data-aos="zoom-in-up") Es un modelo o prototipo que reúne las características que se consideran perfectas en su género, especialmente el referido a la figura humana que reúne las proporciones ideales.
 
             .row.justify-content-center.mb-0
               .col-lg-3.col-12.d-flex(@click="modal1 = true")
@@ -138,7 +138,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema3-deducida.png')})`}"
           )
           .bloque-texto-g__texto.p-5.mt-4.mb-4
-            p.mb-0 Para calcular un cuadro de tallas completo se utilizan, generalmente, dos medidas anatómicas: la altura o estatura total y el contorno superior más prominente. A continuación, se relaciona la fórmula que posibilita una expresión breve y precisa del modo de hacer, resolver o conseguir algo, es decir, del cálculo estandarizado para obtener un resultado.
+            p.mb-0(data-aos="zoom-in-up") Para calcular un cuadro de tallas completo se utilizan, generalmente, dos medidas anatómicas: la altura o estatura total y el contorno superior más prominente. A continuación, se relaciona la fórmula que posibilita una expresión breve y precisa del modo de hacer, resolver o conseguir algo, es decir, del cálculo estandarizado para obtener un resultado.
     
     .row.fondo3.align-items-center
       .col-lg-12.col-md-12.col-12.px-lg-5.px-4
@@ -188,7 +188,7 @@
             .col-lg-8.col-md-12.col-12.mb-3
               .row.justify-content-center
                 .col-lg-8.col-md-12.col-12.mb-3
-                  p.mb-5 De acuerdo con lo anterior, es importante saber cómo obtener medidas deducidas. Aquí un ejemplo: para deducir la medida de 7ª cervical, se toma la medida total de una persona y se le resta 20 cm. ¿Por qué 20 cm? Porque en la estandarización de medidas, se establece que 20 cm corresponde a la medida aprox. de la cabeza. A continuación se presenta la fórmula:
+                  p.mb-5(data-aos="zoom-in-up") De acuerdo con lo anterior, es importante saber cómo obtener medidas deducidas. Aquí un ejemplo: para deducir la medida de 7ª cervical, se toma la medida total de una persona y se le resta 20 cm. ¿Por qué 20 cm? Porque en la estandarización de medidas, se establece que 20 cm corresponde a la medida aprox. de la cabeza. A continuación se presenta la fórmula:
                     div.text-center
                       .row.justify-content-center
                         .col-lg-12
@@ -201,7 +201,7 @@
                     | Cervical o largo útil
                   img(src='@/assets/curso/tema3-figure23.svg' ,alt='Se detalla la figura masculina dividida en siete partes iguales, cada una correspondiente al tamaño de una cabeza, para ilustrar las proporciones del cuerpo humano. La figura de frente y de perfil resalta cómo estas proporciones se distribuyen a lo largo del cuerpo, utilizando la medida de la cabeza como unidad de referencia. Esto ayuda a visualizar y entender las proporciones ideales del cuerpo masculino según el canon clásico.')
 
-    p.mb-5 A continuación, se detallan otras fórmulas de deducción de tallas.
+    p.mb-5(data-aos="zoom-in-up") A continuación, se detallan otras fórmulas de deducción de tallas.
 
     .titulo-sexto.color-acento-contenido
       h5 Tabla 3.
@@ -331,7 +331,7 @@
                     strong #[b Largo de falda corta] 
                     |  = 1/2 de la medida cintura al suelo -3 cm
 
-    p.mb-5 Ahora, se podrá estudiar la forma cómo obtener medidas deducidas a partir del desarrollo de las siguientes fórmulas: 
+    p.mb-5(data-aos="zoom-in-up") Ahora, se podrá estudiar la forma cómo obtener medidas deducidas a partir del desarrollo de las siguientes fórmulas: 
 
     .titulo-sexto.color-acento-contenido
       h5 Tabla 4.
@@ -374,9 +374,9 @@
             td.text-center 4/10 de la estatura 7ª C
             td.text-center 60 cm
 
-    .h4.mb-4 Construyendo cuadros de tallas
+    .h4.mb-4(data-aos="zoom-in-up") Construyendo cuadros de tallas
     
-    p.mb-5 Se refiere a los grupos de magnitudes estandarizadas que definen las medidas de una prenda de vestir. Los siguientes cuadros contienen algunos grupos de tallas fundamentales:
+    p.mb-5(data-aos="zoom-in-up") Se refiere a los grupos de magnitudes estandarizadas que definen las medidas de una prenda de vestir. Los siguientes cuadros contienen algunos grupos de tallas fundamentales:
 
     .titulo-sexto.color-acento-contenido
       h5 Tabla 5.
@@ -513,7 +513,7 @@
             td
             td
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in-up")
       .col-lg-7.col-md-12.col-12
         p.mb-4 A partir de la información anterior, es importante relacionar el siguiente resultado:
         ul.lista-ul--color.mb-4
@@ -547,12 +547,12 @@
           li.mb-0
             i.fas.fa-bullseye
             | #[b Base] = pecho + desahogo + costura (desahogo 4 cm y la costura 2 cm)
-        p A continuación, se expone cómo se realiza una construcción de talla 6 utilizando las fórmulas mencionadas.
+        p(data-aos="zoom-in-up") A continuación, se expone cómo se realiza una construcción de talla 6 utilizando las fórmulas mencionadas.
 
       .col-lg-5.col-md-8.col-8
         img.my-2.mb-4(src='@/assets/curso/tema3-imagen2.png')
 
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="zoom-in-up")
       h5 Tabla 6.
       | Aplicación de fórmulas
 
@@ -611,7 +611,7 @@
             td.text-center 38 cm + 4 cm + 2 cm = 44 cm
             td.text-center 44 cm
 
-    AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--grist")
+    AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--grist")(data-aos="zoom-in-up")
       .row(titulo="Errores más comunes")
         p.mb-4 En modistería, es habitual trabajar con una combinación de medidas. Al emplear medidas deducidas, es crucial aplicarlas de manera secuencial y considerar que las dimensiones finales pueden variar si se incorpora una medida anatómica adicional a las obtenidas por deducción. Por ello, es esencial definir tablas de tallas basadas en distintos criterios:        
         .row.justify-content-center
@@ -663,7 +663,7 @@
         p.mb-4 El análisis de los anteriores aspectos dará como resultado: valores, proporciones, rupturas de talla (para una, dos o hasta tres tallas base).
         p.mb-0 Seguidamente se presentan los cuadros de tallas, infantiles, masculino y femenino.
     
-    .tarjeta.tarjeta--azule.p-3.mb-0
+    .tarjeta.tarjeta--azule.p-3.mb-0(data-aos="zoom-in-up")
       SlyderA(tipo="a")
         .row.justify-content-center.p-4
           .col-lg-12.col-md-12.col-12.mb-4

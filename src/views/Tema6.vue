@@ -8,7 +8,7 @@
         span 6
       h1 Dibujo bidimensional de prendas de vestir
 
-    SlyderD.mb-5.no-slyder-d-primary(:datos="datosSlyder")
+    SlyderD.mb-5.no-slyder-d-primary(:datos="datosSlyder")(data-aos="fade-right")
     
 
     
