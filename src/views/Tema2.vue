@@ -151,7 +151,7 @@
       .py-4.py-md-5(titulo="En confección" :icono="require('@/assets/curso/tema2-tabs1.svg')")
         .row.justify-content-center
           .col-lg-7.col-md-12.col-12
-            p(data-aos="zoom-in-up") #[b En confeccion:] Se utiliza para verificar medidas finales de la prenda, razón por la cual se debe tener en cuenta lo siguiente:
+            p(data-aos="zoom-in-up") #[b En confección:] Se utiliza para verificar medidas finales de la prenda, razón por la cual se debe tener en cuenta lo siguiente:
 
             ul.lista-ul--color
               li
@@ -261,7 +261,7 @@
       .py-4.py-md-5(titulo="En resumen" :icono="require('@/assets/curso/tema2-tabs4.svg')")
         .row.justify-content-between
           .col-lg-5.col-md-12.col-12
-            p.mb-4(data-aos="zoom-in-up") Las fracciones decimales siempre tienen un denominador basado en una potencia de 10; 5/10 es equivalente a ½ ya que ½ por 5/5 es 5/10, por lo tanto, el decimal 0,5 es equivalente a ½ o 2/4.
+            p.mb-5(data-aos="zoom-in-up") Las fracciones decimales siempre tienen un denominador basado en una potencia de 10; 5/10 es equivalente a ½ ya que ½ por 5/5 es 5/10, por lo tanto, el decimal 0,5 es equivalente a ½ o 2/4.
               p.mb-4
               strong En resumen:
               p.mb-4
@@ -272,7 +272,7 @@
               | Fracciones y decimales
             figure
               img.mb-2(src='@/assets/curso/tema2-fracciones.svg', alt='La imagen expone una representación gráfica de una regla, marcada en centímetros y milímetros, con la longitud total de 10 centímetros, así mismo en la parte inferior muestra fracciones divididas entres 2,5 centímetros y se etiquetan como ½, esto re reporte hasta 4 en donde equivale a 10 cm.')
-              figcaption Fracciones y decimales
+
 
           .col-lg-5.col-md-12.col-12.mb-3
             .titulo-sexto.color-acento-contenido.mx-4
@@ -293,7 +293,7 @@
               img(src='@/assets/curso/tema2-figure15.svg', alt='La tabla de equivalencias expone cómo se  convierten fracciones de pulgada a milésimas de pulgada y también expone las equivalencias a milímetros, de cada fracción.')
       .col-lg-6.col-md-12.col-12.mb-3
         .cajaer.p-5.mb-4
-          p.mb-5(data-aos="zoom-in-up") A continuación, se muestran algunos ejemplos, a partir de la conversión anterior:
+          p.mb-5(data-aos="zoom-in-up") A continuación, se presentan algunos ejemplos, a partir de la conversión anterior:
           ul.lista-ul--color.mb-4
             li
               i.fas.fa-circle.mb-4

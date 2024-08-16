@@ -20,7 +20,7 @@
               h4.mb-1 Anexo. PDF – Manual de patronaje básicos e interpretación de diseños
               p.mb-0 Ahora, se debe explorar el Manual de patronaje del SENA el cual se constituye en instrumento de consulta permanente.
             .col-lg-2.col-md-12.col-12
-              a.boton.color-acento-botones(href="/downloads/Manual_patronaje_basico_interpretacion_disenos.pdf" target="_blank")
+              a.boton.color-acento-botones(href="https://repositorio.sena.edu.co/handle/11404/4725?mode=full" target="_blank")
                 span Descargar
                 i.fas.fa-file-download  
     
@@ -185,10 +185,10 @@
       .col-lg-12.col-md-12.col-12
         LineaTiempoD.color-acento-botones.mb-5
           div(numero="1" titulo="Sistema de medida") 
-            p(data-aos="fade-right") Los cuadros de tallas, las medidas, las tallas en masculino se trabaja en pulgadas. #[em #[b 1 pulgada = 1 IN = 1".]]
+            p(data-aos="fade-right") Los cuadros de tallas, las medidas, las tallas en masculino se trabaja en pulgadas.#[b 1 pulgada = 1 IN = 1".]
 
           div(numero="2" titulo="Las pulgadas")
-            p El vestuario es tan antiguo como la humanidad así como su confección, y en la década de 1970 las casas de alta costura francesa y europeas, que confeccionaban únicamente ‘ropa a la medida’, decidieron incursionar en el mercado de la confección industrial lanzando sus famosas colecciones prêt à porter (listo para llevar), dando apertura a la creación de tallas comerciales y su estandarización. A continuación, se podrá observar su adaptación:
+            p El vestuario es tan antiguo como la humanidad, así como su confección, y en la década de 1970 las casas de alta costura francesa y europeas, que confeccionaban únicamente ‘ropa a la medida’, decidieron incursionar en el mercado de la confección industrial lanzando sus famosas colecciones #[em prêt à porter] (listo para llevar), dando apertura a la creación de tallas comerciales y su estandarización. A continuación, se podrá explorar su adaptación:
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-bullseye
@@ -219,7 +219,7 @@
                 i.fas.fa-bullseye
                 | 1/2 pulgada equivale a 1,27 centímetros.
 
-          div(numero="5" titulo="Tallas masculino (medidas en pulgada)")
+          div(numero="4" titulo="Tallas masculino (medidas en pulgada)")
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-bullseye
@@ -243,7 +243,7 @@
         .cajon.color-acento-contenido.p-4.mb-5
           p(data-aos="fade-right") Hoy en día son pocos los países que usan el sistema de medidas ‘imperial’, pues la mayoría han adoptado el ‘universal’.
 
-        p.mb-4(data-aos="fade-right") El crecimiento entre la talla S y talla M : en el sistema imperial equivale a 4” pulgadas por contorno = a 10,2 cm, para el caso del sistema universal es de 8 cm, al hacer el equivalente no hay proporción. En este sentido, los cuadros de tallas en pulgadas serán igual al trazo en centímetros.
+        p.mb-4(data-aos="fade-right") El crecimiento entre la talla S y talla M: en el sistema imperial equivale a 4” pulgadas por contorno = a 10,2 cm, para el caso del sistema universal es de 8 cm, al hacer el equivalente no hay proporción. En este sentido, los cuadros de tallas en pulgadas serán igual al trazo en centímetros.
       
       .col-lg-5.col-md-10.col-10
         img.mb-3.img-a.img-t(src="@/assets/curso/tema5-figure2.svg")

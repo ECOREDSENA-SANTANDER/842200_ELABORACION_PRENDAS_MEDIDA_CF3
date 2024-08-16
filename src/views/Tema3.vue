@@ -149,7 +149,7 @@
               .titulo-sexto.color-acento-contenido.my-3
                 h5 Tabla 2.
                 | Fórmulas medidas deducidas
-              .tabla-a.color-acento-contenido.mb-5(alt='La tabla presenta las medidas correspondientes a "Tórax máximo" y "Talla". Para el pecho, la talla es el tórax máximo menos 2 cm; para la cadera, el tórax máximo más 4 cm; y para la cintura, la cadera menos 14 cm. La estatura 7ª cervical es la estatura total menos 20 cm. El talle es 3/10 de la estatura 7ª cervical, la cintura/suelo es 7/10 de la estatura 7ª cervical, y el largo de brazo es 4/10 de la estatura 7ª cervical. La estatura total es la estatura 7ª cervical más 20 cm. La base se calcula sumando pecho, desahogo (4 cm) y costura (2 cm).')
+              .tabla-a.tabla-peque.color-acento-contenido.mb-5(alt='La tabla presenta las medidas correspondientes a "Tórax máximo" y "Talla". Para el pecho, la talla es el tórax máximo menos 2 cm; para la cadera, el tórax máximo más 4 cm; y para la cintura, la cadera menos 14 cm. La estatura 7ª cervical es la estatura total menos 20 cm. El talle es 3/10 de la estatura 7ª cervical, la cintura/suelo es 7/10 de la estatura 7ª cervical, y el largo de brazo es 4/10 de la estatura 7ª cervical. La estatura total es la estatura 7ª cervical más 20 cm. La base se calcula sumando pecho, desahogo (4 cm) y costura (2 cm).')
                 table
                   thead
                     tr
@@ -188,7 +188,7 @@
             .col-lg-8.col-md-12.col-12.mb-3
               .row.justify-content-center
                 .col-lg-8.col-md-12.col-12.mb-3
-                  p.mb-5(data-aos="zoom-in-up") De acuerdo con lo anterior, es importante saber cómo obtener medidas deducidas. Aquí un ejemplo: para deducir la medida de 7ª cervical, se toma la medida total de una persona y se le resta 20 cm. ¿Por qué 20 cm? Porque en la estandarización de medidas, se establece que 20 cm corresponde a la medida aprox. de la cabeza. A continuación se presenta la fórmula:
+                  p.mb-5(data-aos="zoom-in-up") De acuerdo con lo anterior, es importante saber cómo obtener medidas deducidas. Aquí un ejemplo: para deducir la medida de 7ª cervical, se toma la medida total de una persona y se le resta 20 cm. ¿Por qué 20 cm? Porque en la estandarización de medidas, se establece que 20 cm corresponde a la medida aprox. de la cabeza. A continuación, se presenta la fórmula:
                     div.text-center
                       .row.justify-content-center
                         .col-lg-12
@@ -1595,9 +1595,9 @@
     
     Separador
     #t_3_4.titulo-segundo.mb-5
-      h2 3.4  Identificar el #[em DROP]
+      h2 3.4  Identificar el DROP
 
-    p.mb-4 #[em DROP] es la palabra técnica que indica la diferencia en centímetros entre dos medidas del cuerpo que permite determinar su morfología, tal como se presenta a continuacion:
+    p.mb-4 DROP es la palabra técnica que indica la diferencia en centímetros entre dos medidas del cuerpo que permite determinar su morfología, tal como se presenta a continuación:
 
     
     .row.justify-content-center.mb-5
@@ -1605,47 +1605,47 @@
         ul.lista-ul--color
           li.d-flex
             i.fas.fa-bullseye
-            p.mb-0 #[b #[em DROP] femenino]: diferencia entre cadera y contorno de busto para la mujer. Es decir, #[b Contorno de Cadera - Contorno de Busto = DROP].
+            p.mb-0 #[b DROP femenino]: diferencia entre cadera y contorno de busto para la mujer. Es decir, #[b Contorno de Cadera - Contorno de Busto = DROP].
 
-        p.mb-3 El #[em DROP] tiene características importantes que se deben considerar al momento de realizar su identificación:
+        p.mb-3 El DROP tiene características importantes que se deben considerar al momento de realizar su identificación:
 
         ul.lista-ul--color.mb-3
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 Con el #[em DROP] se establecen las diferentes contexturas de una misma talla.
+            p.mb-0 Con el DROP se establecen las diferentes contexturas de una misma talla.
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 En las mujeres, el #[em DROP] es la diferencia entre las medidas de Contorno de Cadera y Contorno de Busto.
+            p.mb-0 En las mujeres, el DROP es la diferencia entre las medidas de Contorno de Cadera y Contorno de Busto.
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 En las tallas femeninas predomina un #[em DROP] positivo.
+            p.mb-0 En las tallas femeninas predomina un DROP positivo.
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 Generalmente una talla se considera normal cuando el #[em DROP] es positivo entre +2 cm y +4 cm.
+            p.mb-0 Generalmente una talla se considera normal cuando el DROP es positivo entre +2 cm y +4 cm.
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 El #[em DROP] estándar usado en Colombia es + 4 cm.
+            p.mb-0 El DROP estándar usado en Colombia es + 4 cm.
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 En las tallas extremas y altas el #[em DROP] se vuelve negativo.
+            p.mb-0 En las tallas extremas y altas el DROP se vuelve negativo.
         
         p.mb-3 A continuación, se relacionan algunos ejemplos:
         
         ul.lista-ul--color
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 #[b #[em DROP] + 2], indica la medida de cadera 2 cm mayor que el contorno de busto.
+            p.mb-0 #[b DROP + 2], indica la medida de cadera 2 cm mayor que el contorno de busto.
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 #[b El #[em DROP] 0], indica que la medida de cadera es igual a la medida de contorno de busto.
+            p.mb-0 #[b El DROP 0], indica que la medida de cadera es igual a la medida de contorno de busto.
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 #[b El #[em DROP] - 4], indica que la medida de cadera tiene 4 cm menos que el contorno de busto.
+            p.mb-0 #[b El DROP - 4], indica que la medida de cadera tiene 4 cm menos que el contorno de busto.
 
       .col-lg-6.col-md-12.col-12
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 28.
-          | #[em DROP] femenino
+          | DROP femenino
         .caja12.p-3
           img(src='@/assets/curso/tema3-figure26.svg', style='max-height: 400px')(alt='Se expone una figura femenina en la cual se indica con flechas el DROP que es la diferencia entre las medidas de Contorno de Cadera y Contorno de Busto')
 
@@ -1654,7 +1654,7 @@
       .col-lg-6.col-md-12.col-12
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 29.
-          | #[em DROP] masculino
+          | DROP masculino
         .caja12.mb-5
           img.img-a.img-t(src='@/assets/curso/tema3-figure27.svg')(alt='Se expone Figura Masculina en la cual se indica con flechas el DROP que es la diferencia entre las medidas de Contorno del pecho y la cintura')
         
@@ -1662,21 +1662,21 @@
         ul.lista-ul--color
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 #[b #[em DROP] masculino:] para este caso la diferencia está entre la cintura y el pecho. Generalmente en tallas masculinas predomina el DROP negativo (más pecho que cintura), aunque al realizar una tabla de tallas (a mayor talla menos DROP) en tallas extremas puede a ser positivo, es decir, un cuerpo con más cintura que pecho.
+            p.mb-0 #[b DROP masculino:] para este caso la diferencia está entre la cintura y el pecho. Generalmente en tallas masculinas predomina el DROP negativo (más pecho que cintura), aunque al realizar una tabla de tallas (a mayor talla menos DROP) en tallas extremas puede a ser positivo, es decir, un cuerpo con más cintura que pecho.
         p.mb-3 A continuación, se relacionan algunos ejemplos:
 
         ul.lista-ul--color
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 #[b Un #[em DROP] - 4] indica, una cintura con 4 pulgadas menos que la medida de pecho.
+            p.mb-0 #[b Un DROP - 4] indica, una cintura con 4 pulgadas menos que la medida de pecho.
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 #[b Un #[em DROP] 0,] indica una cintura igual al pecho.
+            p.mb-0 #[b Un DROP 0,] indica una cintura igual al pecho.
           li.mb-0.d-flex
             i.fas.fa-bullseye
-            p.mb-0 #[b Un #[em DROP] + 2,] indica una cintura con 2 pulgadas que el pecho.
+            p.mb-0 #[b Un DROP + 2,] indica una cintura con 2 pulgadas que el pecho.
 
-        p.mb-4 Acorde con el género, cada tipo de silueta tiene un #[em DROP] característico determinado, a su vez, por la tipología del cuerpo dentro de una clasificación general, puesto que hay particularidades y cada persona necesita un análisis en cuanto a su silueta para poder abordar el vestuario, patronaje y confección.
+        p.mb-4 Acorde con el género, cada tipo de silueta tiene un DROP característico determinado, a su vez, por la tipología del cuerpo dentro de una clasificación general, puesto que hay particularidades y cada persona necesita un análisis en cuanto a su silueta para poder abordar el vestuario, patronaje y confección.
 
     .titulo-sexto.color-acento-contenido.mb-5
       h5 Figura 30.
