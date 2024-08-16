@@ -253,38 +253,38 @@ export default {
         'La medida del contorno corporal más amplio que se utiliza como base para trazar patrones, como el contorno de pecho.',
     },
     {
-      termino: 'Cuadro de tallas ',
+      termino: 'Cuadro de tallas',
       significado:
         'Tabla que contiene las medidas estándar de diferentes partes del cuerpo para varias tallas, utilizada para la elaboración de patrones. ',
     },
     {
-      termino: 'Contorno ',
+      termino: 'Contorno',
       significado:
         'Medida alrededor de una parte específica del cuerpo, como el contorno de pecho, cadera o cintura. ',
     },
     {
-      termino: 'Estatura ',
+      termino: 'Estatura',
       significado:
         'Altura total de una persona, medida desde la cabeza hasta los pies.',
     },
     {
-      termino: 'Talle ',
+      termino: 'Talle',
       significado: 'Medida vertical desde el hombro hasta la cintura. ',
     },
     {
-      termino: 'Largo de brazo ',
+      termino: 'Largo de brazo',
       significado: 'Longitud medida desde el hombro hasta la muñeca ',
     },
     {
-      termino: 'Cuello ',
+      termino: 'Cuello',
       significado: 'Medida alrededor de la base del cuello ',
     },
     {
-      termino: ' Cintura/suelo ',
+      termino: 'Cintura/suelo',
       significado: 'Distancia vertical desde la cintura hasta el suelo. ',
     },
     {
-      termino: 'Base ',
+      termino: 'Base',
       significado:
         'Medida de pecho ajustada con desahogo y costura, utilizada como referencia en patrones. ',
     },
@@ -294,12 +294,12 @@ export default {
         'Forma o contorno general de una prenda o figura, determinada por el diseño y las medidas utilizadas en los patrones. ',
     },
     {
-      termino: ' Papel manila ',
+      termino: 'Papel manila',
       significado:
         'Tipo de papel utilizado en la creación de patrones de costura, recomendado por su opacidad y resistencia. ',
     },
     {
-      termino: ' Desahogo ',
+      termino: 'Desahogo',
       significado:
         'Espacio adicional añadido a las medidas corporales en los patrones para permitir comodidad y movimiento. ',
     },
