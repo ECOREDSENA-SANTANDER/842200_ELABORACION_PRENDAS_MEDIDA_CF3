@@ -10,12 +10,12 @@
 
     SlyderD.mb-5.no-slyder-d-primary(:datos="datosSlyder")(data-aos="zoom-in-up")
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .col-9
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 19.
           | Medidas figura humana
-        figure.mb-5.px-4
+        figure.px-4
           img.d-none.d-lg-block(src='@/assets/curso/tema3-medidas.svg', alt='La imagen expone una figura humana con varias líneas y etiquetas que indican cómo tomar medidas corporales. Las medidas especificadas incluyen: cuello, alto de pecho, talle delantero, contorno de pecho, alto sisa, contorno de brazo, cintura, cadera, largo cadera, muslo, largo de falda, gemelo, tobillo y largo total. Las etiquetas están colocadas al lado de la figura, con líneas de diferentes colores que señalan la posición de cada medida en el cuerpo.')
           img.imagen-mobile(src='@/assets/curso/tema3-medidas.3.svg', alt='La imagen expone una figura humana con varias líneas y etiquetas que indican cómo tomar medidas corporales. Las medidas especificadas incluyen: cuello, alto de pecho, talle delantero, contorno de pecho, alto sisa, contorno de brazo, cintura, cadera, largo cadera, muslo, largo de falda, gemelo, tobillo y largo total. Las etiquetas están colocadas al lado de la figura, con líneas de diferentes colores que señalan la posición de cada medida en el cuerpo.')
     
@@ -61,7 +61,7 @@
             p(data-aos="zoom-in-up") Es un modelo o prototipo que reúne las características que se consideran perfectas en su género, especialmente el referido a la figura humana que reúne las proporciones ideales.
 
             .row.justify-content-center.mb-0
-              .col-lg-3.col-12.d-flex(@click="modal1 = true")
+              .col-lg-3.col-4.d-flex(@click="modal1 = true")
                 .py-5.p-3
                   .p-0.d-flex.justify-content-center.mb-4
                     img.mb-lg-0.mb-3( style="width: 181px" alt="" src="@/assets/curso/im1.1.svg")
@@ -71,7 +71,7 @@
                       .titulo-sexto.color-acento-contenido
                         h5 Figura 22.
             
-              .col-lg-3.col-12.d-flex(@click="modal2 = true")
+              .col-lg-3.col-4.d-flex(@click="modal2 = true")
                 .py-5.p-3
                   .p-0.d-flex.justify-content-center.mb-4
                     img.mb-lg-0.mb-3( style="width: 181px" alt="" src="@/assets/curso/im1.2.svg")
@@ -81,7 +81,7 @@
                       .titulo-sexto.color-acento-contenido
                         h5 Figura 23.
 
-              .col-lg-3.col-12.d-flex(@click="modal3 = true")
+              .col-lg-3.col-4.d-flex(@click="modal3 = true")
                 .py-5.p-3
                   .p-0.d-flex.justify-content-center.mb-4
                     img.mb-lg-0.mb-3( style="width: 181px" alt="" src="@/assets/curso/im1.3.svg")

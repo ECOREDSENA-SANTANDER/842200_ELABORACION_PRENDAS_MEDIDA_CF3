@@ -455,7 +455,7 @@
               h4.mb-1 Enlace #[em web].  Video – Clasificación de medidas
               p.mb-0(data-aos="zoom-in-up") Es importante conocer los aspectos para desarrollar patrones de prendas de vestir bajo la estructura del reconocimiento de diferentes tipos de formas corpóreas, partiendo desde los conceptos básicos de anatomía hasta el desarrollo de molde básico para la interpretación de la estructura corporal.
             .col-lg-2.col-md-12.col-12
-              a.boton.color-acento-botones(href="https://youtu.be/nrZzZ6GeEjY" target="_blank")
+              a.boton.color-acento-botones(href="https://youtu.be/ppOfZh4ZzQg" target="_blank")
                 span Ir al sitio
                 i.fas.fa-link
 

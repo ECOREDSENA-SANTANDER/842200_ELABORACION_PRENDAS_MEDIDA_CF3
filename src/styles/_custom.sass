@@ -8,33 +8,26 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 45%
-    left: 5%
+    top: 41.5%
+    left: 18%
+    width: 120px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 10%
     right: 35%
   
-.banner-principal .tarjeta 
-  img, svg 
-    display: block;
-    border-style: hidden;
-  figure, picture, img, svg 
-    margin: 0;
-    width: 100%;
-    max-width: 100%;
-
 .banner-principal__row 
-    justify-content: space-evenly;
+    justify-content: space-around
 
-@media (min-width: 576px) 
-    .ps-sm-5 
-        padding-left: 7rem !important;
-@media (min-width: 576px) 
-    .py-sm-5 
-        padding-top: 3rem !important;
-        padding-bottom: -4rem !important;
+.banner-principal .tarjeta 
+  figure, picture, img, svg 
+    margin: 0
+    width: 84%
+    max-width: 90%
+@media (min-width: 1400px) 
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl 
+        max-width: 1320px
     
 
 .tarjeta.color-acento-conte--borde
@@ -362,22 +355,10 @@ td, th
 .tabla-a.tabla-peque table
   min-width: 470px !important
 
-.modal-a--abierto .modal-a__content 
-    transform: translate(-50%, -50%) scale(1)
 
 .modal-a__content 
-    position: fixed
-    top: 50%
-    left: 50%
     background-color: #E9F9F5
-    width: 90%
-    max-width: 1300px
-    max-height: 100vh
-    overflow-y: auto
-    z-index: 110001
-    border-radius: 20px
-    transform: translate(-50%, -50%) scale(0)
-    transition: transform 0.3s ease-in-out
+
 
 
 .cajaer
@@ -389,10 +370,6 @@ td, th
   content: "\e122"
   .fa-lg 
     font-size: 1em
-
-
-.lista-ul--color li > i:first-of-type 
-    color: $color-secundario
 
 
 .titulo-segundo:after 
