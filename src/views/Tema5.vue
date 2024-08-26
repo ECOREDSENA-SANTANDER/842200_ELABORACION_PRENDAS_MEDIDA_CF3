@@ -170,7 +170,7 @@
               h4.mb-1 Anexo. PDF – Manual de patronaje. “Básico e interpretación de diseños”. 
               p.mb-0 Conoce y maneja las diferentes simbologías que facilitan los procesos técnicos de patronaje y corte.
             .col-lg-2.col-md-12.col-12
-              a.boton.color-acento-botones(href="/downloads/5_Anexo_5_Presentación_del_Manual_del_Sena.pdf" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/5_Anexo_5_Presentación_del_Manual_del_Sena.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
     
