@@ -20,7 +20,7 @@
           | Plano en 3D
         img(src="@/assets/curso/figure29.svg", alt='La imagen expone dos representaciones de un cubo. A la izquierda, hay un cubo dibujado con líneas sólidas para los bordes visibles y líneas discontinuas para los bordes que no están a la vista. A la derecha, hay un cubo representado en un sistema de coordenadas tridimensional con ejes etiquetados como x, y y z. El cubo está orientado de tal manera que una esquina coincide con el origen del sistema de coordenadas y cada cara del cubo es paralela a un plano formado por dos ejes del sistema de coordenadas.')
       
-      .col-lg-5.col-md-10.col-10.mb-4
+      .col-lg-5.col-md-12.col-12.mb-4
         .titulo-sexto.color-acento-contenido
           h5 Figura 32.  
           | Plano en 2D

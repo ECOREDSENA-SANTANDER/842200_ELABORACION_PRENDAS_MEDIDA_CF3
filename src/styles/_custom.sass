@@ -56,17 +56,27 @@
 .cajon.color-primario
   background-color: #EEFBF8
 
-.no-slyder-d-primary
-  > .horizontal-scroll__wrapper > .horizontal-scroll > .slyder-d__slyde > .slyder-d__imagen > .slyder-d__content > .row > .col-md-8 > .slyder-d__content__card
-    background-color: #FFFCEF
-    > .slyder__action
-      visibility: hidden
+
 .no-slyder-d-primary
   > .horizontal-scroll__wrapper > .horizontal-scroll > .slyder-d__slyde > .slyder-d__imagen > .slyder-d__content > .row > .col-lg-6 > .slyder-d__content__card
     background-color: #FBD9D0
     border-radius: 0px 12px 0px 0px
     > .slyder__action
       visibility: hidden
+
+    
+@media (max-width: 768px) 
+    .slyder-d__content 
+      position: relative
+    .col-md-8
+      flex: 0 0 auto
+      width: 100%
+
+    
+
+
+
+
 .texto-imagenes
   background-color: #F8E2DC
 
@@ -105,14 +115,15 @@
   > i
     color: #111E61
 
-.tabs-a__tab
-  background-color: #E8E8E8
-  &.tabs-a__tab__selected
-    > .tabs-a__tab__text
-      color: white
-  &:hover
-    > .tabs-a__tab__text
-      color: white
+.tabs-a__tab 
+    display: block
+    width: 100%
+    text-align: left
+    padding: 15px 20px
+    border-radius: 5px
+    color: black
+    line-height: 1.2em
+
 
 .bloque-texto-a.color-primario
   background-color: #E8E8E8
@@ -269,11 +280,11 @@ td, th
   background-color: #E9F9F5
 
 .tabs-a.color-acento-contenido .tabs-a__tab__selected 
-    background-color: #F5947A;
-    color: #12263F;
+    background-color: #F5947A
+    color: black
 
 .tabs-a__tab 
-    background-color: #E8E8E8;
+    background-color: #E8E8E8
 
 
 
@@ -380,3 +391,54 @@ td, th
     border-left: solid 50px
     border-left-color: #baefe4
     background-color: #e8e8e8
+
+.cajav
+  background-color: #73D8C0
+  border-radius: 50px
+
+.mat
+  margin-top: -8.1%
+
+.met
+  margin-top: -2%
+
+
+.bg77
+  background-color: #F3F9FF
+
+.por
+  transform: scale(1.1)
+
+.tabla-a.tabl table
+  min-width: 470px !important
+
+.bg88
+  background-color: #C0DEE1
+
+
+.tabs-b__tab--active .tabs-b__tab__title 
+    font-weight: 900
+
+.fas 
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    display: inline-block
+    font-style: normal
+    font-variant: normal
+    text-rendering: auto
+    line-height: 0.8
+
+.tabla.hj .color2
+  background-color: #E8E8E8
+  border-color: #BAEFE4
+  font-weight: 700
+  text-align: center
+  line-height: 1.2
+
+td .hh
+  text-overflow: ellipsis
+
+
+
+
+    

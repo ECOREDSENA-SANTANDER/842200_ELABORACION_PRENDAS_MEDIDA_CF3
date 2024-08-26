@@ -11,7 +11,7 @@
     SlyderD.mb-5.no-slyder-d-primary(:datos="datosSlyder")(data-aos="zoom-in-up")
 
     .row.justify-content-center.mb-3
-      .col-9
+      .col-lg-9
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 19.
           | Medidas figura humana
@@ -26,7 +26,7 @@
 
     p.mb-5(data-aos="zoom-in-up") Esta comparación hace relación sobre cuántas cabezas caben en la altura del cuerpo.
 
-    TabsA.color-acento-botones.mb-5.rela(data-aos="flip-up")
+    TabsA.color-acento-botones.mb-5(data-aos="flip-up")
       .tarjeta.color-acento-conte--borde.p-4(titulo="Canon")
         .row.justify-content-center.align-items-center
           .col-lg-11
@@ -112,7 +112,7 @@
                   .row.justify-content-center.mb-5
                     .col-12
                       figure
-                      img(src='@/assets/curso/tema3-figure21.svg', alt='La imagen, titulada "Proporción con medidas de la figura", presenta dibujos de la figura masculina inspirados en el Hombre de Vitruvio, con anotaciones numéricas que indican las medidas de diferentes partes del cuerpo en centímetros, como la envergadura de los brazos y la altura total.')
+                      img(src='@/assets/curso/tema3-figure21.png', alt='La imagen, titulada "Proporción con medidas de la figura", presenta dibujos de la figura masculina inspirados en el Hombre de Vitruvio, con anotaciones numéricas que indican las medidas de diferentes partes del cuerpo en centímetros, como la envergadura de los brazos y la altura total.')
           
             ModalA(:abrir-modal.sync="modal3")
               .row.justify-content-center.align-items-center
@@ -218,118 +218,110 @@
           tr
             td.align-top
               ul.lista-ul--color
-                li.mb-0
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Tórax máximo] = BUSTO
-                li.mb-0
+                  p.mb-0 #[b Tórax máximo] = BUSTO
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Tórax máximo] = Talla + 36 cm
-                li.mb-0
+                  p.mb-0 #[b Tórax máximo] = Talla + 36 cm
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Pecho] = tórax máximo – 2 cm
-                li.mb-0
+                  p.mb-0 #[b Pecho] = tórax máximo – 2 cm
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Bajo busto] = busto – 6 cm
-                li.mb-0
+                  p.mb-0 #[b Bajo busto] = busto – 6 cm
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Sep. de busto] = 2/5 busto
-                li.mb-0
+                  p.mb-0 #[b Sep. de busto] = 2/5 busto
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Cintura] = busto – 10 cm
-                li.mb-0
+                  p.mb-0 #[b Cintura] = busto – 10 cm
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Cadera] = busto + 4 cm
-                li.mb-0
+                  p.mb-0 #[b Cadera] = busto + 4 cm
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Cuello] = 1/2 busto + 12 cm
-                li.mb-0
+                  p.mb-0 #[b Cuello] = 1/2 busto + 12 cm
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Rodilla] = 1/4 busto + 24 cm
-                li.mb-0
+                  p.mb-0 #[b Rodilla] = 1/4 busto + 24 cm
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Tobillo] = 1/8 busto + 15.5 cm
-                li.mb-0
+                  p.mb-0 #[b Tobillo] = 1/8 busto + 15.5 cm
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Brazo] = busto – 18 cm
-                li.mb-0
+                  p.mb-0 #[b Brazo] = busto – 18 cm
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Muñeca] = 1/4 busto + 5 cm
-                li.mb-0
+                  p.mb-0 #[b Muñeca] = 1/4 busto + 5 cm
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Ancho Espalda] = busto – 8 cm
+                  p.mb-0 #[b Ancho Espalda] = busto – 8 cm
 
             td.align-top
               ul.lista-ul--color
-                li.mb-0
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Estatura 7ª C] = busto + 96 cm
-                li.mb-0
+                  p.mb-0 #[b Estatura 7ª C] = busto + 96 cm
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Estatura total] = estatura 7ª C +20 cm
-                li.mb-0
+                  p.mb-0 #[b Estatura total] = estatura 7ª C +20 cm
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Altura de busto] = 3/8 estatura 7ª C – 27 cm
-                li.mb-0
+                  p.mb-0 #[b Altura de busto] = 3/8 estatura 7ª C – 27 cm
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Altura bajo busto] = 3/8 estatura 7ª C – 18 cm
-                li.mb-0
+                  p.mb-0 #[b Altura bajo busto] = 3/8 estatura 7ª C – 18 cm
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Largo brazo] = 4/10 estatura 7ª C
-                li.mb-0
+                  p.mb-0 #[b Largo brazo] = 4/10 estatura 7ª C
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Cintura/suelo] = 7/10 estatura 7ª C
-                li.mb-0
+                  p.mb-0 #[b Cintura/suelo] = 7/10 estatura 7ª C
+                li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  | #[b Altura de cadera] = 2/3 de tiro
+                  p.mb-0 #[b Altura de cadera] = 2/3 de tiro
             td.align-top
               ul.lista-ul--color.mb-4
-                li.mb-0
-                  i.fas.fa-bullseye
-                  | #[b Talla] = años
-                li.mb-0
-                  i.fas.fa-bullseye
-                  | #[b Pecho] = años + 24 cm
-                li.mb-0
-                  i.fas.fa-bullseye
-                  | #[b Cintura] = 1/2 de años + 26 cm
-                li.mb-0
-                  i.fas.fa-bullseye
-                  | #[b Cadera] = años + 28 cm
-                li.mb-0
-                  i.fas.fa-bullseye
-                  | #[b Cuello] = 2/3 de pecho + 4 cm
-                li.mb-0
-                  i.fas.fa-bullseye
-                  | #[b Estatura 7ª C] = años x 5 + 65 cm
-                li.mb-0
-                  i.fas.fa-bullseye
-                  | #[b Talle Espalda] = 3/10 de estatura 7ª C
                 li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  p.mb-0
-                    strong #[b Estatura total: ]
-                    | estatura 7ª C + 15 cm a 18 cm. Corresponden al canon del niño o medida de cabeza
-                li.mb-0
-                  i.fas.fa-bullseye
-                  | #[b Largo de brazo] = 4/10 de Estatura 7ª C
-                li.d-flex
-                  i.fas.fa-bullseye
-                  p.mb-0
-                    strong #[b Codo] =  
-                    |  1/2 de brazo. Esta medida sin tener en cuenta lo que corresponde a la muñeca (menos 5 cm para todas las tallas)
-                li.mb-0
-                  i.fas.fa-bullseye
-                  | #[b Cintura al suelo] = 7/10 de estatura 7ª C
+                  p.mb-0 #[b Talla] = años
                 li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  p.mb-0
-                    strong #[b Largo de falda larga]
-                    |  = 2/3 de la medida cintura al suelo – 3 cm
+                  p.mb-0 #[b Pecho] = años + 24 cm
                 li.mb-0.d-flex
                   i.fas.fa-bullseye
-                  p.mb-0
-                    strong #[b Largo de falda corta] 
-                    |  = 1/2 de la medida cintura al suelo -3 cm
+                  p.mb-0 #[b Cintura] = 1/2 de años + 26 cm
+                li.mb-0.d-flex
+                  i.fas.fa-bullseye
+                  p.mb-0 #[b Cadera] = años + 28 cm
+                li.mb-0.d-flex
+                  i.fas.fa-bullseye
+                  p.mb-0 #[b Cuello] = 2/3 de pecho + 4 cm
+                li.mb-0.d-flex
+                  i.fas.fa-bullseye
+                  p.mb-0 #[b Estatura 7ª C] = años x 5 + 65 cm
+                li.mb-0.d-flex
+                  i.fas.fa-bullseye
+                  p.mb-0 #[b Talle Espalda] = 3/10 de estatura 7ª C
+                li.mb-0.d-flex
+                  i.fas.fa-bullseye
+                  p.mb-0 #[b Estatura total:] estatura 7ª C + 15 cm a 18 cm. Corresponden al canon del niño o medida de cabeza
+                li.mb-0.d-flex
+                  i.fas.fa-bullseye
+                  p.mb-0 #[b Largo de brazo] = 4/10 de Estatura 7ª C
+                li.mb-0.d-flex
+                  i.fas.fa-bullseye
+                  p.mb-0 #[b Codo] =  1/2 de brazo. Esta medida sin tener en cuenta lo que corresponde a la muñeca (menos 5 cm para todas las tallas)
+                li.mb-0.d-flex
+                  i.fas.fa-bullseye
+                  p.mb-0 #[b Cintura al suelo] = 7/10 de estatura 7ª C
+                li.mb-0.d-flex
+                  i.fas.fa-bullseye
+                  p.mb-0 #[b Largo de falda larga] = 2/3 de la medida cintura al suelo – 3 cm
+                li.mb-0.d-flex
+                  i.fas.fa-bullseye
+                  p.mb-0 #[b Largo de falda corta] = 1/2 de la medida cintura al suelo -3 cm
 
     p.mb-5(data-aos="zoom-in-up") Ahora, se podrá estudiar la forma cómo obtener medidas deducidas a partir del desarrollo de las siguientes fórmulas: 
 
@@ -617,21 +609,21 @@
         .row.justify-content-center
           .col-12
             ul.lista-ul--color
-              li.mb-0
+              li.mb-0.d-flex
                 i.fas.fa-bullseye
-                | #[b Anatómicos y deducidos:] clasificadas según el método de obtención de las medidas.
-              li.mb-0
+                p.mb-0 #[b Anatómicos y deducidos:] clasificadas según el método de obtención de las medidas.
+              li.mb-0.d-flex
                 i.fas.fa-bullseye
-                | #[b Proporcionales:] caracterizadas por un crecimiento secuencial y numérico de las tallas.
-              li.mb-0
+                p.mb-0 #[b Proporcionales:] caracterizadas por un crecimiento secuencial y numérico de las tallas.
+              li.mb-0.d-flex
                 i.fas.fa-bullseye
-                | #[b No proporcionales:] donde el crecimiento de las tallas no sigue una secuencia numérica fija.
-              li.mb-0
+                p.mb-0 #[b No proporcionales:] donde el crecimiento de las tallas no sigue una secuencia numérica fija.
+              li.mb-0.d-flex
                 i.fas.fa-bullseye
-                | #[b Completas:] que abarcan todas las medidas necesarias para la creación de patrones de ropa.
-              li.mb-0
+                p.mb-0 #[b Completas:] que abarcan todas las medidas necesarias para la creación de patrones de ropa.
+              li.mb-0.d-flex
                 i.fas.fa-bullseye
-                | #[b Específicas por prenda:] que pueden incluir holguras y margen de costura según sea necesario.
+                p.mb-0 #[b Específicas por prenda:] que pueden incluir holguras y margen de costura según sea necesario.
 
 
       .row(titulo="Normatividad")
@@ -639,27 +631,27 @@
         .row.justify-content-center
           .col-12
             ul.lista-ul--color
-              li.mb-0
+              li.mb-0.d-flex
                 i.fas.fa-bullseye
-                | #[b NTC ISO 8559]. Fabricación de vestuario y estudios antropométricos. Dimensiones corporales – Icontec.
-              li.mb-0
+                p.mb-0 #[b NTC ISO 8559]. Fabricación de vestuario y estudios antropométricos. Dimensiones corporales – Icontec.
+              li.mb-0.d-flex
                 i.fas.fa-bullseye
-                | #[b Norma UNE-EN 13402-3]. Armoniza y simplifica el etiquetado de tallas de prendas de vestir para el beneficio del consumidor y de la industria en general.
+                p.mb-0 #[b Norma UNE-EN 13402-3]. Armoniza y simplifica el etiquetado de tallas de prendas de vestir para el beneficio del consumidor y de la industria en general.
 
       .row(titulo="Análisis de cuadros de tallas")
         p.mb-4 Para el análisis de cuadros de tallas se deben determinar los límites, la frecuencia y el incremento, tal como se relaciona a continuación:
         .row.justify-content-center
           .col-12
             ul.lista-ul--color
-              li.mb-0
+              li.mb-0.d-flex
                 i.fas.fa-bullseye
-                | #[b Límites:] la más pequeña y la más grande. 
-              li.mb-0
+                p.mb-0 #[b Límites:] la más pequeña y la más grande. 
+              li.mb-0.d-flex
                 i.fas.fa-bullseye
-                | #[b Frecuencia:]  aumento de medida #[b talla a talla] (secuencial y no secuencial - constantes y variables).
-              li.mb-0
+                p.mb-0 #[b Frecuencia:]  aumento de medida #[b talla a talla] (secuencial y no secuencial - constantes y variables).
+              li.mb-0.d-flex
                 i.fas.fa-bullseye
-                | #[b Incremento:] magnitud de crecimiento de la medida talla por talla.
+                p.mb-0 #[b Incremento:] magnitud de crecimiento de la medida talla por talla.
         p.mb-4 El análisis de los anteriores aspectos dará como resultado: valores, proporciones, rupturas de talla (para una, dos o hasta tres tallas base).
         p.mb-0 Seguidamente se presentan los cuadros de tallas, infantiles, masculino y femenino.
     
@@ -1575,12 +1567,12 @@
         p.mb-4 Para realizar la deducción de medidas es importante realizar su comparación y para ello se debe tener en cuenta:
   
         ul.lista-ul--color.mb-5
-          li
+          li.mb-0.d-flex
             i.fas.fa-bullseye
-            | Incremento entre talla y talla: tomar medida por medida y revisar el incremento que hay entre talla y talla.
-          li
+            p.mb-0 Incremento entre talla y talla: tomar medida por medida y revisar el incremento que hay entre talla y talla.
+          li.mb-0.d-flex
             i.fas.fa-bullseye
-            | Ruptura de talla: identificar ruptura del cuadro de tallas, por medida y talla.
+            p.mb-0 Ruptura de talla: identificar ruptura del cuadro de tallas, por medida y talla.
     
 
     .row.justify-content-center.mb-5
@@ -1708,16 +1700,7 @@ export default {
         titulo: '',
         texto:
           'Los cuadros de tallas y medidas son usados, dentro del sector, para contar fácilmente con la información estandarizada de las tallas de un país o región, las cuales estarán determinadas de acuerdo con estudios antropométricos, dado que las condiciones geográficas, clima, entre otras, hacen que la anatomía y estructura corporal puedan diferir.',
-        imagen: require('@/assets/curso/tema3-imagen1.png'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-    ],
-    datosSlyder1: [
-      {
-        titulo: '',
-        texto:
-          'Los cuadros de tallas y medidas son usados, dentro del sector, para contar fácilmente con la información estandarizada de las tallas de un país o región, las cuales estarán determinadas de acuerdo con estudios antropométricos, dado que las condiciones geográficas, clima, entre otras, hacen que la anatomía y estructura corporal puedan diferir.',
-        imagen: require('@/assets/curso/tema3-imagen1.png'),
+        imagen: require('@/assets/curso/tema3-imagen1.jpg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
     ],

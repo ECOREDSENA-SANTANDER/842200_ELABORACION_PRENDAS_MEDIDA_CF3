@@ -33,32 +33,32 @@
         p.mb-0(data-aos="fade-right") Dentro de este proceso es necesario conocer y manejar las diferentes simbologías que facilitan los procesos técnicos de patronaje y corte. Algunos de estos símbolos permiten entender, fácilmente, las gráficas de construcción, eliminando el uso de textos y referencias alfanuméricas; otros indican de qué manera deben estar aplomados los patrones despiezados para su corte.
         p.mb-4(data-aos="fade-right") Es importante anotar que, en el momento de despiezar el patrón para su identificación, cada pieza debe estar marcada así:
         ul.lista-ul--color.mb-4
-          li.mb-0
+          li.mb-0.d-flex
             i.fas.fa-bullseye
-            | Nombre de la pieza
-          li.mb-0
+            p.mb-0 Nombre de la pieza
+          li.mb-0.d-flex
             i.fas.fa-bullseye
-            | Referencia
-          li.mb-0
+            p.mb-0  Referencia
+          li.mb-0.d-flex
             i.fas.fa-bullseye
-            | Talla
-          li.mb-0
+            p.mb-0 Talla
+          li.mb-0.d-flex
             i.fas.fa-bullseye
-            | Nombre del patronista
-          li.mb-0
+            p.mb-0  Nombre del patronista
+          li.mb-0.d-flex
             i.fas.fa-bullseye
-            | Simbología para corte
-          li.mb-0
+            p.mb-0  Simbología para corte
+          li.mb-0.d-flex
             i.fas.fa-bullseye
-            | Número de veces a cortar
-          li.mb-0
+            p.mb-0  Número de veces a cortar
+          li.mb-0.d-flex
             i.fas.fa-bullseye
-            | Piquetes de confección
-          li.mb-0
+            p.mb-0  Piquetes de confección
+          li.mb-0.d-flex
             i.fas.fa-bullseye
-            | Líneas de aplome
+            p.mb-0  Líneas de aplome
         p.mb-0(data-aos="fade-right") También es posible establecer otras especificaciones, como anexar datos de estampación, cambios de color o material, acabados especiales, ubicación de bolsillos, etc.
-      .col-lg-6.col-md-12.col-12
+      .col-lg-6.col-md-9.col-12
         img.mb-4(src='@/assets/curso/tema5-titulo2.svg')
 
     
@@ -73,8 +73,8 @@
                 p(data-aos="fade-right") Se debe tener en cuenta cuáles son las claves geométricas, horizontal, vertical, perpendicular (escuadrar), rectángulo, cuadrado, paralelo, ángulo recto, diagonal, diagonal o sesgo, vértice, radio, rotar, semicurva, curva, convexo, cóncavo. Siempre se inicia la construcción desde un rectángulo y se tiene en cuenta el contorno principal y el talle o largo del básico.
               .col-lg-5.col-md-12.col-12.mb-4
                 figure
-                  img.img-a.img-t(src='@/assets/curso/tema5-form1.svg', alt='Texto que describa la imagen')
-              .col-lg-1.col-md-12.col-12.mb-4
+                  img.img-a.img-t(src='@/assets/curso/tema5-form1.png', alt='Texto que describa la imagen')
+              .col-lg-1.col-md-9.col-9.mb-4
               
         .row.justify-content-center.p-4
           .col-lg-12.col-md-12.col-12.mb-4
@@ -90,7 +90,7 @@
                 | 1:4 – Cuarto de escala 2,5 cm, - 2,5 cm.
               .col-lg-5.col-md-12.col-12.mb-4
                 figure
-                  img.img-a.img-t(src='@/assets/curso/tema5-form2.svg', alt='Texto que describa la imagen')
+                  img.img-a.img-t(src='@/assets/curso/tema5-form2.png', alt='Texto que describa la imagen')
               .col-lg-1.col-md-12.col-12.mb-4
               
         .row.justify-content-center.p-4
@@ -102,10 +102,10 @@
                 p(data-aos="fade-right") Permiten realizar la construcción de básicos corporales y trazo de patrones en tamaños más pequeños.
               .col-lg-5.col-md-12.col-12.mb-4
                 figure
-                  img.img-a.img-t(src='@/assets/curso/tema5-form3.svg', alt='Texto que describa la imagen')
+                  img.img-a.img-t(src='@/assets/curso/tema5-form3.png', alt='Texto que describa la imagen')
               .col-lg-1.col-md-12.col-12.mb-4
               
-    .row.justify-content.mb-5
+    .row.justify-content-center.mb-4
       .col-lg-7.col-md-12.col-12.mb-4
         p.nb-4(data-aos="fade-right") Además, se deben tener en cuenta los materiales que se sugieren para la implementación del Manual:
         ul.lista-ul--color
@@ -155,12 +155,12 @@
               strong Juego de reglas convencional de patronaje
               | : Como apoyo, se sugiere trabajar con el juego de reglas convencional, sisómetro, curva de cadera, curva de tiro, escuadra.
       
-      .col-lg-5.col-md-12.col-12.mb-4(data-aos="fade-right")
+      .col-lg-5.col-md-10.col-12.mb-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema5-figure1.svg', alt='Trazo de patrones a escala')
 
     
-    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
       .col-lg-10.col-md-12.col-12
         .fondo21.p-4.mb-2
           .row.justify-content-center.align-items-center
@@ -185,7 +185,7 @@
       .col-lg-12.col-md-12.col-12
         LineaTiempoD.color-acento-botones.mb-5
           div(numero="1" titulo="Sistema de medida") 
-            p(data-aos="fade-right") Los cuadros de tallas, las medidas, las tallas en masculino se trabaja en pulgadas.#[b 1 pulgada = 1 IN = 1".]
+            p(data-aos="fade-right") Los cuadros de tallas, las medidas, las tallas en masculino se trabaja en pulgadas. 1 pulgada = 1 IN = 1".
 
           div(numero="2" titulo="Las pulgadas")
             p El vestuario es tan antiguo como la humanidad, así como su confección, y en la década de 1970 las casas de alta costura francesa y europeas, que confeccionaban únicamente ‘ropa a la medida’, decidieron incursionar en el mercado de la confección industrial lanzando sus famosas colecciones #[em prêt à porter] (listo para llevar), dando apertura a la creación de tallas comerciales y su estandarización. A continuación, se podrá explorar su adaptación:
@@ -199,13 +199,13 @@
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-bullseye
-                p.mb-0 Por #[b contorno] aumenta de 4" en 4" (pulgadas).
+                p.mb-0 Por contorno aumenta de 4" en 4" (pulgadas).
               li.d-flex
                 i.fas.fa-bullseye
-                p.mb-0  Por #[b ancho] de 1" en 1" (pulgadas).
+                p.mb-0  Por ancho de 1" en 1" (pulgadas).
               li.d-flex
                 i.fas.fa-bullseye
-                p.mb-0  Por #[b largo] de 1/2" en 1/2" (pulgadas).
+                p.mb-0  Por largo de 1/2" en 1/2" (pulgadas).
             p
               strong En este sentido se debe aclarar que:
             ul.lista-ul--color
@@ -223,16 +223,16 @@
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-bullseye
-                p.mb-0  Por #[b contorno] aumenta de 4" en 4" (pulgadas).
+                p.mb-0  Por contorno aumenta de 4" en 4" (pulgadas).
               li.d-flex
                 i.fas.fa-bullseye
-                p.mb-0  Por #[b ancho] de 1" en 1" (pulgadas).
+                p.mb-0  Por ancho de 1" en 1" (pulgadas).
               li.d-flex
                 i.fas.fa-bullseye
-                p.mb-0  Por #[b largo] de 1/2" en 1/2" (pulgadas).
+                p.mb-0  Por largo de 1/2" en 1/2" (pulgadas).
               li.d-flex
                 i.fas.fa-bullseye
-                p #[b Talla=] contorno en pulgadas.
+                p Talla= contorno en pulgadas.
 
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")

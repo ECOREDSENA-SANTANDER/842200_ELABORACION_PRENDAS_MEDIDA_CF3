@@ -278,11 +278,11 @@ export default {
     },
     {
       termino: 'Largo de brazo',
-      significado: 'Longitud medida desde el hombro hasta la muñeca ',
+      significado: 'Longitud medida desde el hombro hasta la muñeca. ',
     },
     {
       termino: 'Cuello',
-      significado: 'Medida alrededor de la base del cuello ',
+      significado: 'Medida alrededor de la base del cuello.',
     },
     {
       termino: 'Cintura/suelo',
@@ -324,26 +324,26 @@ export default {
       tema: 'Dibujo bidimensional de prendas de vestir',
       referencia: 'SENA. (2021). Dibujo bidimensional de prendas de vestir. ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=xptK7CFsF7o',
+      link: 'https://youtu.be/ai3M5ZY8JeQ',
     },
     {
       tema: 'Elaboración de básicos masculino ',
       referencia: 'SENA. (2021). Trazo de bitácora de formas.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=ppEdTvy94eU&t=1102s',
+      link: 'https://youtu.be/yLRjj86XFYs',
     },
     {
-      tema: 'medidas reducidas ',
+      tema: 'Medidas reducidas ',
       referencia:
         'SENA. (2021). Técnicas de achurados y acabados de la prenda. ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=Di4R3jHoNkQ',
+      link: 'https://youtu.be/bzHQejmlRFo',
     },
     {
-      tema: 'las medidas ',
+      tema: 'Las medidas ',
       referencia: 'SENA. (2021). Reconocimientos de las prendas. [Video]. ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=FHhqkd0h4Kw',
+      link: 'https://youtu.be/wdtlMZurv_w?si=Ql9H6RrSMecOSLhh',
     },
     {
       tema: 'Todo el componente ',

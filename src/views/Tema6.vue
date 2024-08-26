@@ -11,7 +11,9 @@
 
     SlyderD.mb-5.no-slyder-d-primary(:datos="datosSlyder")(data-aos="fade-right")
     
-
+    .row.fondo3.align-items-center
+      .col-lg-12.col-md-12.col-12.px-lg-5.px-4
+        .row.justify-content-center.mb-4(data-aos="fade-down")
     
         
 </template>

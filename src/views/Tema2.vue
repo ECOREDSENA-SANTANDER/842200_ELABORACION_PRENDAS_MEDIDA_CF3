@@ -7,9 +7,10 @@
       .titulo-principal__numero
         span 2
       h1 Análisis y clasificación de las medidas
-
-    SlyderD.mb-0.no-slyder-d-primary(:datos="datosSlyder")
     
+    .row.justify-content-center 
+      .col-lg-12.col-md-12.col-12
+        SlyderD.mb-0.no-slyder-d-primary(:datos="datosSlyder")
     
     Separador
     #t_2_1.titulo-segundo
@@ -63,14 +64,18 @@
         img(src='@/assets/curso/tema2-figure5.svg', alt='La imagen expone una regla que indica fracciones de pulgada desde 0 a 1. Cada fracción está representada en su forma más reducida y también como una equivalencia en treintaidosavos de pulgada. Además, se proporciona una breve lección de unidades de medida en inglés, indicando que la pulgada es la unidad básica, que un pie equivale a 12 pulgadas y que una yarda equivale a 3 pies.')
 
     p.mb-5(data-aos="zoom-in-up") En confección, se utiliza la pulgada como medida de estandarización la cual mide el número de Puntadas Por Pulgada (PPP).
-
-    .row.mb-3
-      .col.d-flex
-        .cajon.color-primario.p-4.mb-4
-          p.mb-0 #[b Ancho de la puntada:] se utiliza un calibrador para facilitar el proceso y, para ello, se sugiere que la planchuela de la máquina tenga las medidas para que sirva de guía.
-      .col.d-flex
-        .cajon.color-primario.p-4.mb-4
-          p(data-aos="zoom-in-up") #[b Pies de las máquinas:] se miden por pulgadas y de acuerdo con el ancho de las costuras.
+    
+    .row.justify-content-center
+      .col-lg-6.col-md-12.col-12
+        .row.mb-3
+          .col.d-flex
+            .cajon.color-primario.p-4.mb-4
+              p.mb-0 #[b Ancho de la puntada:] se utiliza un calibrador para facilitar el proceso y, para ello, se sugiere que la planchuela de la máquina tenga las medidas para que sirva de guía.
+      .col-lg-6.col-md-12.col-12
+        .row.mb-3
+          .col.d-flex.col-md-12.col-12
+            .cajon.color-primario.p-4.mb-4
+              p.mb-4(data-aos="zoom-in-up") #[b Pies de las máquinas:] se miden por pulgadas y de acuerdo con el ancho de las costuras.
 
     .row.justify-content-center.mb-5
       .col-lg-6.col-md-12.col-12.mb-4
@@ -107,7 +112,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 9.
           | Análisis de unidades
-        .tabla-a.color-acento-contenido
+        .tabla-a.tabl.color-acento-contenido
           table.pad1(alt='La imagen detalla una tabla que enumera unidades de medida de longitud junto con sus abreviaturas y equivalencias en metros. De arriba hacia abajo, las unidades son: Kilómetro (km) equivale a 1000 metros, Hectómetro (hm) a 100 metros, Decámetro (dam) a 10 metros, Metro (m) a 1 metro, Decímetro (dm) a 0,1 metros, Centímetro (cm) a 0,01 metros y Milímetro (mm) a 0,001 metros. Hay líneas azules que conectan visualmente las equivalencias de estas unidades con la unidad base, el metro.')
             thead
               tr
@@ -118,7 +123,11 @@
               tr
                 td.text-center Kilómetro
                 td.text-center km
-                td.text-center 1000 m
+                td.text-center
+                  .row.justify-content 
+                    .col-lg-12
+                      .bg88.p-1
+                        p.mb-0 1000 m
               tr
                 td.text-center Hectómetro
                 td.text-center hm
@@ -130,7 +139,11 @@
               tr
                 td.text-center Metro
                 td.text-center m
-                td.text-center 1 m
+                td.text-center
+                  .row.justify-content 
+                    .col-lg-12
+                      .bg88.p-1
+                        p.mb-0 1 m
               tr
                 td.text-center Decímetro
                 td.text-center dm
@@ -140,9 +153,13 @@
                 td.text-center cm
                 td.text-center 0,01 m
               tr
-                td.text-center Milímetro
-                td.text-center mm
-                td.text-center 0,001 m
+                td.text-center.ler Milímetro
+                td.text-center.ler mm
+                td.text-center.ler
+                  .row.justify-content.mb-0 
+                    .col-lg-12
+                      .bg88.p-1
+                        p.mb-0 0,001 m
 
     p.mb-5
       strong Por lo anterior, en patronaje y en confección las características generales encontradas son las siguientes:
@@ -187,10 +204,10 @@
                 .titulo-sexto.color-acento-contenido
                   h5 Figura 11.
                   | Medidas en patronaje
-            .tabla-a.color-acento-contenido
+            .tabla.hj.tabl.color-acento-contenido
               table(alt='La imagen expone las  tallas para prendas de vestir, con medidas específicas para distintas partes del cuerpo en centímetros. Se indican tallas que van desde la S (pequeña) hasta la 3XL (triple extra grande). Para cada talla, se proporcionan rangos de medidas para el pecho, la cintura, la cadera y la entrepierna. Por ejemplo, para la talla S, el pecho mide entre 86 y 93 cm, la cintura entre 76 y 81 cm, la cadera entre 92 y 97 cm, y la entrepierna entre 80 y 81 cm. Las medidas aumentan progresivamente con cada talla más grande.')
                 thead
-                  tr
+                  tr.color2
                     th
                     th S
                     th M
@@ -224,7 +241,7 @@
                     td 116/121
                     td 122/127
                   tr
-                    td ENTREPIERNA cm
+                    td.hh ENTREPIERNA cm
                     td 80/81
                     td 81/84
                     td 82/84
@@ -310,7 +327,7 @@
     #t_2_2.titulo-segundo
       h2 2.2  Las medidas
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-6.col-md-12.col-12.mb-3
 
         p.mb-5(data-aos="zoom-in-up") Estas unidades numéricas indican el tamaño de figuras, personas y objetos. Comúnmente, se emplea un sistema de medición lineal, como la cinta métrica, para determinar las dimensiones de las diversas partes del cuerpo. En Colombia, las unidades de medida más utilizadas son los centímetros y las pulgadas.
@@ -413,7 +430,8 @@
                 .row.justify-content-center
                   .col-lg-5.col-md-12.col-12
                     h4.mb-4 Medidas estandarizadas 
-                    p(data-aos="zoom-in-up") Son las medidas que se obtienen del resultado de estudios antropométricos, es decir, que se establecen en un rango de medidas que usualmente corresponden a las principales medidas corporales, es decir, las <strong>tallas</strong>.<br><br>Estas medidas son definidas y adoptadas por norma, por lo que esto ha permitido se generalicen las morfologías y medidas. Es importante precisar que, para acertar en la elección de una talla, debe compararse la coincidencia de la medida del contorno principal, con la medida correspondiente a la talla.
+                    p.mb-4(data-aos="zoom-in-up") Son las medidas que se obtienen del resultado de estudios antropométricos, es decir, que se establecen en un rango de medidas que usualmente corresponden a las principales medidas corporales, es decir, las tallas.
+                    p.mb-0(data-aos="zoom-in-up") Estas medidas son definidas y adoptadas por norma, por lo que esto ha permitido se generalicen las morfologías y medidas. Es importante precisar que, para acertar en la elección de una talla, debe compararse la coincidencia de la medida del contorno principal, con la medida correspondiente a la talla.
                   .col-lg-6.col-md-12.col-12.mb-4
                     figure
                       img.img-a.img-t(src='@/assets/curso/tema2-medidases.svg', alt='Texto que describa la imagen')
