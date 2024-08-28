@@ -105,7 +105,7 @@
               img.mx-2.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/19-Mannequin.svg", alt="tema 2")
             .col-lg-9.col-md-12.col-12
               h4.mb-1 Sitio #[em web] – Pasos para definir el patronaje 
-              p.mb-0 Es necesario conocer cada uno de los pasos que se deben seguir para realizar el procedimiento de patronaje.
+              p.mb-0 Es necesario conocer cada uno de los pasos que se deben seguir para realizar el procedimiento de patronaje, por ende, se invita a revisar la información.
             .col-lg-2.col-md-12.col-12
               a.boton.color-acento-botones(href="https://www.studocu.com/co/document/servicio-nacional-de-aprendizaje/patronaje-prendas-basicas/7-anexo-7-pdf-pasos-definir-patronaje/39261850" target="_blank")
                 span Ir al sitio
