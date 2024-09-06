@@ -195,7 +195,7 @@ export default {
     },
     {
       referencia:
-        'Cómo cubrir un cuerpo. (2013). Proporciones del cuerpo humano Da Vinci y Vitrubio.',
+        'Losardo, R. J., Murcia, D. M., Lacera Tamaris, V., & Hurtado de Mendoza, W. (2015). Canon de las proporciones humanas y el Hombre de Vitruvio. Revista de la Asociación Médica Argentina, 128(1), 17-22.',
     },
     {
       referencia:
@@ -360,12 +360,12 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de línea de producción',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -375,41 +375,41 @@ export default {
       autores: [
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor Metodológico y Pedagógico',
+          cargo: 'Asesor metodológico y pedagógico',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Paola Angélica Castro Salazar',
-          cargo: 'Experta Temática',
+          cargo: 'Experta temática',
           centro:
             'Regional Antioquia - Centro de Formación en Diseño, Confección y Moda',
         },
         {
           nombre: 'Ledy Johana Velásquez Hernández',
-          cargo: 'Experta Temática',
+          cargo: 'Experta temática',
           centro:
             'Regional Antioquia - Centro de Formación en Diseño, Confección y Moda',
         },
         {
           nombre: 'Paula Andrea Taborda Ortiz',
-          cargo: 'Diseñadora Instruccional',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'Vilma Lucía Perilla Méndez ',
-          cargo: 'Revisora Metodológica y Pedagógica',
-          centro: 'Regional Distrito Capital - Centro de Gestión industrial.',
+          cargo: 'Revisora metodológica y pedagógica',
+          centro: 'Regional Distrito Capital - Centro de Gestión industrial',
         },
         {
           nombre: 'José Gabriel Ortiz Abella',
-          cargo: 'Corrector de Estilo',
+          cargo: 'Corrector de estilo',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
+            'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
         },
         {
           nombre: 'Sandra Paola Morales Páez',
-          cargo: 'Evaluadora Instruccional',
+          cargo: 'Evaluadora instruccional',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -419,17 +419,17 @@ export default {
       autores: [
         {
           nombre: 'Yazmin Rocio Figueroa Pacheco',
-          cargo: 'Diseñadora de Contenidos Digitales',
+          cargo: 'Diseñadora de contenidos digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Pedro Alonso Bolivar Gonzalez',
-          cargo: 'Desarrollador <em>Fullstack</em>',
+          cargo: 'Desarrollador <em>fulls tack</em>',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Maria Alejandra Vera Briceño',
-          cargo: 'Animadora y Productora Multimedia',
+          cargo: 'Animadora y productora multimedia',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -439,17 +439,17 @@ export default {
       autores: [
         {
           nombre: 'Yineth Ibette Gonzalez Quintero',
-          cargo: 'Validadora de Recursos Educativos Digitales',
+          cargo: 'Validadora de recursos educativos digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Laura Paola Gelvez Manosalva',
-          cargo: 'Validadora de Recursos Educativos Digitales',
+          cargo: 'Validadora de recursos educativos digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Erika Fernanda Mejía Pinzón',
-          cargo: 'Evaluadora para Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],

@@ -32,7 +32,7 @@
           p.mb-0 Teniendo en cuenta lo revisado hasta este momento, es importante preguntarse, ¿para qué sirve el patronaje? La respuesta es un tanto sencilla: permite transferir la información de la estructura corporal en planos que luego se convierten en moldes.
 
     .row.justify-content-center.mb-0
-      .col-lg-5.col-md-12.col-12.mb-4
+      .col-lg-5.col-md-12.col-12.mb-2
         .titulo-sexto.color-acento-contenido
           h5 Figura 33. 
           | De la estructura al molde
@@ -43,7 +43,9 @@
           h5 Figura 34.  
           | Interpretación en plano y molde
         img(src='@/assets/curso/figure32.svg', alt='Se expone el proceso de diseño de moda, empezando con la "Figura 3D Estructura", que son dos dibujos de figuras humanas (masculina y femenina) con líneas indicativas de las mediciones clave para patrones de ropa. El siguiente paso es el "Plano 2D", que ilustra cómo se traducen estas mediciones en un patrón plano con líneas discontinuas, posiblemente representando las líneas de corte. A continuación, se expone el "Molde", que son las piezas del patrón de ropa cortadas y delineadas, listas para ser ensambladas. El último paso es la "Prenda", que es el dibujo de una chaqueta terminada. Las flechas entre cada etapa indican el flujo del proceso de diseño desde la estructura del cuerpo humano hasta la prenda de vestir terminada.')
-    
+    .row.justify-content-center.mb-0
+      .col-lg-10.col-md-12.col-12.mb-4
+        figcaption Fuente: figura 33 y 34 https://es.linkedin.com/pulse/el-patr%C3%B3n-un-juego-de-dimensiones-olga-fuenmayor-pico
     .row.justify-content-center
       .col-lg-10.col-md-12.col-12.mb-4
         .texto-imagenes.p-4
@@ -93,8 +95,14 @@
           .row.justify-content-center
             .col-lg-11.col-md-11.col-11 
                 figure.mb-3
-                  img.mb-5(src='@/assets/curso/tema4-indicaciones.svg', alt='Indicaciones para la producción')
-
+                  img.mb-4(src='@/assets/curso/tema4-indicaciones.svg', alt='La imagen expone un diagrama de flujo con 15 pasos para la producción. Los pasos incluyen la generación de una idea, el desarrollo de un diseño, la creación de un prototipo, y la revisión del diseño para asegurar su viabilidad. Luego, se elabora una base y se realiza una evaluación para hacer ajustes necesarios. Tras la aprobación, se procede a la producción en masa, se realiza el empaquetado y se prepara para la distribución. Finalmente, se monitorea el rendimiento del producto en el mercado y se recogen retroalimentaciones para futuras mejoras.')
+          
+          .row.justify-content.align-items-end
+            .col-lg-10.col-md-12.col-12
+            .col-lg-2.col-md-12.col-12
+              a.boton.color-acento-botones.mb-4(href="downloads/Indicaciones_para_la_produccion.pdf" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
     p.mb-5 Teniendo en cuenta el procedimiento anterior, ahora se deben seguir los estos pasos:
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")

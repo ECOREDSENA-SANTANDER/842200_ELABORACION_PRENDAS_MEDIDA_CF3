@@ -8,21 +8,8 @@
         span 5
       h1 Metodología - Presentación del Manual de patronaje SENA
 
-    SlyderD.mb-4.no-slyder-d-primary(:datos="datosSlyder")(data-aos="fade-right")
+    SlyderD.no-slyder-d-primary(:datos="datosSlyder")(data-aos="fade-right")
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
-      .col-lg-10.col-md-12.col-12
-        .fondo21.p-4.mb-2
-          .row.justify-content-center.align-items-center
-            .col-lg-1.col-md-12.col-12
-              img.mx-2.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/modista22.svg", alt="tema 2")
-            .col-lg-9.col-md-12.col-12
-              h4.mb-1 Anexo. PDF – Manual de patronaje básicos e interpretación de diseños
-              p.mb-0 Ahora, se debe explorar el Manual de patronaje del SENA el cual se constituye en instrumento de consulta permanente.
-            .col-lg-2.col-md-12.col-12
-              a.boton.color-acento-botones(href="https://repositorio.sena.edu.co/handle/11404/4725?mode=full" target="_blank")
-                span Descargar
-                i.fas.fa-file-download  
     
     Separador
     #t_5_1.titulo-segundo
@@ -147,7 +134,7 @@
           li.d-flex.mb-0
             i.fas.fa-bullseye
             p.mb-0.mx-2
-              strong Manifold o trazo
+              strong #[em Manifold] o trazo
               | : Se sugiere que el papel sea blanco para mayor facilidad en la interpretación.
           li.d-flex.mb-0
             i.fas.fa-bullseye
@@ -331,7 +318,7 @@
               strong P/20+2,5 = P (contorno de pecho) / 20 + 2,5
         tr
           th.negro.td Manejo del papel
-          td.td Por lo general, el trazo de moldes se suele hacer con papel trazo o manifold, dicho papel tiene dos caras, una que al tacto es liso y brillante y otra que es corrugada y opaca; se recomienda trabajar por la parte corrugada con el fin de tener una mejor adhesión del grafito (lápiz) y no permitir que rebote la luz, es recomendable emplear papel blanco con el fin de no cansar la vista y descansar la mente.
+          td.td Por lo general, el trazo de moldes se suele hacer con papel trazo o #[em manifold], dicho papel tiene dos caras, una que al tacto es liso y brillante y otra que es corrugada y opaca; se recomienda trabajar por la parte corrugada con el fin de tener una mejor adhesión del grafito (lápiz) y no permitir que rebote la luz, es recomendable emplear papel blanco con el fin de no cansar la vista y descansar la mente.
         tr
           th.negro.th Siluetas
           td.th El manejo de siluetas varía únicamente en las fórmulas; los pasos y guías serán los mismos.
@@ -369,7 +356,7 @@
           th.negro.th Cuadro de tallas
           td.th Para el femenino, la elaboración de los básicos se trabaja con las medidas del cuadro de tallas, es decir, cada punto de referencia sobre el cuerpo es trabajado del cuadro de tallas, a diferencia de lo anterior, este desarrollo hace necesario identificar todo el listado de las medidas que se van a implementar para hacer el desarrollo.
 
-    p A diferencia del masculino el cuadro de tallas viene en centímetros por lo cual no se hace necesario hacer ninguna conversión, como para el caso del masculino que se establece en pulgadas. Este Manual permitirá desarrollar el patronaje básico femenino lo que dará las pautas necesarias para la interpretación de diseños en patronaje.
+    p A diferencia del masculino, el cuadro de tallas viene en centímetros, por lo cual no se hace necesario hacer ninguna conversión, como para el caso del masculino que se establece en pulgadas. Este Manual permitirá desarrollar el patronaje básico femenino, lo que dará las pautas necesarias para la interpretación de diseños en patronaje.
 
 </template>
 

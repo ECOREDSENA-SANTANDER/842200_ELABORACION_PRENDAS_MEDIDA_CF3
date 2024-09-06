@@ -113,7 +113,7 @@
           h5 Figura 9.
           | Análisis de unidades
         .tabla-a.tabl.color-acento-contenido
-          table.pad1(alt='La imagen detalla una tabla que enumera unidades de medida de longitud junto con sus abreviaturas y equivalencias en metros. De arriba hacia abajo, las unidades son: Kilómetro (km) equivale a 1000 metros, Hectómetro (hm) a 100 metros, Decámetro (dam) a 10 metros, Metro (m) a 1 metro, Decímetro (dm) a 0,1 metros, Centímetro (cm) a 0,01 metros y Milímetro (mm) a 0,001 metros. Hay líneas azules que conectan visualmente las equivalencias de estas unidades con la unidad base, el metro.')
+          table(alt='La imagen detalla una tabla que enumera unidades de medida de longitud junto con sus abreviaturas y equivalencias en metros. De arriba hacia abajo, las unidades son: Kilómetro (km) equivale a 1000 metros, Hectómetro (hm) a 100 metros, Decámetro (dam) a 10 metros, Metro (m) a 1 metro, Decímetro (dm) a 0,1 metros, Centímetro (cm) a 0,01 metros y Milímetro (mm) a 0,001 metros. Hay líneas azules que conectan visualmente las equivalencias de estas unidades con la unidad base, el metro.')
             thead
               tr
                 th Unidad
@@ -208,7 +208,7 @@
               table(alt='La imagen expone las  tallas para prendas de vestir, con medidas específicas para distintas partes del cuerpo en centímetros. Se indican tallas que van desde la S (pequeña) hasta la 3XL (triple extra grande). Para cada talla, se proporcionan rangos de medidas para el pecho, la cintura, la cadera y la entrepierna. Por ejemplo, para la talla S, el pecho mide entre 86 y 93 cm, la cintura entre 76 y 81 cm, la cadera entre 92 y 97 cm, y la entrepierna entre 80 y 81 cm. Las medidas aumentan progresivamente con cada talla más grande.')
                 thead
                   tr.color2
-                    th
+                    th(colspan="2")
                     th S
                     th M
                     th L
@@ -217,37 +217,37 @@
                     th 3XL
                 tbody
                   tr
-                    td PECHO cm
-                    td 86/93
-                    td 94/99
-                    td 100/105
-                    td 106/111
-                    td 112/117
-                    td 118/123
+                    td(colspan="2").gg.p-1 PECHO cm
+                    td.p-0.gg.text-center 86/93
+                    td.p-0.gg.text-center 94/99
+                    td.p-0.gg.text-center 100/105
+                    td.p-0.gg.text-center 106/111
+                    td.p-0.gg.text-center 112/117
+                    td.p-0.gg.text-center 118/123
                   tr
-                    td CINTURA cm
-                    td 76/81
-                    td 82/87
-                    td 88/93
-                    td 94/99
-                    td 100/105
-                    td 106/111
+                    td(colspan="2").gg.p-1 CINTURA cm
+                    td.p-0.gg.text-center 76/81
+                    td.p-0.gg.text-center 82/87
+                    td.p-0.gg.text-center 88/93
+                    td.p-0.gg.text-center 94/99
+                    td.p-0.gg.text-center 100/105
+                    td.p-0.gg.text-center 106/111
                   tr
-                    td CADERA cm
-                    td 92/97
-                    td 98/103
-                    td 104/109
-                    td 110/115
-                    td 116/121
-                    td 122/127
+                    td(colspan="2").gg.p-1 CADERA cm
+                    td.p-0.gg.text-center 92/97
+                    td.p-0.gg.text-center 98/103
+                    td.p-0.gg.text-center 104/109
+                    td.p-0.gg.text-center 110/115
+                    td.p-0.gg.text-center 116/121
+                    td.p-0.gg.text-center 122/127
                   tr
-                    td.hh ENTREPIERNA cm
-                    td 80/81
-                    td 81/84
-                    td 82/84
-                    td 84/87
-                    td 86/87
-                    td 86/87
+                    td(colspan="2").gg.p-1 ENTREPIERNA cm
+                    td.p-0.gg.text-center 80/81
+                    td.p-0.gg.text-center 81/84
+                    td.p-0.gg.text-center 82/84
+                    td.p-0.gg.text-center 84/87
+                    td.p-0.gg.text-center 86/87
+                    td.p-0.gg.text-center 86/87
 
       .py-4.py-md-5(titulo="Cómo se utilizan los centímetros" :icono="require('@/assets/curso/tema2-tabs3.svg')")
         .row
@@ -291,35 +291,349 @@
               img.mb-2(src='@/assets/curso/tema2-fracciones.svg', alt='La imagen expone una representación gráfica de una regla, marcada en centímetros y milímetros, con la longitud total de 10 centímetros, así mismo en la parte inferior muestra fracciones divididas entres 2,5 centímetros y se etiquetan como ½, esto re reporte hasta 4 en donde equivale a 10 cm.')
 
 
-          .col-lg-5.col-md-12.col-12.mb-3
+          .col-lg-6.col-md-12.col-12
             .titulo-sexto.color-acento-contenido.mx-4
               h5 Figura 14.
               | Conversión de fracciones y decimales
-            img(src='@/assets/curso/tema2-figure13.png', alt='La imagen expone la conversión que correlaciona fracciones de pulgada con sus equivalentes decimales y medidas en milímetros. La tabla está dividida en dos columnas, con la mitad izquierda presentando fracciones desde 1/32 hasta 1/2, y la mitad derecha desde 17/32 hasta 1 pulgada completa. Cada fila lista una fracción de pulgada, seguida por su conversión a número decimal y luego su equivalencia en milímetros. La tabla parece es una herramienta útil para persona que necesite convertir medidas de pulgadas a milímetros, por ello se adjunta en este material.')
+            .row.justify-content-center
+              .col-lg-12
+                figure.mb-2
+                  img(src='@/assets/curso/tema2-figure13.png', alt='La imagen expone la conversión que correlaciona fracciones de pulgada con sus equivalentes decimales y medidas en milímetros. La tabla está dividida en dos columnas, con la mitad izquierda presentando fracciones desde 1/32 hasta 1/2, y la mitad derecha desde 17/32 hasta 1 pulgada completa. Cada fila lista una fracción de pulgada, seguida por su conversión a número decimal y luego su equivalencia en milímetros. La tabla parece es una herramienta útil para persona que necesite convertir medidas de pulgadas a milímetros, por ello se adjunta en este material.')
+                figcaption Fuente: https://es.scribd.com/document/402601611/Decimal-Metrico-Equivalente-en-Pulgadas
+    
+    p.mb-4(data-aos="zoom-in-up") Para las conversiones y equivalencias de fracciones, milésimas y milímetros es importante tener una tabla que permita hacer una lectura puntual y acertada del ejercicio como la que se presenta a continuación:
+    
 
-
-    .row.justify-content-center
-      .col-lg-6.col-md-12.col-12.mb-4
-        p.mb-3(data-aos="zoom-in-up") Para las conversiones y equivalencias de fracciones, milésimas y milímetros es importante tener una tabla que permita hacer una lectura puntual y acertada del ejercicio como la que se presenta a continuación:
+    .row.justify-content-center.align-items-center
+      .col-lg-6.col-md-12.col-12.mb-2
         .cajanaranja.p-2
           .row.justify-content-center
-            .col-lg-11.col-md-12.col-12.mb-3
-              .titulo-sexto.color-acento-contenido.my-3
+            .col-lg-11.col-md-12.col-12.mb-2.my-2
+              .titulo-sexto.color-acento-contenido.mb-2
                 h5 Tabla 1.
                 | Tabla de equivalencias
-              img(src='@/assets/curso/tema2-figure15.svg', alt='La tabla de equivalencias expone cómo se  convierten fracciones de pulgada a milésimas de pulgada y también expone las equivalencias a milímetros, de cada fracción.')
-      .col-lg-6.col-md-12.col-12.mb-3
-        .cajaer.p-5.mb-4
+              .row.justify-content-center(alt='La tabla de equivalencias expone cómo se  convierten fracciones de pulgada a milésimas de pulgada y también expone las equivalencias a milímetros, de cada fracción.')
+                .col-lg-12.col-md-11.col-11.cajablanca.p-2
+                  h4.mb-0.text-center Tabla de equivalencias
+                  h4.mb-1.text-center (fracciones, milésimas y milímetros)
+                  .row.justify-content-center.mb-0
+                    .col-lg-6.col-md-12.col-12.mb-1
+                      .tabla-d.tabla-pequet.color-acento-contenido
+                        table
+                          thead
+                            tr
+                              th.bgv.gg  
+                                .row.justify-content-center.p-1
+                                  .col-lg-12.mb-0
+                                    p.mb-0.text-center.fw-bold Fracción
+                                    p.mb-0.text-center.fw-bold (pul)
+                          
+                              th.bgv.gg  
+                                .row.justify-content-center.p-1
+                                  .col-lg-12.mb-0
+                                    p.mb-0.text-center.fw-bold Milésimas 
+                                    p.mb-0.text-center.fw-bold (pul)
+                              th.bgv.gg  
+                                .row.justify-content-center.p-1
+                                  .col-lg-12.mb-0
+                                    p.mb-0.text-center.fw-bold Milímetros 
+                                    p.mb-0.text-center.fw-bold (pul)
+                          tbody
+                            tr
+                              td.text-center 1/64
+                              td.text-center 0.015625
+                              td.text-center 0.40
+                            tr
+                              td.text-center 1/32
+                              td.text-center 0.03125
+                              td.text-center 0.79
+                            tr
+                              td.text-center 3/64
+                              td.text-center 0.046875
+                              td.text-center 1.19
+                            tr
+                              td.text-center 1/16
+                              td.text-center 0.0625
+                              td.text-center 1.59
+                            tr
+                              td.text-center 5/64
+                              td.text-center 0.078125
+                              td.text-center 1.98
+                            tr
+                              td.text-center 3/32
+                              td.text-center 0.09375
+                              td.text-center 2.38
+                            tr
+                              td.text-center 7/64
+                              td.text-center 0.109375
+                              td.text-center 2.78
+                            tr
+                              td.text-center 1/8
+                              td.text-center 0.125
+                              td.text-center 3.18
+                            tr
+                              td.text-center 9/64
+                              td.text-center 0.140625
+                              td.text-center 3.57
+                            tr
+                              td.text-center 5/32
+                              td.text-center 0.15625
+                              td.text-center 3.97
+                            tr
+                              td.text-center 11/64
+                              td.text-center 0.171875
+                              td.text-center 4.37
+                            tr
+                              td.text-center 3/16
+                              td.text-center 0.1875
+                              td.text-center 4.76
+                            tr
+                              td.text-center 13/64
+                              td.text-center 0.203125
+                              td.text-center 5.16
+                            tr
+                              td.text-center 7/32
+                              td.text-center 0.21875
+                              td.text-center 5.56
+                            tr
+                              td.text-center 15/64
+                              td.text-center 0.234375
+                              td.text-center 5.95
+                            tr
+                              td.text-center 1/4
+                              td.text-center 0.25
+                              td.text-center 6.35
+                            tr
+                              td.text-center 17/64
+                              td.text-center 0.265625
+                              td.text-center 6.75
+                            tr
+                              td.text-center 9/32
+                              td.text-center 0.28125
+                              td.text-center 7.14
+                            tr
+                              td.text-center 19/64
+                              td.text-center 0.296875
+                              td.text-center 7.54
+                            tr
+                              td.text-center 5/16
+                              td.text-center 0.3125
+                              td.text-center 7.94
+                            tr
+                              td.text-center 21/64
+                              td.text-center 0.328125
+                              td.text-center 8.33
+                            tr
+                              td.text-center 11/32
+                              td.text-center 0.34375
+                              td.text-center 8.73
+                            tr
+                              td.text-center 23/64
+                              td.text-center 0.359375
+                              td.text-center 9.13
+                            tr
+                              td.text-center 3/8
+                              td.text-center 0.375
+                              td.text-center 9.53
+                            tr
+                              td.text-center 25/64
+                              td.text-center 0.390625
+                              td.text-center 9.92
+                            tr
+                              td.text-center 13/32
+                              td.text-center 0.40625
+                              td.text-center 10.32
+                            tr
+                              td.text-center 27/64
+                              td.text-center 0.421875
+                              td.text-center 10.72
+                            tr
+                              td.text-center 7/16
+                              td.text-center 0.4375
+                              td.text-center 11.11
+                            tr
+                              td.text-center 29/64
+                              td.text-center 0.453125
+                              td.text-center 11.51
+                            tr
+                              td.text-center 15/32
+                              td.text-center 0.46875
+                              td.text-center 11.91
+                            tr
+                              td.text-center 31/64
+                              td.text-center 0.484375
+                              td.text-center 12.30
+                            tr
+                              td.text-center 1/2
+                              td.text-center 0.5
+                              td.text-center 12.70
+
+                    .col-lg-6.col-md-12.col-12
+                      .tabla-d.tabla-pequet.color-acento-contenido
+                        table(alt='')
+                          thead
+                            tr
+                              th.bgv.gg  
+                                .row.justify-content-center.p-1
+                                  .col-lg-12.mb-0
+                                    p.mb-0.text-center.fw-bold Fracción
+                                    p.mb-0.text-center.fw-bold (pul)
+                          
+                              th.bgv.gg  
+                                .row.justify-content-center.p-1
+                                  .col-lg-12.mb-0
+                                    p.mb-0.text-center.fw-bold Milésimas 
+                                    p.mb-0.text-center.fw-bold (pul)
+                              th.bgv.gg 
+                                .row.justify-content-center.p-1
+                                  .col-lg-12.mb-0
+                                    p.mb-0.text-center.fw-bold Milímetros 
+                                    p.mb-0.text-center.fw-bold (pul)
+                          tbody
+                            tr
+                              td.text-center 33/64
+                              td.text-center 0.515625
+                              td.text-center 13.10
+                            tr
+                              td.text-center 17/32
+                              td.text-center 0.53125
+                              td.text-center 13.49
+                            tr
+                              td.text-center 35/64
+                              td.text-center 0.546875
+                              td.text-center 13.89
+                            tr
+                              td.text-center 9/16
+                              td.text-center 0.5625
+                              td.text-center 14.29
+                            tr
+                              td.text-center 37/64
+                              td.text-center 0.578125
+                              td.text-center 14.68
+                            tr
+                              td.text-center 19/32
+                              td.text-center 0.59375
+                              td.text-center 15.08
+                            tr
+                              td.text-center 39/64
+                              td.text-center 0.609375
+                              td.text-center 15.48
+                            tr
+                              td.text-center 5/8
+                              td.text-center 0.625
+                              td.text-center 15.88
+                            tr
+                              td.text-center 41/64
+                              td.text-center 0.640625
+                              td.text-center 16.27
+                            tr
+                              td.text-center 21/32
+                              td.text-center 0.65625
+                              td.text-center 16.67
+                            tr
+                              td.text-center 43/64
+                              td.text-center 0.671875
+                              td.text-center 17.07
+                            tr
+                              td.text-center 11/16
+                              td.text-center 0.6875
+                              td.text-center 17.46
+                            tr
+                              td.text-center 45/64
+                              td.text-center 0.703125
+                              td.text-center 17.86
+                            tr
+                              td.text-center 23/32
+                              td.text-center 0.71875
+                              td.text-center 18.26
+                            tr
+                              td.text-center 47/64
+                              td.text-center 0.734375
+                              td.text-center 18.65
+                            tr
+                              td.text-center 3/4
+                              td.text-center 0.75
+                              td.text-center 19.05
+                            tr
+                              td.text-center 49/64
+                              td.text-center 0.765625
+                              td.text-center 19.45
+                            tr
+                              td.text-center 25/32
+                              td.text-center 0.78125
+                              td.text-center 19.84
+                            tr
+                              td.text-center 51/64
+                              td.text-center 0.796875
+                              td.text-center 20.24
+                            tr
+                              td.text-center 13/16
+                              td.text-center 0.8125
+                              td.text-center 20.64
+                            tr
+                              td.text-center 53/64
+                              td.text-center 0.828125
+                              td.text-center 21.03
+                            tr
+                              td.text-center 27/32
+                              td.text-center 0.84375
+                              td.text-center 21.43
+                            tr
+                              td.text-center 55/64
+                              td.text-center 0.859375
+                              td.text-center 21.83
+                            tr
+                              td.text-center 7/8
+                              td.text-center 0.875
+                              td.text-center 22.23
+                            tr
+                              td.text-center 57/64
+                              td.text-center 0.890625
+                              td.text-center 22.62
+                            tr
+                              td.text-center 29/32
+                              td.text-center 0.90625
+                              td.text-center 23.02
+                            tr
+                              td.text-center 59/64
+                              td.text-center 0.921875
+                              td.text-center 23.43
+                            tr
+                              td.text-center 15/16
+                              td.text-center 0.9375
+                              td.text-center 23.81
+                            tr
+                              td.text-center 61/64
+                              td.text-center 0.953125
+                              td.text-center 24.21
+                            tr
+                              td.text-center 31/32
+                              td.text-center 0.96875
+                              td.text-center 24.61
+                            tr
+                              td.text-center 63/64
+                              td.text-center 0.984375
+                              td.text-center 25.00
+                            tr
+                              td.text-center 1
+                              td.text-center 1
+                              td.text-center 25.40
+
+              
+      .col-lg-6.col-md-12.col-12.mb-0
+        .cajaer.p-5.mb-5
           p.mb-5(data-aos="zoom-in-up") A continuación, se presentan algunos ejemplos, a partir de la conversión anterior:
           ul.lista-ul--color.mb-4
             li
-              i.fas.fa-circle.mb-4
+              i.fas.fa-circle.op.mb-5
               | 1/2 pulgada = 1,27 centímetros = 12,700 milímetros
             li
-              i.fas.fa-circle.mb-3
+              i.fas.fa-circle.op.mb-3
               | ¼ de Fracción = 0,25 decimales = 0,33 milímetros
-
-        img.mb-4(src='@/assets/curso/maqu.svg', alt='Personas manipulando confecciones')
+              
+        .row.justify-content-center
+          .col-lg-12.col-md-9.col-10.mb-0
+            img(src='@/assets/curso/maqu.svg', alt='Personas manipulando confecciones')
 
             
     
@@ -350,9 +664,10 @@
         .titulo-sexto.color-acento-contenido.my-3
           h5 Figura 15.
           | Clasificación de medidas
-        img.d-none.d-lg-block(src='@/assets/curso/tema2-figure16.svg', alt='La imagen detalla dibujos esquemáticos de figuras humanas con líneas y números que indican diferentes medidas del cuerpo, como el contorno de pecho, cintura, cadera, el largo de piernas y brazos, entre otros, para propósitos de confección o diseño de prendas de vestir.')
-        img.imagen-mobile(src='@/assets/curso/tema2-figure16.11.svg', alt='La imagen detalla dibujos esquemáticos de figuras humanas con líneas y números que indican diferentes medidas del cuerpo, como el contorno de pecho, cintura, cadera, el largo de piernas y brazos, entre otros, para propósitos de confección o diseño de prendas de vestir.')
-    
+        img.d-none.d-lg-block.mb-3(src='@/assets/curso/tema2-figure16.svg', alt='La imagen detalla dibujos esquemáticos de figuras humanas con líneas y números que indican diferentes medidas del cuerpo, como el contorno de pecho, cintura, cadera, el largo de piernas y brazos, entre otros, para propósitos de confección o diseño de prendas de vestir.')
+        figcaption.d-none.d-lg-block Fuente: https://www.nastasianash.com/5-claves-para-tomar-medidas-corporales/
+        img.imagen-mobile.mb-3(src='@/assets/curso/tema2-figure16.11.svg', alt='La imagen detalla dibujos esquemáticos de figuras humanas con líneas y números que indican diferentes medidas del cuerpo, como el contorno de pecho, cintura, cadera, el largo de piernas y brazos, entre otros, para propósitos de confección o diseño de prendas de vestir.')
+        figcaption.imagen-mobile Fuente: https://www.nastasianash.com/5-claves-para-tomar-medidas-corporales/
     p.mb-5(data-aos="zoom-in-up") Teniendo en cuenta la clasificación de las medidas, es importante conocer los tres grupos que se presentan en ellas:
     
     
@@ -375,7 +690,7 @@
             h5 Figura 17.
             | Largos
           figure
-            img(src='@/assets/curso/tema2-largos.svg', alt='La imagen expone una figura humana con etiquetas que indican cómo tomar medidas de diferentes contornos del cuerpo: cuello, pecho/busto, cintura, codo, brazo, puño, cadera, rodilla y bota. Las instrucciones señalan que las medidas deben tomarse alrededor de la parte correspondiente, cerrando el metro.')
+            img(src='@/assets/curso/tema2-largos.svg', alt='La imagen presenta un esquema anatómico con diferentes referencias de medidas corporales marcadas a lo largo del cuerpo. Estas referencias incluyen medidas como talle frente, centro frente, altura busto, costado, altura tiro, talle atrás, centro atrás, hombro, altura de cadera, largo de manga, largo de falda y largo de pantalón. Cada una de estas medidas está indicada con líneas y etiquetas específicas, lo que sugiere su uso para la toma de medidas en confección o sastrería, abarcando tanto la parte superior como inferior del cuerpo.')
 
       .row(titulo="Anchos")
         .col-md-6.mb-4.mb-md-0
@@ -385,7 +700,7 @@
             h5 Figura 18.
             | Anchos
           figure
-            img(src='@/assets/curso/tema2-anchos.svg', alt='La imagen expone una figura humana con etiquetas que indican cómo tomar medidas de diferentes contornos del cuerpo: cuello, pecho/busto, cintura, codo, brazo, puño, cadera, rodilla y bota. Las instrucciones señalan que las medidas deben tomarse alrededor de la parte correspondiente, cerrando el metro.')
+            img(src='@/assets/curso/tema2-anchos.svg', alt='La imagen representa dos esquemas de la parte superior del torso de una figura humana, donde se indican tres medidas clave: la separación de busto, el ancho de pecho y el ancho de espalda. El esquema superior destaca la separación de busto, marcada entre los puntos más prominentes del busto, y el ancho de pecho, medido de lado a lado en la zona superior del busto. El esquema inferior señala el ancho de espalda, que se mide horizontalmente en la parte superior de la espalda, por debajo de los hombros. Estas medidas son esenciales en el ámbito de la confección para asegurar un ajuste adecuado en prendas superiores.')
   
 
     ol.lista-ol--cuadro
@@ -402,10 +717,10 @@
             .row.justify-content-center
               .col-lg-11.col-md-12.col-12
                 .row.justify-content-center
-                  .col-lg-5.col-md-12.col-12
+                  .col-lg-5.col-md-12.col-11
                     h4.mb-4 Análisis sobre medida
                     p(data-aos="zoom-in-up") Son aquellas medidas que se toman directamente sobre el cuerpo de la persona. Es importante precisar que estas medidas se deben tomar atendiendo a los ejes de movimiento, es decir, que posibilite que la persona pueda tener movilidad al momento tener la prenda puesta. Sin duda, es importante la observación y análisis previo de la estructura corporal para interpretar aquellos ajustes que se deben dar en cada trazo que se realiza sobre el patrón. 
-                  .col-lg-6.col-md-12.col-12.mb-4
+                  .col-lg-6.col-md-10.col-11.mb-4
                     figure
                       img.img-a.img-t(src='@/assets/curso/tema2-analisis.svg', alt='Texto que describa la imagen')
 
@@ -420,21 +735,21 @@
                     p(data-aos="zoom-in-up") Son medidas que se sacan sobre otras medidas, en las cuales se aplican fórmulas ya estudiadas y comprobadas. Estas se basan, esencialmente, en una medida horizontal, la cual se toma al contorno del cuerpo más prominente y en una medida vertical que es tomada a lo largo del cuerpo de arriba hacia abajo. En este sentido, con estas medidas deducimos las otras, por eso es importante tomarlas de manera exacta y no deben mezclarse con otras al momento de construir el cuadro de tallas.
                   .col-lg-6.col-md-12.col-12.mb-4
                     figure
-                      img.img-a.img-t(src='@/assets/curso/tema2-medidas.svg', alt='Texto que describa la imagen')
-                  
+                      img.img-a.img-t.mb-1(src='@/assets/curso/tema2-medidas.svg', alt='Texto que describa la imagen')
+                    figcaption Fuente: adaptación SENA
               
         .row.justify-content-center.p-4
           .col-lg-12.col-md-12.col-12.mb-4
             .row.justify-content-center
               .col-lg-11.col-md-12.col-12
                 .row.justify-content-center
-                  .col-lg-5.col-md-12.col-12
+                  .col-lg-5.col-md-12.col-12.mb-3
                     h4.mb-4 Medidas estandarizadas 
                     p.mb-4(data-aos="zoom-in-up") Son las medidas que se obtienen del resultado de estudios antropométricos, es decir, que se establecen en un rango de medidas que usualmente corresponden a las principales medidas corporales, es decir, las tallas.
                     p.mb-0(data-aos="zoom-in-up") Estas medidas son definidas y adoptadas por norma, por lo que esto ha permitido se generalicen las morfologías y medidas. Es importante precisar que, para acertar en la elección de una talla, debe compararse la coincidencia de la medida del contorno principal, con la medida correspondiente a la talla.
-                  .col-lg-6.col-md-12.col-12.mb-4
+                  .col-lg-6.col-md-11.col-12.mb-4
                     figure
-                      img.img-a.img-t(src='@/assets/curso/tema2-medidases.svg', alt='Texto que describa la imagen')
+                      img.img-a.img-t(src='@/assets/curso/tema2-medidases.svg', alt='La imagen proporciona una guía para medir la cintura y las caderas con una cinta métrica, destacando la forma correcta de tomar las medidas. En la primera  (A), se indica cómo medir la cintura colocándose la cinta alrededor de la parte más estrecha del torso, mientras que en la segunda  (B), se expone la medición de las caderas colocando la cinta alrededor de la parte más ancha. Además, se incluye una tabla que relaciona la talla S con las medidas correspondientes: la cintura debe medir entre 64 y 68 cm, y las caderas entre 89 y 92 cm.')
 
         
         .row.justify-content-center.p-4
@@ -458,10 +773,167 @@
                   .col-lg-5.col-md-12.col-12
                     h4.mb-4 Medidas anatómicas – estandarizadas o normalizadas 
                     p(data-aos="zoom-in-up") Son el resultado de la toma de medidas directas o de estudios antropométricos, las cuales se toman exactas sobre la estructura, es decir, no tiene aumentos ni ajustes.<br><br>Es importante tener claro que de la correcta toma de las medidas depende el resultado del patrón, pues estas medidas son utilizadas para la construcción y elaboración de los básicos, superiores e inferiores.
-                  .col-lg-6.col-md-12.col-12.mb-4
-                    figure
-                      img.img-a.img-t(src='@/assets/curso/tema2-medidasana.svg', alt='Texto que describa la imagen')
-    
+                  .col-lg-6.col-md-10.col-12.mb-4
+                    .row.justify-content-center.mb-0
+                      .col-lg-12.col-md-12.col-12.mb-1
+                        .tabla-d.tabla-pequet.color-acento-contenido
+                          table
+                            thead
+                              tr
+                                th.bgv.gg  
+                                  .row.justify-content-center.p-1
+                                    .col-lg-12.mb-0
+                                      p.mb-0.text-center.fw-bold 10
+                                th.bgv.gg  
+                                  .row.justify-content-center.p-1
+                                    .col-lg-12.mb-0
+                                      p.mb-0.text-center.fw-bold 12
+                                th.bgv.gg  
+                                  .row.justify-content-center.p-1
+                                    .col-lg-12.mb-0
+                                      p.mb-0.text-center.fw-bold 14
+                                th.bgv.gg  
+                                  .row.justify-content-center.p-1
+                                    .col-lg-12.mb-0
+                                      p.mb-0.text-center.fw-bold 16
+                                th.bgv.gg  
+                                  .row.justify-content-center.p-1
+                                    .col-lg-12.mb-0
+                                      p.mb-0.text-center.fw-bold 18
+                            tbody
+                              tr
+                                td.text-center 92
+                                td.text-center 96
+                                td.text-center 100
+                                td.text-center 106
+                                td.text-center 112
+                              tr
+                                td.text-center 68
+                                td.text-center 72
+                                td.text-center 76
+                                td.text-center 82
+                                td.text-center 88
+                              tr
+                                td.text-center 96
+                                td.text-center 100
+                                td.text-center 104
+                                td.text-center 110
+                                td.text-center 116
+                              tr
+                                td.text-center 35
+                                td.text-center 36
+                                td.text-center 37
+                                td.text-center 38.5
+                                td.text-center 40
+                              tr
+                                td.text-center 33
+                                td.text-center 34
+                                td.text-center 35
+                                td.text-center 36.5
+                                td.text-center 38
+                              tr
+                                td.text-center 34
+                                td.text-center 35
+                                td.text-center 36
+                                td.text-center 36.5
+                                td.text-center 37
+                              tr
+                                td.text-center 44.5
+                                td.text-center 43
+                                td.text-center 43.5
+                                td.text-center 44.25
+                                td.text-center 45
+                              tr
+                                td.text-center 37
+                                td.text-center 37.25
+                                td.text-center 37.5
+                                td.text-center 37.875
+                                td.text-center 38.25
+                              tr
+                                td.text-center 40.5
+                                td.text-center 41
+                                td.text-center 41.5
+                                td.text-center 42.25
+                                td.text-center 43
+                              tr
+                                td.text-center 19.25
+                                td.text-center 19.5
+                                td.text-center 19.75
+                                td.text-center 20.125
+                                td.text-center 20.5
+                              tr
+                                td.text-center 12
+                                td.text-center 12.25
+                                td.text-center 12.5
+                                td.text-center 12.875
+                                td.text-center 13.25
+                              tr
+                                td.text-center 36
+                                td.text-center 37.5
+                                td.text-center 39
+                                td.text-center 41.25
+                                td.text-center 43.5
+                              tr
+                                td.text-center 22
+                                td.text-center 23
+                                td.text-center 24
+                                td.text-center 25.5
+                                td.text-center 27
+                              tr
+                                td.text-center 14
+                                td.text-center 14.5
+                                td.text-center 15
+                                td.text-center 15.75
+                                td.text-center 16.5
+                              tr
+                                td.text-center 60
+                                td.text-center 60.5
+                                td.text-center 61
+                                td.text-center 61.75
+                                td.text-center 62.5
+                              tr
+                                td.text-center 46
+                                td.text-center 46.25
+                                td.text-center 46.5
+                                td.text-center 46.875
+                                td.text-center 47.25
+                              tr
+                                td.text-center 62
+                                td.text-center 62.5
+                                td.text-center 63
+                                td.text-center 63.75
+                                td.text-center 64.5
+                              tr
+                                td.text-center 60.5
+                                td.text-center 61
+                                td.text-center 61
+                                td.text-center 61.75
+                                td.text-center 62.5
+                              tr
+                                td.text-center 18
+                                td.text-center 18.25
+                                td.text-center 18.5
+                                td.text-center 18.875
+                                td.text-center 19.25
+                              tr
+                                td.text-center 105
+                                td.text-center 106
+                                td.text-center 107
+                                td.text-center 108.5
+                                td.text-center 110
+                              tr
+                                td.text-center 26
+                                td.text-center 28
+                                td.text-center 28
+                                td.text-center 29.5
+                                td.text-center 31
+                              tr
+                                td.text-center 20
+                                td.text-center 20.5
+                                td.text-center 21
+                                td.text-center 21.75
+                                td.text-center 22.5
+                          
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
       .col-lg-10.col-md-12.col-12
