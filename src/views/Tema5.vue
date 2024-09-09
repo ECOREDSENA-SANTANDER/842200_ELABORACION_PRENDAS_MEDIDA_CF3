@@ -46,7 +46,7 @@
             p.mb-0  Líneas de aplome
         p.mb-0(data-aos="fade-right") También es posible establecer otras especificaciones, como anexar datos de estampación, cambios de color o material, acabados especiales, ubicación de bolsillos, etc.
       .col-lg-6.col-md-9.col-12
-        img.mb-4(src='@/assets/curso/tema5-titulo2.svg')
+        img.mb-4(data-aos="zoom-in-up")(src='@/assets/curso/tema5-titulo2.svg')
 
     
     .tarjeta.tarjeta--azule.p-2.mb-5
@@ -60,7 +60,7 @@
                 p(data-aos="fade-right") Se debe tener en cuenta cuáles son las claves geométricas, horizontal, vertical, perpendicular (escuadrar), rectángulo, cuadrado, paralelo, ángulo recto, diagonal, diagonal o sesgo, vértice, radio, rotar, semicurva, curva, convexo, cóncavo. Siempre se inicia la construcción desde un rectángulo y se tiene en cuenta el contorno principal y el talle o largo del básico.
               .col-lg-5.col-md-12.col-12.mb-4
                 figure
-                  img.img-a.img-t(src='@/assets/curso/tema5-form1.png', alt='Texto que describa la imagen')
+                  img.img-a.img-t(data-aos="zoom-in-up")(src='@/assets/curso/tema5-form1.png', alt='Texto que describa la imagen')
               .col-lg-1.col-md-9.col-9.mb-4
               
         .row.justify-content-center.p-4
@@ -77,7 +77,7 @@
                 | 1:4 – Cuarto de escala 2,5 cm, - 2,5 cm.
               .col-lg-5.col-md-12.col-12.mb-4
                 figure
-                  img.img-a.img-t(src='@/assets/curso/tema5-form2.png', alt='Texto que describa la imagen')
+                  img.img-a.img-t(data-aos="zoom-in-up")(src='@/assets/curso/tema5-form2.png', alt='Texto que describa la imagen')
               .col-lg-1.col-md-12.col-12.mb-4
               
         .row.justify-content-center.p-4
@@ -89,7 +89,7 @@
                 p(data-aos="fade-right") Permiten realizar la construcción de básicos corporales y trazo de patrones en tamaños más pequeños.
               .col-lg-5.col-md-12.col-12.mb-4
                 figure
-                  img.img-a.img-t(src='@/assets/curso/tema5-form3.png', alt='Texto que describa la imagen')
+                  img.img-a.img-t(data-aos="zoom-in-up")(src='@/assets/curso/tema5-form3.png', alt='Texto que describa la imagen')
               .col-lg-1.col-md-12.col-12.mb-4
               
     .row.justify-content-center.mb-4
@@ -144,7 +144,7 @@
       
       .col-lg-5.col-md-10.col-12.mb-4(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema5-figure1.svg', alt='Trazo de patrones a escala')
+          img(data-aos="zoom-in-up")(src='@/assets/curso/tema5-figure1.svg', alt='Trazo de patrones a escala')
 
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
@@ -152,7 +152,7 @@
         .fondo21.p-4.mb-2
           .row.justify-content-center.align-items-center
             .col-lg-1.col-md-12.col-12
-              img.mx-2.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/libro.svg", alt="tema 2")
+              img.mx-2.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in-up")(src="@/assets/curso/libro.svg", alt="tema 2")
             .col-lg-9.col-md-12.col-12
               h4.mb-1 Anexo. PDF – Manual de patronaje. “Básico e interpretación de diseños”. 
               p.mb-0 Conoce y maneja las diferentes simbologías que facilitan los procesos técnicos de patronaje y corte.
@@ -233,7 +233,7 @@
         p.mb-4(data-aos="fade-right") El crecimiento entre la talla S y talla M: en el sistema imperial equivale a 4” pulgadas por contorno = a 10,2 cm, para el caso del sistema universal es de 8 cm, al hacer el equivalente no hay proporción. En este sentido, los cuadros de tallas en pulgadas serán igual al trazo en centímetros.
       
       .col-lg-5.col-md-10.col-10
-        img.mb-3.img-a.img-t(src="@/assets/curso/tema5-figure2.svg")
+        img.mb-3.img-a.img-t(data-aos="zoom-in-up")(src="@/assets/curso/tema5-figure2.svg")
         p.mb-3 A continuación, se relaciona la conversión del cuadro de tallas masculino de pulgadas a centímetros:
         
         .cajon.color-acento-contenido.p-3.mb-4.w-auto
@@ -246,7 +246,7 @@
       .col-lg-10.col-md-12.col-12
         .row.mb-4.py-4.row-list
           .col-lg-3.col-md-12.col-12
-            img.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema5-figure10.svg")
+            img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in-up")(src="@/assets/curso/tema5-figure10.svg")
           .col-lg-8.col-md-12.col-12
             .h3 Identificación de talla
             p Para la mayoría de los casos, al hacer lectura de un cuadro de tallas se toma el encabezado como la identificación de la talla, tanto superior como inferior. Sin embargo, en este cuadro de tallas, el nombre de la medida viene acompañado con una especificación adicional.
@@ -258,13 +258,13 @@
                   p.mb-1.text-center #[b Talla Inferior: 28.]
         .row.mb-4.py-4.row-list
           .col-lg-3.col-md-12.col-12
-            img.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema5-figure11.svg")
+            img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in-up")(src="@/assets/curso/tema5-figure11.svg")
           .col-lg-8.col-md-12.col-12
             .h3 Horma masculina
             p En términos de patronaje, en el ajuste y horma masculino se trabajan diferentes tipos de siluetas, en este caso el manual trabaja con: clásica y #[em Slim fit]. Esto hace referencia al tipo de horma o ajuste que se busca. En el cuadro de tallas, se podría tener un hombre talla 40 superior, con diferentes siluetas.
         .row.mb-5.py-4.row-list
           .col-lg-3.col-md-12.col-12
-            img.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema5-figure12.svg")
+            img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in-up")(src="@/assets/curso/tema5-figure12.svg")
           .col-lg-8.col-md-12.col-12
             .h3 Implementación del manual masculino
             p Para trabajar los básicos de masculino se deben identificar las páginas correspondientes que, para este caso, son desde la página 65 hasta la 78. Como se referenció en temas anteriores, se debe iniciar revisando y analizando el cuadro de tallas de la página 64, para identificar la talla, las medidas, incrementos y diferencias necesarias. Es importante señalar que este Manual está diseñado para iniciar siempre desde los básicos que, en la metodología SENA, funcionan de la siguiente manera:
@@ -280,15 +280,15 @@
       table
         tr
           th.negro.th Tipo de plano
-          td.th Identificar qué tipo de plano se va a trabajar: unido, separado o montado.
+          td.th(data-aos="fade-right") Identificar qué tipo de plano se va a trabajar: unido, separado o montado.
         tr
           th.negro.td Rectángulo
-          td.td Todo básico inicia siempre desde un rectángulo, el cual se traza con la medida del contorno más protuberante y el largo más largo de la parte del cuerpo a trabajar.
+          td.td(data-aos="fade-right") Todo básico inicia siempre desde un rectángulo, el cual se traza con la medida del contorno más protuberante y el largo más largo de la parte del cuerpo a trabajar.
         tr
           th.negro.th Medida más protuberante a trabajar
           td.th
             p.mb-4(data-aos="fade-right") Por lo general, el Manual trabaja con fórmulas o convenciones, en la mayoría de los casos la medida más protuberante es sustituida por una letra, por ejemplo, en masculino, contorno de pecho (medida más protuberante de la cintura para arriba) equivale o es igual a la letra “P”
-            p.text-center
+            p.text-center(data-aos="fade-right")
               strong P = contorno de pecho de la talla a trabajar
               br
               strong Talla 34: B = 86,5 cm
@@ -296,7 +296,7 @@
               | (contorno de pecho del cuadro de tallas correspondiente a la talla 34).
         tr
           th.negro.td Medida más larga a trabajar
-          td.td
+          td.td(data-aos="fade-right")
             p.mb-0 El largo inicial del rectángulo se trabaja con la medida más larga de la parte del cuerpo a trabajar, por ejemplo:
             ul.lista-ul--color
               li.mb-0
@@ -312,32 +312,32 @@
         tr
           th.negro.th Medidas en el trazo
           td.th
-            p.mb-4 Las medidas que se trabajan en la metodología son deducidas, en algunos casos únicamente se saca del cuadro de talla, la medida de contorno y largo, no se trabajan medidas como hombro, anchos, cuello y demás; dichas medidas se obtienen por fórmula o por medidas deducidas.
-            p.text-center En masculino la medida de cuello posterior equivale a
+            p.mb-4(data-aos="fade-right") Las medidas que se trabajan en la metodología son deducidas, en algunos casos únicamente se saca del cuadro de talla, la medida de contorno y largo, no se trabajan medidas como hombro, anchos, cuello y demás; dichas medidas se obtienen por fórmula o por medidas deducidas.
+            p.text-center(data-aos="fade-right") En masculino la medida de cuello posterior equivale a
               br
               strong P/20+2,5 = P (contorno de pecho) / 20 + 2,5
         tr
           th.negro.td Manejo del papel
-          td.td Por lo general, el trazo de moldes se suele hacer con papel trazo o #[em manifold], dicho papel tiene dos caras, una que al tacto es liso y brillante y otra que es corrugada y opaca; se recomienda trabajar por la parte corrugada con el fin de tener una mejor adhesión del grafito (lápiz) y no permitir que rebote la luz, es recomendable emplear papel blanco con el fin de no cansar la vista y descansar la mente.
+          td.td(data-aos="fade-right") Por lo general, el trazo de moldes se suele hacer con papel trazo o #[em manifold], dicho papel tiene dos caras, una que al tacto es liso y brillante y otra que es corrugada y opaca; se recomienda trabajar por la parte corrugada con el fin de tener una mejor adhesión del grafito (lápiz) y no permitir que rebote la luz, es recomendable emplear papel blanco con el fin de no cansar la vista y descansar la mente.
         tr
           th.negro.th Siluetas
-          td.th El manejo de siluetas varía únicamente en las fórmulas; los pasos y guías serán los mismos.
+          td.th(data-aos="fade-right") El manejo de siluetas varía únicamente en las fórmulas; los pasos y guías serán los mismos.
     
     
     Separador
-    #t_5_3.titulo-segundo
+    #t_5_3.titulo-segundo(data-aos="fade-left")
       h2 5.3  Elaboración de básicos femeninos
 
     
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in-up")
       .col-lg-10
         .bloque-texto-g.fondo-b.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema5-figure14.png')})`}"
           )
           .bloque-texto-g__texto.p-5.mt-4.mb-4
-            p.mb-0 Para la implementación del Manual, lo primero es identificar las páginas con las que se va a trabajar, que en este caso van desde la página 21 hasta la 32, pues como se referenció en temas anteriores, se debe iniciar revisando y analizando el cuadro de tallas página 20, para identificar la talla, las medidas, incrementos y diferencias que se va a trabajar. 
-    p.mb-4 Este Manual está diseñado para iniciar siempre desde los básicos en la metodología SENA, que funcionan de la siguiente manera:
+            p.mb-0(data-aos="fade-left") Para la implementación del Manual, lo primero es identificar las páginas con las que se va a trabajar, que en este caso van desde la página 21 hasta la 32, pues como se referenció en temas anteriores, se debe iniciar revisando y analizando el cuadro de tallas página 20, para identificar la talla, las medidas, incrementos y diferencias que se va a trabajar. 
+    p.mb-4(data-aos="fade-left") Este Manual está diseñado para iniciar siempre desde los básicos en la metodología SENA, que funcionan de la siguiente manera:
     .titulo-sexto.color-acento-contenido.my-3
       h5 Tabla 11.
       | Desarrollo de básicos femeninos
@@ -346,17 +346,17 @@
       .tabla-b__header
         .h3.mb-0 Desarrollo de básicos femeninos
       table
-        tr
+        tr(data-aos="fade-left")
           th.negro.th Tipo de plano
           td.th Identificar qué tipo de plano se va a trabajar: unido, separado o montado.
-        tr
+        tr(data-aos="fade-left")
           th.negro.td Rectángulo
           td.td Todo básico inicia siempre desde un rectángulo, el cual se traza con la medida del contorno más protuberante y el largo más largo de la parte del cuerpo a trabajar.
-        tr
+        tr(data-aos="fade-left")
           th.negro.th Cuadro de tallas
           td.th Para el femenino, la elaboración de los básicos se trabaja con las medidas del cuadro de tallas, es decir, cada punto de referencia sobre el cuerpo es trabajado del cuadro de tallas, a diferencia de lo anterior, este desarrollo hace necesario identificar todo el listado de las medidas que se van a implementar para hacer el desarrollo.
 
-    p A diferencia del masculino, el cuadro de tallas viene en centímetros, por lo cual no se hace necesario hacer ninguna conversión, como para el caso del masculino que se establece en pulgadas. Este Manual permitirá desarrollar el patronaje básico femenino, lo que dará las pautas necesarias para la interpretación de diseños en patronaje.
+    p(data-aos="fade-left") A diferencia del masculino, el cuadro de tallas viene en centímetros, por lo cual no se hace necesario hacer ninguna conversión, como para el caso del masculino que se establece en pulgadas. Este Manual permitirá desarrollar el patronaje básico femenino, lo que dará las pautas necesarias para la interpretación de diseños en patronaje.
 
 </template>
 

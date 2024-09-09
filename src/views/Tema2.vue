@@ -38,7 +38,7 @@
             | Comparación de sistemas de medidas
           .row.justify-content-center
             .col-lg-12
-              img.mx-2.img-a.img-t(src='@/assets/curso/tema2-figure3.svg', alt='La imagen expone un diagrama que presenta una cinta métrica con dos escalas diferentes. En la parte superior, marcada con verde, está la escala en pulgadas, representando el "SISTEMA INGLÉS". En la parte inferior, marcada con rosado, está la escala en centímetros, representando el "SISTEMA INTERNACIONAL". El diagrama sirve para mostrar visualmente la diferencia entre estas dos unidades de medida.')
+              img.mx-2.img-a.img-t(data-aos="zoom-in-up")(src='@/assets/curso/tema2-figure3.svg', alt='La imagen expone un diagrama que presenta una cinta métrica con dos escalas diferentes. En la parte superior, marcada con verde, está la escala en pulgadas, representando el "SISTEMA INGLÉS". En la parte inferior, marcada con rosado, está la escala en centímetros, representando el "SISTEMA INTERNACIONAL". El diagrama sirve para mostrar visualmente la diferencia entre estas dos unidades de medida.')
     
     .row.justify-content-center.mb-4
       .col-lg-8.col-md-12.col-12
@@ -56,12 +56,12 @@
         .titulo-sexto.color-acento-contenido.mx-2
           h5 Figura 4.
           | Numerador - Denominador
-        img(src='@/assets/curso/tema2-figure4.svg', alt='La imagen hace una representación gráfica de la fracción 1/3. En la parte superior se encuentran los términos "Numerador" y "Denominador" separados por la fracción 1/3. Abajo, un gráfico circular está dividido en tres partes iguales, cada una etiquetada como 1/3. Debajo del gráfico circular, se repite la fracción 1/3 tres veces en una barra horizontal, enfatizando que la fracción es una de las tres partes iguales del total.')
+        img(data-aos="zoom-in-up")(src='@/assets/curso/tema2-figure4.svg', alt='La imagen hace una representación gráfica de la fracción 1/3. En la parte superior se encuentran los términos "Numerador" y "Denominador" separados por la fracción 1/3. Abajo, un gráfico circular está dividido en tres partes iguales, cada una etiquetada como 1/3. Debajo del gráfico circular, se repite la fracción 1/3 tres veces en una barra horizontal, enfatizando que la fracción es una de las tres partes iguales del total.')
       .col-lg-6.col-md-12.col-12.mb-4
         .titulo-sexto.color-acento-contenido.mx-2
           h5 Figura 5.
           | La pulgada
-        img(src='@/assets/curso/tema2-figure5.svg', alt='La imagen expone una regla que indica fracciones de pulgada desde 0 a 1. Cada fracción está representada en su forma más reducida y también como una equivalencia en treintaidosavos de pulgada. Además, se proporciona una breve lección de unidades de medida en inglés, indicando que la pulgada es la unidad básica, que un pie equivale a 12 pulgadas y que una yarda equivale a 3 pies.')
+        img(data-aos="zoom-in-up")(src='@/assets/curso/tema2-figure5.svg', alt='La imagen expone una regla que indica fracciones de pulgada desde 0 a 1. Cada fracción está representada en su forma más reducida y también como una equivalencia en treintaidosavos de pulgada. Además, se proporciona una breve lección de unidades de medida en inglés, indicando que la pulgada es la unidad básica, que un pie equivale a 12 pulgadas y que una yarda equivale a 3 pies.')
 
     p.mb-5(data-aos="zoom-in-up") En confección, se utiliza la pulgada como medida de estandarización la cual mide el número de Puntadas Por Pulgada (PPP).
     
@@ -70,7 +70,7 @@
         .row.mb-3
           .col.d-flex
             .cajon.color-primario.p-4.mb-4
-              p.mb-0 #[b Ancho de la puntada:] se utiliza un calibrador para facilitar el proceso y, para ello, se sugiere que la planchuela de la máquina tenga las medidas para que sirva de guía.
+              p.mb-0(data-aos="fade-left") #[b Ancho de la puntada:] se utiliza un calibrador para facilitar el proceso y, para ello, se sugiere que la planchuela de la máquina tenga las medidas para que sirva de guía.
       .col-lg-6.col-md-12.col-12
         .row.mb-3
           .col.d-flex.col-md-12.col-12
@@ -82,12 +82,12 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 6.
           | Planchuela de máquina con ancho de puntada y medidas
-        img(src='@/assets/curso/tema2-figure6.svg', alt='En la  imagen se  detalla  un calibrador o pie de rey, un instrumento utilizado para medir dimensiones de objetos con precisión. Se observa la escala en pulgadas, con marcas que indican fracciones como 1/16, 1/8, 3/16, hasta 9/32 y 5/16. La palabra "CALIBRADOR" es visible, y una línea rosa resalta parte del instrumento, probablemente enfocando la atención en la escala de medición.')
+        img(data-aos="zoom-in-up")(src='@/assets/curso/tema2-figure6.svg', alt='En la  imagen se  detalla  un calibrador o pie de rey, un instrumento utilizado para medir dimensiones de objetos con precisión. Se observa la escala en pulgadas, con marcas que indican fracciones como 1/16, 1/8, 3/16, hasta 9/32 y 5/16. La palabra "CALIBRADOR" es visible, y una línea rosa resalta parte del instrumento, probablemente enfocando la atención en la escala de medición.')
       .col-lg-6.col-md-12.col-12.mb-4
         .titulo-sexto.color-acento-contenido
           h5 Figura 7.
           | Planchuela y pie       
-        img(src='@/assets/curso/tema2-figure7.svg', alt='La imagen expone dos herramientas de medición. A la izquierda, hay una planchuela, una placa de metal con varias aberturas de diferentes tamaños, probablemente utilizada para medir el grosor o el diámetro de alambres o pequeños objetos. A la derecha, aparece un pie de rey, un instrumento de precisión para medir dimensiones pequeñas y distancias internas y externas de los objetos. Ambas herramientas están resaltadas con líneas de contorno dibujadas en verde y azul, posiblemente para señalar sus características o las partes que son de interés en este contexto.')
+        img(data-aos="zoom-in-up")(src='@/assets/curso/tema2-figure7.svg', alt='La imagen expone dos herramientas de medición. A la izquierda, hay una planchuela, una placa de metal con varias aberturas de diferentes tamaños, probablemente utilizada para medir el grosor o el diámetro de alambres o pequeños objetos. A la derecha, aparece un pie de rey, un instrumento de precisión para medir dimensiones pequeñas y distancias internas y externas de los objetos. Ambas herramientas están resaltadas con líneas de contorno dibujadas en verde y azul, posiblemente para señalar sus características o las partes que son de interés en este contexto.')
 
     p.mb-4(data-aos="zoom-in-up") Para el patronaje, la denominación de tallas europeas, y también algunos cuadros de tallas, especialmente los masculinos, se trabajan en pulgadas.
 
@@ -96,7 +96,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 8.
           | Utilización de las pulgadas
-        img(src='@/assets/curso/tema2-figure8.svg', alt='La imagen contiene un gráfico que exponen medidas en pulgadas de manera progresiva. La gráfica tiene una escala de 0 a 1 pulgada, con divisiones marcadas y etiquetadas con fracciones de pulgada y sus equivalentes en fracciones de 32 y 16. Por ejemplo, se muestra 1/32, 2/32 (que también es 1/16), 4/32 (1/8), hasta llegar a 32/32 (1 pulgada).  "Se detallan las pulgadas que van de acuerdo a la medida progresiva encontrada así:" sugiere que el gráfico está diseñado para ayudar a entender cómo las fracciones de pulgada se acumulan o incrementan para formar una pulgada completa.')
+        img(data-aos="zoom-in-up")(src='@/assets/curso/tema2-figure8.svg', alt='La imagen contiene un gráfico que exponen medidas en pulgadas de manera progresiva. La gráfica tiene una escala de 0 a 1 pulgada, con divisiones marcadas y etiquetadas con fracciones de pulgada y sus equivalentes en fracciones de 32 y 16. Por ejemplo, se muestra 1/32, 2/32 (que también es 1/16), 4/32 (1/8), hasta llegar a 32/32 (1 pulgada).  "Se detallan las pulgadas que van de acuerdo a la medida progresiva encontrada así:" sugiere que el gráfico está diseñado para ayudar a entender cómo las fracciones de pulgada se acumulan o incrementan para formar una pulgada completa.')
       .col-lg-6.col-md-12.col-12.mb-5
         .cajon.color-acento-contenido.p-4.mb-5.my-5
           p(data-aos="zoom-in-up") Al sistema inglés también se le llama sistema de medidas ‘imperial’ en el entorno de la confección. Sin embargo, la mayoría de los países ha adoptado el sistema de medidas decimal comúnmente llamado sistema ‘universal’, haciendo comunes los procesos de conversión de medidas, donde 1" pulgada mide 2,54 cm.
@@ -191,7 +191,7 @@
                   h5 Figura 10.
                   | Medidas en confección
                 figure
-                  img(src='@/assets/curso/tema2-figure10.svg', alt='La imagen ilustra una comparación de espesores de tela en rollo. Hay tres rollos de tela apiladas, cada una con una etiqueta de espesor: 3 mm, 5 mm y 6 mm. Además, hay una imagen de una tela enrollada junto a una regla que muestra la medida de 140 cm, indicando la anchura de la tela desenrollada, y el espesor de esta tela enrollada se indica como 12 mm. La imagen se usa para mostrar las diferentes opciones de espesor para los clientes interesados en este tipo de producto.')
+                  img(data-aos="zoom-in-up")(src='@/assets/curso/tema2-figure10.svg', alt='La imagen ilustra una comparación de espesores de tela en rollo. Hay tres rollos de tela apiladas, cada una con una etiqueta de espesor: 3 mm, 5 mm y 6 mm. Además, hay una imagen de una tela enrollada junto a una regla que muestra la medida de 140 cm, indicando la anchura de la tela desenrollada, y el espesor de esta tela enrollada se indica como 12 mm. La imagen se usa para mostrar las diferentes opciones de espesor para los clientes interesados en este tipo de producto.')
           .col-lg-1.col-md-12.col-12
           
       .py-4.py-md-5(titulo="En patronaje" :icono="require('@/assets/curso/tema2-tabs2.svg')")
@@ -273,7 +273,7 @@
                 .titulo-sexto.color-acento-contenido
                   h5 Figura 12.
                   | Utilización de centímetros
-                img(src='@/assets/curso/tema2-figure12.svg', alt='La imagen expone una representación gráfica de una regla, marcada en centímetros y milímetros, con la longitud total de 10 centímetros, que también se indica como 1 decímetro. Hay una línea que marca 1 centímetro y otra más pequeña que indica 1 milímetro. Debajo de la regla hay una serie de equivalencias escritas que definen las relaciones entre diferentes unidades de medida de longitud: 1 metro es igual a 10 decímetros, 1 decímetro es igual a 10 centímetros, y 1 centímetro es igual a 10 milímetros.')
+                img(data-aos="zoom-in-up")(src='@/assets/curso/tema2-figure12.svg', alt='La imagen expone una representación gráfica de una regla, marcada en centímetros y milímetros, con la longitud total de 10 centímetros, que también se indica como 1 decímetro. Hay una línea que marca 1 centímetro y otra más pequeña que indica 1 milímetro. Debajo de la regla hay una serie de equivalencias escritas que definen las relaciones entre diferentes unidades de medida de longitud: 1 metro es igual a 10 decímetros, 1 decímetro es igual a 10 centímetros, y 1 centímetro es igual a 10 milímetros.')
 
       .py-4.py-md-5(titulo="En resumen" :icono="require('@/assets/curso/tema2-tabs4.svg')")
         .row.justify-content-between
@@ -288,7 +288,7 @@
               h5 Figura 13.
               | Fracciones y decimales
             figure
-              img.mb-2(src='@/assets/curso/tema2-fracciones.svg', alt='La imagen expone una representación gráfica de una regla, marcada en centímetros y milímetros, con la longitud total de 10 centímetros, así mismo en la parte inferior muestra fracciones divididas entres 2,5 centímetros y se etiquetan como ½, esto re reporte hasta 4 en donde equivale a 10 cm.')
+              img.mb-2(data-aos="zoom-in-up")(src='@/assets/curso/tema2-fracciones.svg', alt='La imagen expone una representación gráfica de una regla, marcada en centímetros y milímetros, con la longitud total de 10 centímetros, así mismo en la parte inferior muestra fracciones divididas entres 2,5 centímetros y se etiquetan como ½, esto re reporte hasta 4 en donde equivale a 10 cm.')
 
 
           .col-lg-6.col-md-12.col-12
@@ -298,7 +298,7 @@
             .row.justify-content-center
               .col-lg-12
                 figure.mb-2
-                  img(src='@/assets/curso/tema2-figure13.png', alt='La imagen expone la conversión que correlaciona fracciones de pulgada con sus equivalentes decimales y medidas en milímetros. La tabla está dividida en dos columnas, con la mitad izquierda presentando fracciones desde 1/32 hasta 1/2, y la mitad derecha desde 17/32 hasta 1 pulgada completa. Cada fila lista una fracción de pulgada, seguida por su conversión a número decimal y luego su equivalencia en milímetros. La tabla parece es una herramienta útil para persona que necesite convertir medidas de pulgadas a milímetros, por ello se adjunta en este material.')
+                  img(data-aos="zoom-in-up")(src='@/assets/curso/tema2-figure13.png', alt='La imagen expone la conversión que correlaciona fracciones de pulgada con sus equivalentes decimales y medidas en milímetros. La tabla está dividida en dos columnas, con la mitad izquierda presentando fracciones desde 1/32 hasta 1/2, y la mitad derecha desde 17/32 hasta 1 pulgada completa. Cada fila lista una fracción de pulgada, seguida por su conversión a número decimal y luego su equivalencia en milímetros. La tabla parece es una herramienta útil para persona que necesite convertir medidas de pulgadas a milímetros, por ello se adjunta en este material.')
                 figcaption Fuente: https://es.scribd.com/document/402601611/Decimal-Metrico-Equivalente-en-Pulgadas
     
     p.mb-4(data-aos="zoom-in-up") Para las conversiones y equivalencias de fracciones, milésimas y milímetros es importante tener una tabla que permita hacer una lectura puntual y acertada del ejercicio como la que se presenta a continuación:
@@ -633,7 +633,7 @@
               
         .row.justify-content-center
           .col-lg-12.col-md-9.col-10.mb-0
-            img(src='@/assets/curso/maqu.svg', alt='Personas manipulando confecciones')
+            img(data-aos="zoom-in-up")(src='@/assets/curso/maqu.svg', alt='Personas manipulando confecciones')
 
             
     
@@ -656,7 +656,7 @@
               | : por lo general se toman sobre los puntos de anclaje del cuerpo teniendo en cuenta los parámetros antropométricos y anatómicos, pasando por los volúmenes (contornos) protuberantes. Se clasifican en tres grupos:
 
       .col-lg-6.col-md-10.col-10
-        img(src='@/assets/curso/tema2-titulo2.png', alt='Mujeres tomando medidas')
+        img(data-aos="zoom-in-up")(src='@/assets/curso/tema2-titulo2.png', alt='Mujeres tomando medidas')
 
     
     .row.justify-content-center
@@ -664,9 +664,9 @@
         .titulo-sexto.color-acento-contenido.my-3
           h5 Figura 15.
           | Clasificación de medidas
-        img.d-none.d-lg-block.mb-3(src='@/assets/curso/tema2-figure16.svg', alt='La imagen detalla dibujos esquemáticos de figuras humanas con líneas y números que indican diferentes medidas del cuerpo, como el contorno de pecho, cintura, cadera, el largo de piernas y brazos, entre otros, para propósitos de confección o diseño de prendas de vestir.')
+        img.d-none.d-lg-block.mb-3(data-aos="zoom-in-up")(src='@/assets/curso/tema2-figure16.svg', alt='La imagen detalla dibujos esquemáticos de figuras humanas con líneas y números que indican diferentes medidas del cuerpo, como el contorno de pecho, cintura, cadera, el largo de piernas y brazos, entre otros, para propósitos de confección o diseño de prendas de vestir.')
         figcaption.d-none.d-lg-block Fuente: https://www.nastasianash.com/5-claves-para-tomar-medidas-corporales/
-        img.imagen-mobile.mb-3(src='@/assets/curso/tema2-figure16.11.svg', alt='La imagen detalla dibujos esquemáticos de figuras humanas con líneas y números que indican diferentes medidas del cuerpo, como el contorno de pecho, cintura, cadera, el largo de piernas y brazos, entre otros, para propósitos de confección o diseño de prendas de vestir.')
+        img.imagen-mobile.mb-3(data-aos="zoom-in-up")(src='@/assets/curso/tema2-figure16.11.svg', alt='La imagen detalla dibujos esquemáticos de figuras humanas con líneas y números que indican diferentes medidas del cuerpo, como el contorno de pecho, cintura, cadera, el largo de piernas y brazos, entre otros, para propósitos de confección o diseño de prendas de vestir.')
         figcaption.imagen-mobile Fuente: https://www.nastasianash.com/5-claves-para-tomar-medidas-corporales/
     p.mb-5(data-aos="zoom-in-up") Teniendo en cuenta la clasificación de las medidas, es importante conocer los tres grupos que se presentan en ellas:
     
@@ -680,7 +680,7 @@
             h5 Figura 16.
             | Contornos
           figure
-            img(src='@/assets/curso/tema2-contorno.svg', alt='La imagen expone una figura humana con etiquetas que indican cómo tomar medidas de diferentes contornos del cuerpo: cuello, pecho/busto, cintura, codo, brazo, puño, cadera, rodilla y bota. Las instrucciones señalan que las medidas deben tomarse alrededor de la parte correspondiente, cerrando el metro.')
+            img(data-aos="zoom-in-up")(src='@/assets/curso/tema2-contorno.svg', alt='La imagen expone una figura humana con etiquetas que indican cómo tomar medidas de diferentes contornos del cuerpo: cuello, pecho/busto, cintura, codo, brazo, puño, cadera, rodilla y bota. Las instrucciones señalan que las medidas deben tomarse alrededor de la parte correspondiente, cerrando el metro.')
       
       .row(titulo="Largos")
         .col-md-6.mb-4.mb-md-0
@@ -690,7 +690,7 @@
             h5 Figura 17.
             | Largos
           figure
-            img(src='@/assets/curso/tema2-largos.svg', alt='La imagen presenta un esquema anatómico con diferentes referencias de medidas corporales marcadas a lo largo del cuerpo. Estas referencias incluyen medidas como talle frente, centro frente, altura busto, costado, altura tiro, talle atrás, centro atrás, hombro, altura de cadera, largo de manga, largo de falda y largo de pantalón. Cada una de estas medidas está indicada con líneas y etiquetas específicas, lo que sugiere su uso para la toma de medidas en confección o sastrería, abarcando tanto la parte superior como inferior del cuerpo.')
+            img(data-aos="zoom-in-up")(src='@/assets/curso/tema2-largos.svg', alt='La imagen presenta un esquema anatómico con diferentes referencias de medidas corporales marcadas a lo largo del cuerpo. Estas referencias incluyen medidas como talle frente, centro frente, altura busto, costado, altura tiro, talle atrás, centro atrás, hombro, altura de cadera, largo de manga, largo de falda y largo de pantalón. Cada una de estas medidas está indicada con líneas y etiquetas específicas, lo que sugiere su uso para la toma de medidas en confección o sastrería, abarcando tanto la parte superior como inferior del cuerpo.')
 
       .row(titulo="Anchos")
         .col-md-6.mb-4.mb-md-0
@@ -700,7 +700,7 @@
             h5 Figura 18.
             | Anchos
           figure
-            img(src='@/assets/curso/tema2-anchos.svg', alt='La imagen representa dos esquemas de la parte superior del torso de una figura humana, donde se indican tres medidas clave: la separación de busto, el ancho de pecho y el ancho de espalda. El esquema superior destaca la separación de busto, marcada entre los puntos más prominentes del busto, y el ancho de pecho, medido de lado a lado en la zona superior del busto. El esquema inferior señala el ancho de espalda, que se mide horizontalmente en la parte superior de la espalda, por debajo de los hombros. Estas medidas son esenciales en el ámbito de la confección para asegurar un ajuste adecuado en prendas superiores.')
+            img(data-aos="zoom-in-up")(src='@/assets/curso/tema2-anchos.svg', alt='La imagen representa dos esquemas de la parte superior del torso de una figura humana, donde se indican tres medidas clave: la separación de busto, el ancho de pecho y el ancho de espalda. El esquema superior destaca la separación de busto, marcada entre los puntos más prominentes del busto, y el ancho de pecho, medido de lado a lado en la zona superior del busto. El esquema inferior señala el ancho de espalda, que se mide horizontalmente en la parte superior de la espalda, por debajo de los hombros. Estas medidas son esenciales en el ámbito de la confección para asegurar un ajuste adecuado en prendas superiores.')
   
 
     ol.lista-ol--cuadro
@@ -722,7 +722,7 @@
                     p(data-aos="zoom-in-up") Son aquellas medidas que se toman directamente sobre el cuerpo de la persona. Es importante precisar que estas medidas se deben tomar atendiendo a los ejes de movimiento, es decir, que posibilite que la persona pueda tener movilidad al momento tener la prenda puesta. Sin duda, es importante la observación y análisis previo de la estructura corporal para interpretar aquellos ajustes que se deben dar en cada trazo que se realiza sobre el patrón. 
                   .col-lg-6.col-md-10.col-11.mb-4
                     figure
-                      img.img-a.img-t(src='@/assets/curso/tema2-analisis.svg', alt='Texto que describa la imagen')
+                      img.img-a.img-t(data-aos="zoom-in-up")(src='@/assets/curso/tema2-analisis.svg', alt='Texto que describa la imagen')
 
               
         .row.justify-content-center.p-4
@@ -735,7 +735,7 @@
                     p(data-aos="zoom-in-up") Son medidas que se sacan sobre otras medidas, en las cuales se aplican fórmulas ya estudiadas y comprobadas. Estas se basan, esencialmente, en una medida horizontal, la cual se toma al contorno del cuerpo más prominente y en una medida vertical que es tomada a lo largo del cuerpo de arriba hacia abajo. En este sentido, con estas medidas deducimos las otras, por eso es importante tomarlas de manera exacta y no deben mezclarse con otras al momento de construir el cuadro de tallas.
                   .col-lg-6.col-md-12.col-12.mb-4
                     figure
-                      img.img-a.img-t.mb-1(src='@/assets/curso/tema2-medidas.svg', alt='Texto que describa la imagen')
+                      img.img-a.img-t.mb-1(data-aos="zoom-in-up")(src='@/assets/curso/tema2-medidas.svg', alt='Texto que describa la imagen')
                     figcaption Fuente: adaptación SENA
               
         .row.justify-content-center.p-4
@@ -749,7 +749,7 @@
                     p.mb-0(data-aos="zoom-in-up") Estas medidas son definidas y adoptadas por norma, por lo que esto ha permitido se generalicen las morfologías y medidas. Es importante precisar que, para acertar en la elección de una talla, debe compararse la coincidencia de la medida del contorno principal, con la medida correspondiente a la talla.
                   .col-lg-6.col-md-11.col-12.mb-4
                     figure
-                      img.img-a.img-t(src='@/assets/curso/tema2-medidases.svg', alt='La imagen proporciona una guía para medir la cintura y las caderas con una cinta métrica, destacando la forma correcta de tomar las medidas. En la primera  (A), se indica cómo medir la cintura colocándose la cinta alrededor de la parte más estrecha del torso, mientras que en la segunda  (B), se expone la medición de las caderas colocando la cinta alrededor de la parte más ancha. Además, se incluye una tabla que relaciona la talla S con las medidas correspondientes: la cintura debe medir entre 64 y 68 cm, y las caderas entre 89 y 92 cm.')
+                      img.img-a.img-t(data-aos="zoom-in-up")(src='@/assets/curso/tema2-medidases.svg', alt='La imagen proporciona una guía para medir la cintura y las caderas con una cinta métrica, destacando la forma correcta de tomar las medidas. En la primera  (A), se indica cómo medir la cintura colocándose la cinta alrededor de la parte más estrecha del torso, mientras que en la segunda  (B), se expone la medición de las caderas colocando la cinta alrededor de la parte más ancha. Además, se incluye una tabla que relaciona la talla S con las medidas correspondientes: la cintura debe medir entre 64 y 68 cm, y las caderas entre 89 y 92 cm.')
 
         
         .row.justify-content-center.p-4
@@ -762,7 +762,7 @@
                     p(data-aos="zoom-in-up") Son las medidas que se toman justas sobre el cuerpo teniendo en cuenta los puntos antropométricos y ejes de movimiento. Este tipo de medidas no tienen desahogos ni flojos.
                   .col-lg-6.col-md-12.col-12.mb-4
                     figure
-                      img.img-a.img-t(src='@/assets/curso/tema2-medidas3s.svg', alt='Texto que describa la imagen')
+                      img.img-a.img-t(data-aos="zoom-in-up")(src='@/assets/curso/tema2-medidas3s.svg', alt='Texto que describa la imagen')
 
         
         .row.justify-content-center.p-4
@@ -940,7 +940,7 @@
         .fondo21.p-4.mb-2
           .row.justify-content-center.align-items-center
             .col-lg-1.col-md-12.col-12
-              img.mx-2.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/video.svg", alt="tema 2")
+              img.mx-2.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in-up")(src="@/assets/curso/video.svg", alt="tema 2")
             .col-lg-9.col-md-12.col-12
               h4.mb-1 Enlace #[em web].  Video – Clasificación de medidas
               p.mb-0(data-aos="zoom-in-up") Es importante conocer los aspectos para desarrollar patrones de prendas de vestir bajo la estructura del reconocimiento de diferentes tipos de formas corpóreas, partiendo desde los conceptos básicos de anatomía hasta el desarrollo de molde básico para la interpretación de la estructura corporal.
