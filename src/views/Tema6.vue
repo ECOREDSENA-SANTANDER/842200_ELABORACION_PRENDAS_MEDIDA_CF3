@@ -9,11 +9,11 @@
       h1 Dibujo bidimensional de prendas de vestir
 
 
-    SlyderD.mb-5.no-slyder-d-primary(:datos="datosSlyder")(data-aos="fade-right")
+    SlyderD.no-slyder-d-primary(:datos="datosSlyder")(data-aos="fade-right")
     
     .row.fondo3.align-items-center(data-aos="zoom-in-up")
       .col-lg-12.col-md-12.col-12.px-lg-5.px-4
-        .row.justify-content-center.mb-4(data-aos="fade-down")
+        .row.justify-content-center(data-aos="fade-down")
     
         
 </template>
