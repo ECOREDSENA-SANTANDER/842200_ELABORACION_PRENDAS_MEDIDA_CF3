@@ -110,7 +110,7 @@
     .row.justify-content-center.mb-5
       .col-lg-7.col-md-12.col-12.mb-3
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 9.
+          h5 Tabla 1.
           | Análisis de unidades
         .tabla-a.tabl.color-acento-contenido
           table(alt='La imagen detalla una tabla que enumera unidades de medida de longitud junto con sus abreviaturas y equivalencias en metros. De arriba hacia abajo, las unidades son: Kilómetro (km) equivale a 1000 metros, Hectómetro (hm) a 100 metros, Decámetro (dam) a 10 metros, Metro (m) a 1 metro, Decímetro (dm) a 0,1 metros, Centímetro (cm) a 0,01 metros y Milímetro (mm) a 0,001 metros. Hay líneas azules que conectan visualmente las equivalencias de estas unidades con la unidad base, el metro.')
@@ -188,7 +188,7 @@
             .row.justify-content-center
               .col-lg-8.col-md-12.col-12
                 .titulo-sexto.color-acento-contenido.mb-3.mx-4
-                  h5 Figura 10.
+                  h5 Figura 9.
                   | Medidas en confección
                 figure
                   img(data-aos="zoom-in-up")(src='@/assets/curso/tema2-figure10.svg', alt='La imagen ilustra una comparación de espesores de tela en rollo. Hay tres rollos de tela apiladas, cada una con una etiqueta de espesor: 3 mm, 5 mm y 6 mm. Además, hay una imagen de una tela enrollada junto a una regla que muestra la medida de 140 cm, indicando la anchura de la tela desenrollada, y el espesor de esta tela enrollada se indica como 12 mm. La imagen se usa para mostrar las diferentes opciones de espesor para los clientes interesados en este tipo de producto.')
@@ -202,7 +202,7 @@
             .row.justify-content-center
               .col-lg-12.col-md-12.col-12
                 .titulo-sexto.color-acento-contenido
-                  h5 Figura 11.
+                  h5 Tabla 2.
                   | Medidas en patronaje
             .tabla.hj.tabl.color-acento-contenido
               table(alt='La imagen expone las  tallas para prendas de vestir, con medidas específicas para distintas partes del cuerpo en centímetros. Se indican tallas que van desde la S (pequeña) hasta la 3XL (triple extra grande). Para cada talla, se proporcionan rangos de medidas para el pecho, la cintura, la cadera y la entrepierna. Por ejemplo, para la talla S, el pecho mide entre 86 y 93 cm, la cintura entre 76 y 81 cm, la cadera entre 92 y 97 cm, y la entrepierna entre 80 y 81 cm. Las medidas aumentan progresivamente con cada talla más grande.')
@@ -271,7 +271,7 @@
             .row.justify-content-center
               .col-lg-12.col-md-12.col-12
                 .titulo-sexto.color-acento-contenido
-                  h5 Figura 12.
+                  h5 Figura 10.
                   | Utilización de centímetros
                 img(data-aos="zoom-in-up")(src='@/assets/curso/tema2-figure12.svg', alt='La imagen expone una representación gráfica de una regla, marcada en centímetros y milímetros, con la longitud total de 10 centímetros, que también se indica como 1 decímetro. Hay una línea que marca 1 centímetro y otra más pequeña que indica 1 milímetro. Debajo de la regla hay una serie de equivalencias escritas que definen las relaciones entre diferentes unidades de medida de longitud: 1 metro es igual a 10 decímetros, 1 decímetro es igual a 10 centímetros, y 1 centímetro es igual a 10 milímetros.')
 
@@ -285,7 +285,7 @@
               strong fracciones - ½ = decimales – 0,5
               p.mb-4
             .titulo-sexto.color-acento-contenido
-              h5 Figura 13.
+              h5 Figura 11.
               | Fracciones y decimales
             figure
               img.mb-2(data-aos="zoom-in-up")(src='@/assets/curso/tema2-fracciones.svg', alt='La imagen expone una representación gráfica de una regla, marcada en centímetros y milímetros, con la longitud total de 10 centímetros, así mismo en la parte inferior muestra fracciones divididas entres 2,5 centímetros y se etiquetan como ½, esto re reporte hasta 4 en donde equivale a 10 cm.')
@@ -293,7 +293,7 @@
 
           .col-lg-6.col-md-12.col-12
             .titulo-sexto.color-acento-contenido.mx-4
-              h5 Figura 14.
+              h5 Figura 12.
               | Conversión de fracciones y decimales
             .row.justify-content-center
               .col-lg-12
@@ -310,7 +310,7 @@
           .row.justify-content-center
             .col-lg-11.col-md-12.col-12.mb-2.my-2
               .titulo-sexto.color-acento-contenido.mb-2
-                h5 Tabla 1.
+                h5 Tabla 3.
                 | Tabla de equivalencias
               .row.justify-content-center(alt='La tabla de equivalencias expone cómo se  convierten fracciones de pulgada a milésimas de pulgada y también expone las equivalencias a milímetros, de cada fracción.')
                 .col-lg-12.col-md-11.col-11.cajablanca.p-2
@@ -662,7 +662,7 @@
     .row.justify-content-center
       .col-lg-8.col-md-10.col-10.mb-5
         .titulo-sexto.color-acento-contenido.my-3
-          h5 Figura 15.
+          h5 Figura 13.
           | Clasificación de medidas
         img.d-none.d-lg-block.mb-3(data-aos="zoom-in-up")(src='@/assets/curso/tema2-figure16.svg', alt='La imagen detalla dibujos esquemáticos de figuras humanas con líneas y números que indican diferentes medidas del cuerpo, como el contorno de pecho, cintura, cadera, el largo de piernas y brazos, entre otros, para propósitos de confección o diseño de prendas de vestir.')
         figcaption.d-none.d-lg-block Fuente: https://www.nastasianash.com/5-claves-para-tomar-medidas-corporales/
@@ -677,7 +677,7 @@
           p Se toman alrededor de la parte a medir, cerrando el metro.
         .col-md-5
           .titulo-sexto.color-acento-contenido.my-3
-            h5 Figura 16.
+            h5 Figura 14.
             | Contornos
           figure
             img(data-aos="zoom-in-up")(src='@/assets/curso/tema2-contorno.svg', alt='La imagen expone una figura humana con etiquetas que indican cómo tomar medidas de diferentes contornos del cuerpo: cuello, pecho/busto, cintura, codo, brazo, puño, cadera, rodilla y bota. Las instrucciones señalan que las medidas deben tomarse alrededor de la parte correspondiente, cerrando el metro.')
@@ -687,7 +687,7 @@
           p Se toman verticalmente y corresponden a largos y talles.
         .col-md-5
           .titulo-sexto.color-acento-contenido.my-3
-            h5 Figura 17.
+            h5 Figura 15.
             | Largos
           figure
             img(data-aos="zoom-in-up")(src='@/assets/curso/tema2-largos.svg', alt='La imagen presenta un esquema anatómico con diferentes referencias de medidas corporales marcadas a lo largo del cuerpo. Estas referencias incluyen medidas como talle frente, centro frente, altura busto, costado, altura tiro, talle atrás, centro atrás, hombro, altura de cadera, largo de manga, largo de falda y largo de pantalón. Cada una de estas medidas está indicada con líneas y etiquetas específicas, lo que sugiere su uso para la toma de medidas en confección o sastrería, abarcando tanto la parte superior como inferior del cuerpo.')
@@ -697,7 +697,7 @@
           p Se toman horizontalmente y corresponden a los anchos.
         .col-md-5
           .titulo-sexto.color-acento-contenido.my-3
-            h5 Figura 18.
+            h5 Figura 16.
             | Anchos
           figure
             img(data-aos="zoom-in-up")(src='@/assets/curso/tema2-anchos.svg', alt='La imagen representa dos esquemas de la parte superior del torso de una figura humana, donde se indican tres medidas clave: la separación de busto, el ancho de pecho y el ancho de espalda. El esquema superior destaca la separación de busto, marcada entre los puntos más prominentes del busto, y el ancho de pecho, medido de lado a lado en la zona superior del busto. El esquema inferior señala el ancho de espalda, que se mide horizontalmente en la parte superior de la espalda, por debajo de los hombros. Estas medidas son esenciales en el ámbito de la confección para asegurar un ajuste adecuado en prendas superiores.')

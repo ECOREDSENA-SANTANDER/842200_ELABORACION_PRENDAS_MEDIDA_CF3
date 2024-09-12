@@ -272,7 +272,7 @@
     .row.justify-content-center
       .col-lg-12.col-md-12.col-12.mb-30
         .titulo-sexto.color-acento-contenido
-          h5 Tabla 10.
+          h5 Tabla 14.
           | Desarrollo de básicos masculinos
     .tabla-b.color-acento-contenido.mb-5
       .tabla-b__header(alt='La tabla detalla el desarrollo de básicos masculinos, comenzando por identificar el tipo de plano a trabajar (único, separado o montado). Se inicia con un rectángulo basado en la medida del contorno más protuberante y el largo de la parte del cuerpo a trabajar. La medida más protuberante se calcula usando fórmulas, como el contorno de pecho. La medida más larga corresponde al largo de la parte del cuerpo, como pantalón, falda o superior. Las medidas se trazan según el cuadro de tallas, excluyendo hombro, cuello y sisa. Se recomienda usar papel manila o blanco opaco para el trazo y mantener consistencia en las fórmulas y pasos para manejar las siluetas.')
@@ -339,7 +339,7 @@
             p.mb-0(data-aos="fade-left") Para la implementación del Manual, lo primero es identificar las páginas con las que se va a trabajar, que en este caso van desde la página 21 hasta la 32, pues como se referenció en temas anteriores, se debe iniciar revisando y analizando el cuadro de tallas página 20, para identificar la talla, las medidas, incrementos y diferencias que se va a trabajar. 
     p.mb-4(data-aos="fade-left") Este Manual está diseñado para iniciar siempre desde los básicos en la metodología SENA, que funcionan de la siguiente manera:
     .titulo-sexto.color-acento-contenido.my-3
-      h5 Tabla 11.
+      h5 Tabla 15.
       | Desarrollo de básicos femeninos
 
     .tabla-b.color-acento-contenido.mb-5
